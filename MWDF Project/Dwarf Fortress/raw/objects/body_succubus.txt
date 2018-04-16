@@ -65,6 +65,7 @@ body_succubus
 		[CATEGORY:TENTACLE]
 		[DEFAULT_RELSIZE:400]
 
+		
 [BODY:STANCE_TENTACLES]
 	[BP:WRT:right walking tentacle:STP]
 		[CONTYPE:LOWERBODY]
@@ -83,6 +84,7 @@ body_succubus
 		[CATEGORY:TENTACLE]
 		[DEFAULT_RELSIZE:400]
 
+		
 [BODY:ARM_TENTACLES]
 	[BP:WRT:right tentacle:STP]
 		[CONTYPE:LOWERBODY]
@@ -101,6 +103,7 @@ body_succubus
 		[CATEGORY:TENTACLE]
 		[DEFAULT_RELSIZE:400]
 
+		
 [BODY:TAIL_TENTACLE]
 	[BP:TT:tentacle tail:tentacle tails:STP]
 		[CONTYPE:LOWERBODY]
@@ -109,6 +112,7 @@ body_succubus
 		[CATEGORY:TENTACLE]
 		[DEFAULT_RELSIZE:400]
 
+		
 [BODY:QUADRUPED_2NECK]
 	[BP:UB:upper body:upper bodies]
 		[UPPERBODY]
@@ -186,6 +190,7 @@ body_succubus
 		[CATEGORY:FOOT_REAR]
 		[DEFAULT_RELSIZE:120]
 
+		
 [BODY:8_LEGGED]
 	[BP:UB:upper body:upper bodies][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
@@ -234,6 +239,7 @@ body_succubus
 	[BP:LF:left rear foot:left rear feet][CON:LL][STANCE][LEFT][CATEGORY:FOOT_REAR]
 		[DEFAULT_RELSIZE:120]
 
+		
 // Monsters, ia, ia !
 [BODY:MONSTER_6MOUTHS]
 	[BP:MOUTH:mouth:STP][CONTYPE:HEAD][MOUTH][SMALL][EMBEDDED][APERTURE][CATEGORY:MOUTH]
