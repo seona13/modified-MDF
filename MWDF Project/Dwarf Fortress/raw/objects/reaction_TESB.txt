@@ -20,36 +20,43 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[DESCRIPTION:Use 3 blocks of the same layer stone to make a Tribute functional. Deconstruct to recover the building materials.]
 	[BUILDING:TESB_TRIBUTE_INACTIVE:CUSTOM_SHIFT_D]
 
+	
 [REACTION:TESB_DECONSTRUCT_ALTAR]
 	[NAME:deconstruct Altar]
 	[DESCRIPTION:Altar must be made from a layer stone and in a temple associated with an appropriate Sphere to function. Deconstruct to recover the building materials.]
 	[BUILDING:TESB_ALTAR_INACTIVE:CUSTOM_SHIFT_D]
 
+	
 [REACTION:TESB_DECONSTRUCT_ALTAR_FLUX]
 	[NAME:deconstruct Altar]
 	[DESCRIPTION:Altar will only function in a temple associated with METALS or MINERALS. Deconstruct to recover the building materials.]
 	[BUILDING:TESB_ALTAR_INACTIVE_FLUX:CUSTOM_SHIFT_D]
 
+	
 [REACTION:TESB_DECONSTRUCT_ALTAR_IGNEOUS_EXT]
 	[NAME:deconstruct Altar]
 	[DESCRIPTION:Altar will only function in a temple associated with MOUNTAINS or VOLCANOS. Deconstruct to recover the building materials.]
 	[BUILDING:TESB_ALTAR_INACTIVE_IGNEOUS_EXT:CUSTOM_SHIFT_D]
 
+	
 [REACTION:TESB_DECONSTRUCT_ALTAR_IGNEOUS_INT]
 	[NAME:deconstruct Altar]
 	[DESCRIPTION:Altar will only function in a temple associated with CAVERNS or MOUNTAINS. Deconstruct to recover the building materials.]
 	[BUILDING:TESB_ALTAR_INACTIVE_IGNEOUS_INT:CUSTOM_SHIFT_D]
 
+	
 [REACTION:TESB_DECONSTRUCT_ALTAR_METAMORPHIC]
 	[NAME:deconstruct Altar]
 	[DESCRIPTION:Altar will only function in a temple associated with EARTH or MOUNTAINS. Deconstruct to recover the building materials.]
 	[BUILDING:TESB_ALTAR_INACTIVE_METAMORPHIC:CUSTOM_SHIFT_D]
 
+	
 [REACTION:TESB_DECONSTRUCT_ALTAR_ROCK_SALT]
 	[NAME:deconstruct Altar]
 	[DESCRIPTION:Altar will only function in a temple associated with EARTH, MINERALS or SALT. Deconstruct to recover the building materials.]
 	[BUILDING:TESB_ALTAR_INACTIVE_ROCK_SALT:CUSTOM_SHIFT_D]
 
+	
 [REACTION:TESB_DECONSTRUCT_ALTAR_SEDIMENTARY]
 	[NAME:deconstruct Altar]
 	[DESCRIPTION:Altar will only function in a temple associated with EARTH or MINERALS. Deconstruct to recover the building materials.]
@@ -65,6 +72,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_ANDESITE2]
 	[NAME:sacrifice hidden quartz gem]
 	[DESCRIPTION:Awakened andesites released by this miner will be tame, and andesite wyrms are less likely to be berserk.]
@@ -74,6 +82,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_BASALT]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened basalts released by this miner will be tame, and basalt wyrms are less likely to be berserk.]
@@ -83,6 +92,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_BASALT2]
 	[NAME:sacrifice hidden sunstone gem]
 	[DESCRIPTION:Awakened basalts released by this miner will be tame, and basalt wyrms are less likely to be berserk.]
@@ -92,6 +102,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_CHALK]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened chalks released by this miner will be tame, and chalk wyrms are less likely to be berserk.]
@@ -101,6 +112,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_CHALK2]
 	[NAME:sacrifice hidden white opal gem]
 	[DESCRIPTION:Awakened chalks released by this miner will be tame, and chalk wyrms are less likely to be berserk.]
@@ -110,6 +122,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_CHERT]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened cherts released by this miner will be tame, and chert wyrms are less likely to be berserk.]
@@ -119,6 +132,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_CHERT2]
 	[NAME:sacrifice hidden wax opal gem]
 	[DESCRIPTION:Awakened cherts released by this miner will be tame, and chert wyrms are less likely to be berserk.]
@@ -128,6 +142,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_CLAYSTONE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened claystones released by this miner will be tame, and claystone wyrms are less likely to be berserk.]
@@ -137,6 +152,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_CLAYSTONE2]
 	[NAME:sacrifice hidden milk opal gem]
 	[DESCRIPTION:Awakened claystones released by this miner will be tame, and claystone wyrms are less likely to be berserk.]
@@ -146,6 +162,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_CONGLOMERATE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened conglomerates released by this miner will be tame, and conglomerate wyrms are less likely to be berserk.]
@@ -155,6 +172,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_CONGLOMERATE2]
 	[NAME:sacrifice hidden pinfire opal gem]
 	[DESCRIPTION:Awakened conglomerates released by this miner will be tame, and conglomerate wyrms are less likely to be berserk.]
@@ -164,6 +182,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_DACITE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened dacites released by this miner will be tame, and dacite wyrms are less likely to be berserk.]
@@ -173,6 +192,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_DACITE2]
 	[NAME:sacrifice hidden pyrite gem]
 	[DESCRIPTION:Awakened dacites released by this miner will be tame, and dacite wyrms are less likely to be berserk.]
@@ -182,6 +202,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_DIORITE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened diorites released by this miner will be tame, and diorite wyrms are less likely to be berserk.]
@@ -191,6 +212,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_DIORITE2]
 	[NAME:sacrifice hidden spinel gem]
 	[DESCRIPTION:Awakened diorites released by this miner will be tame, and diorite wyrms are less likely to be berserk.]
@@ -200,6 +222,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_DOLOMITE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened dolomites released by this miner will be tame, and dolomite wyrms are less likely to be berserk.]
@@ -209,6 +232,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_DOLOMITE2]
 	[NAME:sacrifice hidden black opal gem]
 	[DESCRIPTION:Awakened dolomites released by this miner will be tame, and dolomite wyrms are less likely to be berserk.]
@@ -218,6 +242,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_GABBRO]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened gabbros released by this miner will be tame, and gabbro wyrms are less likely to be berserk.]
@@ -227,6 +252,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_GABBRO2]
 	[NAME:sacrifice hidden amethyst gem]
 	[DESCRIPTION:Awakened gabbros released by this miner will be tame, and gabbro wyrms are less likely to be berserk.]
@@ -236,6 +262,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_GNEISS]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened gneisss released by this miner will be tame, and gneiss wyrms are less likely to be berserk.]
@@ -245,6 +272,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_GNEISS2]
 	[NAME:sacrifice hidden garnet gem]
 	[DESCRIPTION:Awakened gneisss released by this miner will be tame, and gneiss wyrms are less likely to be berserk.]
@@ -254,6 +282,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_GRANITE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened granites released by this miner will be tame, and granite wyrms are less likely to be berserk.]
@@ -263,6 +292,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_GRANITE2]
 	[NAME:sacrifice hidden emerald gem]
 	[DESCRIPTION:Awakened granites released by this miner will be tame, and granite wyrms are less likely to be berserk.]
@@ -272,6 +302,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_LIMESTONE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened limestones released by this miner will be tame, and limestone wyrms are less likely to be berserk.]
@@ -281,6 +312,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_LIMESTONE2]
 	[NAME:sacrifice hidden onyx gem]
 	[DESCRIPTION:Awakened limestones released by this miner will be tame, and limestone wyrms are less likely to be berserk.]
@@ -290,6 +322,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_MARBLE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened marbles released by this miner will be tame, and marble wyrms are less likely to be berserk.]
@@ -299,6 +332,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_MARBLE2]
 	[NAME:sacrifice hidden beryl gem]
 	[DESCRIPTION:Awakened marbles released by this miner will be tame, and marble wyrms are less likely to be berserk.]
@@ -308,6 +342,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_MUDSTONE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened mudstones released by this miner will be tame, and mudstone wyrms are less likely to be berserk.]
@@ -317,6 +352,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_MUDSTONE2]
 	[NAME:sacrifice hidden fire opal gem]
 	[DESCRIPTION:Awakened mudstones released by this miner will be tame, and mudstone wyrms are less likely to be berserk.]
@@ -326,6 +362,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_PHYLLITE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened phyllites released by this miner will be tame, and phyllite wyrms are less likely to be berserk.]
@@ -335,6 +372,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_PHYLLITE2]
 	[NAME:sacrifice hidden zircon gem]
 	[DESCRIPTION:Awakened phyllites released by this miner will be tame, and phyllite wyrms are less likely to be berserk.]
@@ -344,6 +382,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_QUARTZITE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened quartzites released by this miner will be tame, and quartzite wyrms are less likely to be berserk.]
@@ -353,6 +392,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_QUARTZITE2]
 	[NAME:sacrifice hidden tourmaline gem]
 	[DESCRIPTION:Awakened quartzites released by this miner will be tame, and quartzite wyrms are less likely to be berserk.]
@@ -362,6 +402,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_RHYOLITE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened rhyolites released by this miner will be tame, and rhyolite wyrms are less likely to be berserk.]
@@ -371,6 +412,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_RHYOLITE2]
 	[NAME:sacrifice hidden turquoise gem]
 	[DESCRIPTION:Awakened rhyolites released by this miner will be tame, and rhyolite wyrms are less likely to be berserk.]
@@ -380,6 +422,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_ROCK_SALT]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened rock salts released by this miner will be tame, and rock salt wyrms are less likely to be berserk.]
@@ -389,6 +432,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_ROCK_SALT2]
 	[NAME:sacrifice hidden cherry opal gem]
 	[DESCRIPTION:Awakened rock salts released by this miner will be tame, and rock salt wyrms are less likely to be berserk.]
@@ -398,6 +442,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SANDSTONE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened sandstones released by this miner will be tame, and sandstone wyrms are less likely to be berserk.]
@@ -407,6 +452,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SANDSTONE2]
 	[NAME:sacrifice hidden amber opal gem]
 	[DESCRIPTION:Awakened sandstones released by this miner will be tame, and sandstone wyrms are less likely to be berserk.]
@@ -416,6 +462,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SCHIST]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened schists released by this miner will be tame, and schist wyrms are less likely to be berserk.]
@@ -425,6 +472,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SCHIST2]
 	[NAME:sacrifice hidden aquamarine gem]
 	[DESCRIPTION:Awakened schists released by this miner will be tame, and schist wyrms are less likely to be berserk.]
@@ -434,6 +482,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SHALE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened shales released by this miner will be tame, and shale wyrms are less likely to be berserk.]
@@ -443,6 +492,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SHALE2]
 	[NAME:sacrifice hidden shell opal gem]
 	[DESCRIPTION:Awakened shales released by this miner will be tame, and shale wyrms are less likely to be berserk.]
@@ -452,6 +502,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SILTSTONE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened siltstones released by this miner will be tame, and siltstone wyrms are less likely to be berserk.]
@@ -461,6 +512,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SILTSTONE2]
 	[NAME:sacrifice hidden bone opal gem]
 	[DESCRIPTION:Awakened siltstones released by this miner will be tame, and siltstone wyrms are less likely to be berserk.]
@@ -470,6 +522,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SLATE]
 	[NAME:sacrifice large gem]
 	[DESCRIPTION:Awakened slates released by this miner will be tame, and slate wyrms are less likely to be berserk.]
@@ -479,6 +532,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_TRIBUTE_TO_SLATE2]
 	[NAME:sacrifice hidden pyrope gem]
 	[DESCRIPTION:Awakened slates released by this miner will be tame, and slate wyrms are less likely to be berserk.]
@@ -488,6 +542,7 @@ But first, a handful of reactions to handle Tributes and Altars constructed inap
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:TESB_POOF]
 	[SKILL:MINING]
 
+	
 ========== PART 2 ==========
 ==== EXTRACT GEM SEEDS =====
 ============================
@@ -503,6 +558,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_QUARTZ:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_BASALT]
     [NAME:extract sunstone seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden sunstone. This will consume the hidden sunstone.]
@@ -512,6 +568,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_SUNSTONE:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_CHALK]
     [NAME:extract white opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden white opal. This will consume the hidden white opal.]
@@ -521,6 +578,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_WHITE_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_CHERT]
     [NAME:extract wax opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden wax opal. This will consume the hidden wax opal.]
@@ -530,6 +588,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_WAX_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_CLAYSTONE]
     [NAME:extract milk opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden milk opal. This will consume the hidden milk opal.]
@@ -539,6 +598,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_MILK_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_CONGLOMERATE]
     [NAME:extract pinfire opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden pinfire opal. This will consume the hidden pinfire opal.]
@@ -548,6 +608,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_PINFIRE_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_DACITE]
     [NAME:extract pyrite seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden pyrite. This will consume the hidden pyrite.]
@@ -557,6 +618,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_PYRITE:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_DIORITE]
     [NAME:extract spinel seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden spinel. This will consume the hidden spinel.]
@@ -566,6 +628,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_SPINEL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_DOLOMITE]
     [NAME:extract black opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden black opal. This will consume the hidden black opal.]
@@ -575,6 +638,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_BLACK_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_GABBRO]
     [NAME:extract amethyst seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden amethyst. This will consume the hidden amethyst.]
@@ -584,6 +648,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_AMETHYST:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_GNEISS]
     [NAME:extract garnet seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden garnet. This will consume the hidden garnet.]
@@ -593,6 +658,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_GARNET:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_GRANITE]
     [NAME:extract emerald seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden emerald. This will consume the hidden emerald.]
@@ -602,6 +668,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_EMERALD:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_LIMESTONE]
     [NAME:extract onyx seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden onyx. This will consume the hidden onyx.]
@@ -611,6 +678,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_ONYX:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_MARBLE]
     [NAME:extract beryl seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden beryl. This will consume the hidden beryl.]
@@ -620,6 +688,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_BERYL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_MUDSTONE]
     [NAME:extract fire opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden fire opal. This will consume the hidden fire opal.]
@@ -629,6 +698,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_FIRE_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_PHYLLITE]
     [NAME:extract zircon seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden zircon. This will consume the hidden zircon.]
@@ -638,6 +708,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_ZIRCON:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_QUARTZITE]
     [NAME:extract tourmaline seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden tourmaline. This will consume the hidden tourmaline.]
@@ -647,6 +718,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_TOURMALINE:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_RHYOLITE]
     [NAME:extract turquoise seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden turquoise. This will consume the hidden turquoise.]
@@ -656,6 +728,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_TURQUOISE:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_ROCK_SALT]
     [NAME:extract cherry opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden cherry opal. This will consume the hidden cherry opal.]
@@ -665,6 +738,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_CHERRY_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_SANDSTONE]
     [NAME:extract amber opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden amber opal. This will consume the hidden amber opal.]
@@ -674,6 +748,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_AMBER_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_SCHIST]
     [NAME:extract aquamarine seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden aquamarine. This will consume the hidden aquamarine.]
@@ -683,6 +758,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_AQUAMARINE:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_SHALE]
     [NAME:extract shell opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden shell opal. This will consume the hidden shell opal.]
@@ -692,6 +768,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_SHELL_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_SILTSTONE]
     [NAME:extract bone opal seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden bone opal. This will consume the hidden bone opal.]
@@ -701,6 +778,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_BONE_OPAL:SEED]
 	[SKILL:MINING]
 
+	
 [REACTION:TESB_EXTRACT_SEED_SLATE]
     [NAME:extract pyrope seed]
 	[DESCRIPTION:Attempt to extract a gem seed from a rough hidden pyrope. This will consume the hidden pyrope.]
@@ -710,6 +788,7 @@ These reactions let a dwarf attempt to extract a gem seed from a rough "hidden g
 	[PRODUCT:50:1:SEEDS:NONE:PLANT_MAT:TESB_VINE_PYROPE:SEED]
 	[SKILL:MINING]
 
+	
 ========== PART 3 ==========
 ===== BREW GEM CLUSTER =====
 ============================

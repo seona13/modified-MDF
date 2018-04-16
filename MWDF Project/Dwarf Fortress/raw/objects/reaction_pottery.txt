@@ -218,7 +218,7 @@ reaction_pottery
 	#A+ I added the muckraker from orcs. I switched the shop to Kobold.
 
 ###############################################################################
-	# Clean the clay reactions:
+# Clean the clay reactions:
 [REACTION:CLEAN_SANDY_CLAY_LOAM]
 	[NAME:Sieve sandy clay loam(3)]
 	[DESCRIPTION:Takes 3 sandy clay loam boulders and splits the components into sand and clay. Requires an empty bag for the sand.]
@@ -241,6 +241,7 @@ reaction_pottery
 		[PRODUCT_TO_CONTAINER:empty bag]
 	[SKILL:POTTERY]
 	
+	
 [REACTION:CLEAN_SILTY_CLAY_LOAM]
 	[NAME:Sieve silty clay loam(3)] 
 	[DESCRIPTION:Takes 3 silty clay loam boulders and splits the components into silt, loam and clay.]
@@ -255,6 +256,7 @@ reaction_pottery
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:LOAM]
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SILT]
 	[SKILL:POTTERY]
+	
 	
 [REACTION:CLEAN_SANDY_LOAM]
 	[NAME:Sieve sandy loam(2)]
@@ -277,6 +279,7 @@ reaction_pottery
 		[PRODUCT_TO_CONTAINER:empty bag]
 	[SKILL:POTTERY]
 
+	
 [REACTION:CLEAN_SILT_LOAM]
 	[NAME:Sieve silt loam(2)]
 	[DESCRIPTION:Takes 2 silt loam boulders and splits the components into silt and loam.]
@@ -291,6 +294,7 @@ reaction_pottery
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SILT]
 	[SKILL:POTTERY]
 
+	
 [REACTION:CLEAN_LOAMY_SAND]
 	[NAME:Sieve loamy sand(2)]
 	[DESCRIPTION:Takes 2 loamy sand boulders and splits the components into sand and loam. Requires an empty bag for the sand.]
@@ -312,6 +316,7 @@ reaction_pottery
 		[PRODUCT_TO_CONTAINER:empty bag]
 	[SKILL:POTTERY]
 
+	
 [REACTION:CLEAN_SANDY_CLAY]
 	[NAME:Sieve sandy clay (2)]
 	[DESCRIPTION:Takes 2 sandy clay boulders and splits the components into sand and clay. Requires an empty bag for the sand.]
@@ -333,6 +338,7 @@ reaction_pottery
 		[PRODUCT_TO_CONTAINER:empty bag]
 	[SKILL:POTTERY]
 	
+	
 [REACTION:CLEAN_SILTY_CLAY]
 	[NAME:Sieve silty clay (2)] 
 	[DESCRIPTION:Takes 2 silty clay boulders and splits the components into silt, loam and clay.]
@@ -347,6 +353,7 @@ reaction_pottery
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SILT]
 	[SKILL:POTTERY]
 
+	
 [REACTION:CLEAN_CLAY_LOAM]
 	[NAME:Sieve clay loam(2)] 
 	[DESCRIPTION:Takes 2 clay loam boulders and splits the components into silt, loam and clay.]
@@ -361,6 +368,7 @@ reaction_pottery
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:LOAM]
 	[SKILL:POTTERY]
 
+	
 [REACTION:CLEAN_LOAM]
 	[NAME:Sieve loam(5)]
 	[DESCRIPTION:Takes 5 loam boulder and splits the components into sand, silt and clay. Requires two empty bags for the sand. Produces a unit of clay, 2 sand and 2 silt.]
@@ -391,9 +399,10 @@ reaction_pottery
 		[PRODUCT_TO_CONTAINER:empty bag2]
 	[SKILL:POTTERY]
 
+	
 [REACTION:CLEAN_SILT]
 	[NAME:Clean up silt]
-	[DESCRIPTION:Takes a silt boulder grinds it into dust, destroying it.]
+	[DESCRIPTION:Takes a silt boulder and grinds it into dust, destroying it.]
 	[DESCRIPTION:]
 	[DESCRIPTION:Uses pottery skill.]
 	[BUILDING:POTTERY:CUSTOM_ALT_J]
@@ -403,8 +412,9 @@ reaction_pottery
 	[REAGENT:silt:1:BOULDER:NONE:INORGANIC:SILT]
 	[SKILL:POTTERY]
 
+	
 ###############################################################################
-	# Form clay reactions
+# Form clay reactions
 [REACTION:FORM_CLAY_JUG]
 	[NAME:Shape jug from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -420,6 +430,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_JUG_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_LARGE_POT]
 	[NAME:Shape large pot from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -435,6 +446,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_LARGE_POT_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_CRAFTS]
 	[NAME:Shape crafts from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -450,6 +462,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CRAFTS_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_HIVE]
 	[NAME:Shape hive from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -465,6 +478,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HIVE_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_BRICKS_KOBOLD]
 	[NAME:Shape bricks (4) from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -480,6 +494,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BRICK_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_ANIMAL_TRAP]
 	[NAME:Shape animal traps(2) from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -495,6 +510,7 @@ reaction_pottery
 	[PRODUCT:100:2:TOOL:ITEM_TOOL_ANIMAL_TRAP_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_ARMORSTAND]
 	[NAME:Shape armorstand from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -510,6 +526,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_ARMORSTAND_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_BED]
 	[NAME:Shape bed from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -525,6 +542,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BED_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_BIN]
 	[NAME:Shape bin from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -540,6 +558,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BIN_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_BUCKET]
 	[NAME:Shape bucket from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -555,6 +574,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BUCKET_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_CABINET]
 	[NAME:Shape cabinet from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -570,6 +590,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CABINET_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_CAGE]
 	[NAME:Shape cage from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -585,6 +606,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CAGE_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_CHEST]
 	[NAME:Shape coffer from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -600,6 +622,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CHEST_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_COFFIN]
 	[NAME:Shape coffin from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -615,6 +638,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_COFFIN_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_DOOR]
 	[NAME:Shape door from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -630,6 +654,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_DOOR_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_VIALS]
 	[NAME:Shape flasks(3) from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -645,6 +670,7 @@ reaction_pottery
 	[PRODUCT:100:3:TOOL:ITEM_TOOL_VIAL_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_FLOODGATE]
 	[NAME:Shape floodgate from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -660,6 +686,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_FLOODGATE_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_GRATE]
 	[NAME:Shape grate from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -675,6 +702,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_GRATE_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_HATCH_COVER]
 	[NAME:Shape hatch cover from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -690,6 +718,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HATCH_COVER_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_MILLSTONE]
 	[NAME:Shape millstone from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -705,6 +734,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_MILLSTONE_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_QUERN]
 	[NAME:Shape quern from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -720,6 +750,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_QUERN_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_SLAB]
 	[NAME:Shape slab from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -735,6 +766,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_SLAB_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_SPLINT]
 	[NAME:Shape splints(2) from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -750,6 +782,7 @@ reaction_pottery
 	[PRODUCT:100:2:TOOL:ITEM_TOOL_SPLINT_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_STATUE]
 	[NAME:Shape statue from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -765,6 +798,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_STATUE_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_CHAIR]
 	[NAME:Shape throne from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -780,6 +814,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CHAIR_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_WEAPONRACK]
 	[NAME:Shape weaponrack from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -795,6 +830,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_WEAPONRACK_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_TABLE]
 	[NAME:Shape table from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -810,6 +846,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_TABLE_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_CLAY_TUBE_SECTION]
 	[NAME:Shape tube section from clay]
 	[CATEGORY:POTTERY_CLAY]
@@ -825,8 +862,9 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_TUBE_SECTION_FAKE:INORGANIC:GREENWARE_CLAY]
 	[SKILL:POTTERY]
 	
+	
 ###############################################################################
-	# Form fireclay reactions
+# Form fireclay reactions
 [REACTION:FORM_FIRECLAY_JUG]
 	[CATEGORY:POTTERY_FIRECLAY]
 	[CATEGORY_NAME:Fireclay Forming (Stoneware)]
@@ -842,6 +880,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_JUG_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_LARGE_POT]
 	[NAME:Shape large pot from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -857,6 +896,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_LARGE_POT_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_CRAFTS]
 	[NAME:Shape crafts from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -872,6 +912,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CRAFTS_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_HIVE]
 	[NAME:Shape hive from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -887,6 +928,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HIVE_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_BRICKS_KOBOLD]
 	[NAME:Shape bricks (4) from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -902,6 +944,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BRICK_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_ANIMAL_TRAP]
 	[NAME:Shape animal traps(2) from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -917,6 +960,7 @@ reaction_pottery
 	[PRODUCT:100:2:TOOL:ITEM_TOOL_ANIMAL_TRAP_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_ARMORSTAND]
 	[NAME:Shape armorstand from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -932,6 +976,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_ARMORSTAND_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_BED]
 	[NAME:Shape bed from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -947,6 +992,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BED_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_BIN]
 	[NAME:Shape bin from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -962,6 +1008,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BIN_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_BUCKET]
 	[NAME:Shape bucket from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -977,6 +1024,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BUCKET_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_CABINET]
 	[NAME:Shape cabinet from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -992,6 +1040,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CABINET_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_CAGE]
 	[NAME:Shape cage from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1007,6 +1056,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CAGE_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_CHEST]
 	[NAME:Shape coffer from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1022,6 +1072,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CHEST_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_COFFIN]
 	[NAME:Shape coffin from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1037,6 +1088,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_COFFIN_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_DOOR]
 	[NAME:Shape door from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1052,6 +1104,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_DOOR_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_VIALS]
 	[NAME:Shape flasks(3) from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1067,6 +1120,7 @@ reaction_pottery
 	[PRODUCT:100:3:TOOL:ITEM_TOOL_VIAL_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_FLOODGATE]
 	[NAME:Shape floodgate from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1082,6 +1136,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_FLOODGATE_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_GRATE]
 	[NAME:Shape grate from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1097,6 +1152,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_GRATE_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_HATCH_COVER]
 	[NAME:Shape hatch cover from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1112,6 +1168,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HATCH_COVER_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_MILLSTONE]
 	[NAME:Shape millstone from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1127,6 +1184,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_MILLSTONE_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_QUERN]
 	[NAME:Shape quern from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1142,6 +1200,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_QUERN_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_SLAB]
 	[NAME:Shape slab from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1157,6 +1216,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_SLAB_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_SPLINT]
 	[NAME:Shape splints(2) from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1172,6 +1232,7 @@ reaction_pottery
 	[PRODUCT:100:2:TOOL:ITEM_TOOL_SPLINT_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_STATUE]
 	[NAME:Shape statue from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1187,6 +1248,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_STATUE_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_CHAIR]
 	[NAME:Shape throne from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1202,6 +1264,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CHAIR_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_WEAPONRACK]
 	[NAME:Shape weaponrack from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1216,6 +1279,7 @@ reaction_pottery
 		[HAS_MATERIAL_REACTION_PRODUCT:FIRED_MAT]
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_WEAPONRACK_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
+	
 
 [REACTION:FORM_FIRECLAY_TABLE]
 	[NAME:Shape table from fireclay]
@@ -1232,6 +1296,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_TABLE_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_FIRECLAY_TUBE_SECTION]
 	[NAME:Shape tube section from fireclay]
 	[CATEGORY:POTTERY_FIRECLAY]
@@ -1247,8 +1312,9 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_TUBE_SECTION_FAKE:INORGANIC:GREENWARE_FIRECLAY]
 	[SKILL:POTTERY]
 	
+	
 ###############################################################################
-	# Form kaolinite reactions
+# Form kaolinite reactions
 [REACTION:FORM_KAOLINITE_JUG]
 	[NAME:Shape jug from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1264,6 +1330,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_JUG_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_LARGE_POT]
 	[NAME:Shape large pot from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1279,6 +1346,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_LARGE_POT_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_CRAFTS]
 	[NAME:Shape crafts from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1294,6 +1362,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CRAFTS_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_HIVE]
 	[NAME:Shape hive from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1309,6 +1378,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HIVE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_BRICKS_KOBOLD]
 	[NAME:Shape bricks (4) from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1324,6 +1394,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BRICK_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_ANIMAL_TRAP]
 	[NAME:Shape animal traps(2) from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1339,6 +1410,7 @@ reaction_pottery
 	[PRODUCT:100:2:TOOL:ITEM_TOOL_ANIMAL_TRAP_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_ARMORSTAND]
 	[NAME:Shape armorstand from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1354,6 +1426,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_ARMORSTAND_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_BED]
 	[NAME:Shape bed from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1369,6 +1442,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BED_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_BIN]
 	[NAME:Shape bin from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1384,6 +1458,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BIN_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_BUCKET]
 	[NAME:Shape bucket from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1399,6 +1474,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BUCKET_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_CABINET]
 	[NAME:Shape cabinet from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1414,6 +1490,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CABINET_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_CAGE]
 	[NAME:Shape cage from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1429,6 +1506,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CAGE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_CHEST]
 	[NAME:Shape coffer from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1444,6 +1522,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CHEST_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_COFFIN]
 	[NAME:Shape coffin from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1459,6 +1538,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_COFFIN_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_DOOR]
 	[NAME:Shape door from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1474,6 +1554,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_DOOR_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_VIALS]
 	[NAME:Shape flasks(3) from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1489,6 +1570,7 @@ reaction_pottery
 	[PRODUCT:100:3:TOOL:ITEM_TOOL_VIAL_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_FLOODGATE]
 	[NAME:Shape floodgate from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1504,6 +1586,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_FLOODGATE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_GRATE]
 	[NAME:Shape grate from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1519,6 +1602,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_GRATE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_HATCH_COVER]
 	[NAME:Shape hatch cover from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1534,6 +1618,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HATCH_COVER_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_MILLSTONE]
 	[NAME:Shape millstone from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1549,6 +1634,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_MILLSTONE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_QUERN]
 	[NAME:Shape quern from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1564,6 +1650,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_QUERN_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_SLAB]
 	[NAME:Shape slab from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1579,6 +1666,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_SLAB_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_SPLINT]
 	[NAME:Shape splints(2) from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1594,6 +1682,7 @@ reaction_pottery
 	[PRODUCT:100:2:TOOL:ITEM_TOOL_SPLINT_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_STATUE]
 	[NAME:Shape statue from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1609,6 +1698,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_STATUE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_CHAIR]
 	[NAME:Shape throne from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1624,6 +1714,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CHAIR_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_WEAPONRACK]
 	[NAME:Shape weaponrack from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1639,6 +1730,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_WEAPONRACK_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_TABLE]
 	[NAME:Shape table from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1654,6 +1746,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_TABLE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 [REACTION:FORM_KAOLINITE_TUBE_SECTION]
 	[NAME:Shape tube section from kaolinite]
 	[CATEGORY:POTTERY_KAOLINITE]
@@ -1669,8 +1762,9 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_TUBE_SECTION_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[SKILL:POTTERY]
 
+	
 ###############################################################################
-	# burn clay reactions
+# burn clay reactions
 [REACTION:BURN_CLAY_JUG]
 	[NAME:Fire earthenware jug]
 	[BUILDING:KILN:NONE]
@@ -1683,6 +1777,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_LARGE_POT]
 	[NAME:Fire earthenware large pot]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1694,6 +1789,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_LARGE_POT:INORGANIC:CERAMIC_EARTHENWARE]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_CLAY_CRAFTS]
 	[NAME:Fire earthenware craft]
@@ -1707,6 +1803,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_HIVE]
 	[NAME:Fire earthenware hive]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1719,6 +1816,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_BRICKS]
 	[NAME:Fire earthenware brick(4)]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1731,6 +1829,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_ANIMAL_TRAP]
 	[NAME:Fire earthenware animal traps(2)]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1743,6 +1842,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_ARMORSTAND]
 	[NAME:Fire earthenware armorstand]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1755,6 +1855,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_BED]
 	[NAME:Fire earthenware bed]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1767,6 +1868,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_BIN]
 	[NAME:Fire earthenware bin]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1779,6 +1881,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_BUCKET]
 	[NAME:Fire earthenware bucket]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1791,6 +1894,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_CABINET]
 	[NAME:Fire earthenware cabinet]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1803,6 +1907,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_CAGE]
 	[NAME:Fire earthenware cage]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1815,6 +1920,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_CHEST]
 	[NAME:Fire earthenware coffer]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1827,6 +1933,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_COFFIN]
 	[NAME:Fire earthenware coffin]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1839,6 +1946,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_DOOR]
 	[NAME:Fire earthenware door]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1851,6 +1959,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_VIALS]
 	[NAME:Fire earthenware vial(3)]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1863,6 +1972,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_FLOODGATE]
 	[NAME:Fire earthenware floodgate]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1875,6 +1985,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_GRATE]
 	[NAME:Fire earthenware grate]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1887,6 +1998,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_HATCH_COVER]
 	[NAME:Fire earthenware hatch cover]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1899,6 +2011,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_MILLSTONE]
 	[NAME:Fire earthenware millstone]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1911,6 +2024,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_QUERN]
 	[NAME:Fire earthenware quern]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1923,6 +2037,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_SLAB]
 	[NAME:Fire earthenware slab]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1935,6 +2050,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_SPLINT]
 	[NAME:Fire earthenware splint(2)]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1947,6 +2063,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_STATUE]
 	[NAME:Fire earthenware statue]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1959,6 +2076,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_TABLE]
 	[NAME:Fire earthenware table]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1971,6 +2089,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_CHAIR]
 	[NAME:Fire earthenware throne]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1983,6 +2102,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_TUBE_SECTION]
 	[NAME:Fire earthenware tube section]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -1995,6 +2115,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_CLAY_WEAPONRACK]
 	[NAME:Fire earthenware weaponrack]
 	[CATEGORY:KILN_EARTHENWARE]
@@ -2007,8 +2128,9 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 ###############################################################################
-	# burn fireclay reactions
+# burn fireclay reactions
 [REACTION:BURN_FIRECLAY_JUG]
 	[NAME:Fire stoneware jug]
 	[CATEGORY:KILN_STONEWARE]
@@ -2021,6 +2143,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_LARGE_POT]
 	[NAME:Fire stoneware large pot]
 	[CATEGORY:KILN_STONEWARE]
@@ -2033,6 +2156,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_CRAFTS]
 	[NAME:Fire stoneware craft]
 	[CATEGORY:KILN_STONEWARE]
@@ -2045,6 +2169,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_HIVE]
 	[NAME:Fire stoneware hive]
 	[CATEGORY:KILN_STONEWARE]
@@ -2056,6 +2181,7 @@ reaction_pottery
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HIVE:INORGANIC:CERAMIC_STONEWARE]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_FIRECLAY_BRICKS]
 	[NAME:Fire stoneware brick(4)]
@@ -2069,6 +2195,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_ANIMAL_TRAP]
 	[NAME:Fire stoneware animal traps(2)]
 	[CATEGORY:KILN_STONEWARE]
@@ -2081,6 +2208,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_ARMORSTAND]
 	[NAME:Fire stoneware armorstand]
 	[CATEGORY:KILN_STONEWARE]
@@ -2093,6 +2221,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_BED]
 	[NAME:Fire stoneware bed]
 	[CATEGORY:KILN_STONEWARE]
@@ -2105,6 +2234,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_BIN]
 	[NAME:Fire stoneware bin]
 	[CATEGORY:KILN_STONEWARE]
@@ -2117,6 +2247,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_BUCKET]
 	[NAME:Fire stoneware bucket]
 	[CATEGORY:KILN_STONEWARE]
@@ -2129,6 +2260,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_CABINET]
 	[NAME:Fire stoneware cabinet]
 	[CATEGORY:KILN_STONEWARE]
@@ -2141,6 +2273,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_CAGE]
 	[NAME:Fire stoneware cage]
 	[CATEGORY:KILN_STONEWARE]
@@ -2153,6 +2286,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_CHEST]
 	[NAME:Fire stoneware coffer]
 	[CATEGORY:KILN_STONEWARE]
@@ -2165,6 +2299,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_COFFIN]
 	[NAME:Fire stoneware coffin]
 	[CATEGORY:KILN_STONEWARE]
@@ -2177,6 +2312,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_DOOR]
 	[NAME:Fire stoneware door]
 	[CATEGORY:KILN_STONEWARE]
@@ -2189,6 +2325,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_VIALS]
 	[NAME:Fire stoneware vial(3)]
 	[CATEGORY:KILN_STONEWARE]
@@ -2200,6 +2337,7 @@ reaction_pottery
 	[PRODUCT:100:3:FLASK:NONE:INORGANIC:CERAMIC_STONEWARE]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_FIRECLAY_FLOODGATE]
 	[NAME:Fire stoneware floodgate]
@@ -2212,6 +2350,7 @@ reaction_pottery
 	[PRODUCT:100:1:FLOODGATE:NONE:INORGANIC:CERAMIC_STONEWARE]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_FIRECLAY_GRATE]
 	[NAME:Fire stoneware grate]
@@ -2225,6 +2364,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_HATCH_COVER]
 	[NAME:Fire stoneware hatch cover]
 	[CATEGORY:KILN_STONEWARE]
@@ -2237,6 +2377,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_MILLSTONE]
 	[NAME:Fire stoneware millstone]
 	[CATEGORY:KILN_STONEWARE]
@@ -2249,6 +2390,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_QUERN]
 	[NAME:Fire stoneware quern]
 	[CATEGORY:KILN_STONEWARE]
@@ -2261,6 +2403,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_SLAB]
 	[NAME:Fire stoneware slab]
 	[CATEGORY:KILN_STONEWARE]
@@ -2273,6 +2416,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_SPLINT]
 	[NAME:Fire stoneware splint(2)]
 	[CATEGORY:KILN_STONEWARE]
@@ -2285,6 +2429,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_STATUE]
 	[NAME:Fire stoneware statue]
 	[CATEGORY:KILN_STONEWARE]
@@ -2296,6 +2441,7 @@ reaction_pottery
 	[PRODUCT:100:1:STATUE:NONE:INORGANIC:CERAMIC_STONEWARE]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_FIRECLAY_TABLE]
 	[NAME:Fire stoneware table]
@@ -2309,6 +2455,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_CHAIR]
 	[NAME:Fire stoneware throne]
 	[CATEGORY:KILN_STONEWARE]
@@ -2320,6 +2467,7 @@ reaction_pottery
 	[PRODUCT:100:1:CHAIR:NONE:INORGANIC:CERAMIC_STONEWARE]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_FIRECLAY_TUBE_SECTION]
 	[NAME:Fire stoneware tube section]
@@ -2333,6 +2481,7 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_FIRECLAY_WEAPONRACK]
 	[NAME:Fire stoneware weaponrack]
 	[CATEGORY:KILN_STONEWARE]
@@ -2345,338 +2494,366 @@ reaction_pottery
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 ###############################################################################
-	# burn porcelain reactions
+# burn porcelain reactions
 [REACTION:BURN_PORCELAIN_JUG]
 	[NAME:Fire porcelain jug]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_JUG_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_JUG:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_LARGE_POT]
 	[NAME:Fire porcelain large pot]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_LARGE_POT_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_LARGE_POT:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_CRAFTS]
 	[NAME:Fire porcelain craft]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_CRAFTS_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:CRAFTS:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_HIVE]
 	[NAME:Fire porcelain hive]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_HIVE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_HIVE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_BRICKS]
 	[NAME:Fire porcelain brick(4)]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_BRICK_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:4:BLOCKS:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_ANIMAL_TRAP]
 	[NAME:Fire porcelain animal traps(2)]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:2:TOOL:ITEM_TOOL_ANIMAL_TRAP_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:2:ANIMALTRAP:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_ARMORSTAND]
 	[NAME:Fire porcelain armorstand]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_ARMORSTAND_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:ARMORSTAND:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_BED]
 	[NAME:Fire porcelain bed]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_BED_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:BED:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_BIN]
 	[NAME:Fire porcelain bin]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_BIN_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:BIN:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_BUCKET]
 	[NAME:Fire porcelain bucket]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_BUCKET_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:BUCKET:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_CABINET]
 	[NAME:Fire porcelain cabinet]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_CABINET_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:CABINET:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_CAGE]
 	[NAME:Fire porcelain cage]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_CAGE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:CAGE:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_CHEST]
 	[NAME:Fire porcelain coffer]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_CHEST_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:BOX:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_COFFIN]
 	[NAME:Fire porcelain coffin]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_COFFIN_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:COFFIN:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_DOOR]
 	[NAME:Fire porcelain door]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_DOOR_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:DOOR:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_VIALS]
 	[NAME:Fire porcelain vial(3)]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:3:TOOL:ITEM_TOOL_VIAL_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:3:FLASK:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_FLOODGATE]
 	[NAME:Fire porcelain floodgate]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_FLOODGATE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:FLOODGATE:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_GRATE]
 	[NAME:Fire porcelain grate]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_GRATE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:GRATE:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_HATCH_COVER]
 	[NAME:Fire porcelain hatch cover]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_HATCH_COVER_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:HATCH_COVER:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_MILLSTONE]
 	[NAME:Fire porcelain millstone]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_MILLSTONE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:MILLSTONE:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_QUERN]
 	[NAME:Fire porcelain quern]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_QUERN_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:QUERN:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_SLAB]
 	[NAME:Fire porcelain slab]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_SLAB_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:SLAB:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_SPLINT]
 	[NAME:Fire porcelain splint(2)]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:2:TOOL:ITEM_TOOL_SPLINT_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:2:SPLINT:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_STATUE]
 	[NAME:Fire porcelain statue]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_STATUE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:STATUE:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_TABLE]
 	[NAME:Fire porcelain table]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_TABLE_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:TABLE:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
+	
 
 [REACTION:BURN_PORCELAIN_CHAIR]
 	[NAME:Fire porcelain throne]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_CHAIR_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:CHAIR:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_TUBE_SECTION]
 	[NAME:Fire porcelain tube section]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_TUBE_SECTION_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:PIPE_SECTION:NONE:INORGANIC:CERAMIC_PORCELAIN]
 	[SKILL:POTTERY]
 	[FUEL]
 
+	
 [REACTION:BURN_PORCELAIN_WEAPONRACK]
 	[NAME:Fire porcelain weaponrack]
 	[CATEGORY:KILN_PORCELAIN]
 	[CATEGORY_NAME:Make porcelain (kaolinite)]
 	[CATEGORY_KEY:CUSTOM_K]
-	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire an porcelain item.]
+	[CATEGORY_DESCRIPTION:Uses a kaolinite item from the pottery and fuel to fire a porcelain item.]
 	[BUILDING:KILN:NONE]
 	[REAGENT:porcelain:1:TOOL:ITEM_TOOL_WEAPONRACK_FAKE:INORGANIC:GREENWARE_PORCELAIN]
 	[PRODUCT:100:1:WEAPONRACK:NONE:INORGANIC:CERAMIC_PORCELAIN]

@@ -1,6 +1,6 @@
 reaction_liquids
 
-	[OBJECT:REACTION]
+[OBJECT:REACTION]
 
 	#A- not much to say, I just didn't see a point in hiding them inside the
 	#  dwarf reactions.
@@ -21,6 +21,7 @@ reaction_liquids
 	[PRODUCT_DIMENSION:150]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:LUA_HOOK_USEWATER_WATERWELL_BARREL]
 	[NAME:Fill a barrel with water(10)]
 	[DESCRIPTION:Takes an empty barrel and fills it with water. The water barrel will count as drink and units drink from it. Handpump must be build near water, for example next to a river or pond.]
@@ -37,6 +38,7 @@ reaction_liquids
 	[PRODUCT_DIMENSION:150]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:LUA_HOOK_USEMAGMA_MAGMAWELL_BUCKET]
 	[NAME:Fill a steel bucket with magma(7)]
 	[DESCRIPTION:Takes an empty bucket and fills it with magma.  Handpump must be build near magma, for example next to a magma pool or volcano crater.]
@@ -51,6 +53,7 @@ reaction_liquids
 	[PRODUCT_DIMENSION:150]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:LUA_HOOK_USEMAGMA_MAGMAWELL_BARREL]
 	[NAME:Fill a steel barrel with magma(10)]
 	[DESCRIPTION:Takes an empty barrel and fills it with magma. Handpump must be build near magma, for example next to a magma pool or volcano crater.]
@@ -67,6 +70,7 @@ reaction_liquids
 	[PRODUCT_DIMENSION:150]
 	[SKILL:OPERATE_PUMP]
 
+	
 ##### WATER WELL ##############################################################
 
 [REACTION:WATERWELL_N_1]
@@ -80,6 +84,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_N_2]
 	[NAME:Spawn water lvl2 - North]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -91,6 +96,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_N_3]
 	[NAME:Spawn water lvl3 - North]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -102,6 +108,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_N_4]
 	[NAME:Spawn water lvl4 - North]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -113,6 +120,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_N_5]
 	[NAME:Spawn water lvl5 - North]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -124,6 +132,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_N_6]
 	[NAME:Spawn water lvl6 - North]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -135,6 +144,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_N_7]
 	[NAME:Spawn water lvl7 - North]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -146,6 +156,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_E_1]
 	[NAME:Spawn water lvl1 - East]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -157,6 +168,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_E_2]
 	[NAME:Spawn water lvl2 - East]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -168,6 +180,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_E_3]
 	[NAME:Spawn water lvl3 - East]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -179,6 +192,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_E_4]
 	[NAME:Spawn water lvl4 - East]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -190,6 +204,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_E_5]
 	[NAME:Spawn water lvl5 - East]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -201,6 +216,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_E_6]
 	[NAME:Spawn water lvl6 - East]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -212,6 +228,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_E_7]
 	[NAME:Spawn water lvl7 - East]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -223,6 +240,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_S_1]
 	[NAME:Spawn water lvl1 - South]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -234,6 +252,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_S_2]
 	[NAME:Spawn water lvl2 - South]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -245,6 +264,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_S_3]
 	[NAME:Spawn water lvl3 - South]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -256,6 +276,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_S_4]
 	[NAME:Spawn water lvl4 - South]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -267,6 +288,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_S_5]
 	[NAME:Spawn water lvl5 - South]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -278,6 +300,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_S_6]
 	[NAME:Spawn water lvl6 - South]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -289,6 +312,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_S_7]
 	[NAME:Spawn water lvl7 - South]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -300,6 +324,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_W_1]
 	[NAME:Spawn water lvl1 - West]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -311,6 +336,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_W_2]
 	[NAME:Spawn water lvl2 - West]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -322,6 +348,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_W_3]
 	[NAME:Spawn water lvl3 - West]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -333,6 +360,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_W_4]
 	[NAME:Spawn water lvl4 - West]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -344,6 +372,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_W_5]
 	[NAME:Spawn water lvl5 - West]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -355,6 +384,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_W_6]
 	[NAME:Spawn water lvl6 - West]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -366,6 +396,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_W_7]
 	[NAME:Spawn water lvl7 - West]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -377,6 +408,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_N_STOP]
 	[NAME:Stop spawning - North]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -388,6 +420,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_E_STOP]
 	[NAME:Stop spawning - East]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -399,6 +432,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_S_STOP]
 	[NAME:Stop spawning - South]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -410,6 +444,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:WATERWELL_W_STOP]
 	[NAME:Stop spawning - West]
 	[BUILDING:WATERWAY_HUB:CUSTOM_NONE]
@@ -421,6 +456,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 ##### MAGMA WELL ##############################################################
 
 [REACTION:MAGMAWELL_N_1]
@@ -434,6 +470,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_N_2]
 	[NAME:Spawn magma lvl2 - North]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -445,6 +482,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_N_3]
 	[NAME:Spawn magma lvl3 - North]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -456,6 +494,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_N_4]
 	[NAME:Spawn magma lvl4 - North]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -467,6 +506,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_N_5]
 	[NAME:Spawn magma lvl5 - North]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -478,6 +518,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_N_6]
 	[NAME:Spawn magma lvl6 - North]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -489,6 +530,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_N_7]
 	[NAME:Spawn magma lvl7 - North]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -500,6 +542,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_E_1]
 	[NAME:Spawn magma lvl1 - East]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -511,6 +554,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_E_2]
 	[NAME:Spawn magma lvl2 - East]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -522,6 +566,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_E_3]
 	[NAME:Spawn magma lvl3 - East]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -533,6 +578,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_E_4]
 	[NAME:Spawn magma lvl4 - East]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -544,6 +590,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_E_5]
 	[NAME:Spawn magma lvl5 - East]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -555,6 +602,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_E_6]
 	[NAME:Spawn magma lvl6 - East]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -566,6 +614,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_E_7]
 	[NAME:Spawn magma lvl7 - East]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -577,6 +626,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_S_1]
 	[NAME:Spawn magma lvl1 - South]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -588,6 +638,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_S_2]
 	[NAME:Spawn magma lvl2 - South]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -599,6 +650,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_S_3]
 	[NAME:Spawn magma lvl3 - South]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -610,6 +662,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_S_4]
 	[NAME:Spawn magma lvl4 - South]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -621,6 +674,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_S_5]
 	[NAME:Spawn magma lvl5 - South]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -632,6 +686,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_S_6]
 	[NAME:Spawn magma lvl6 - South]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -643,6 +698,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_S_7]
 	[NAME:Spawn magma lvl7 - South]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -654,6 +710,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_W_1]
 	[NAME:Spawn magma lvl1 - West]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -665,6 +722,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_W_2]
 	[NAME:Spawn magma lvl2 - West]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -676,6 +734,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_W_3]
 	[NAME:Spawn magma lvl3 - West]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -687,6 +746,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_W_4]
 	[NAME:Spawn magma lvl4 - West]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -698,6 +758,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_W_5]
 	[NAME:Spawn magma lvl5 - West]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -709,6 +770,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_W_6]
 	[NAME:Spawn magma lvl6 - West]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -720,6 +782,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_W_7]
 	[NAME:Spawn magma lvl7 - West]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -731,6 +794,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_N_STOP]
 	[NAME:Stop spawning - North]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -742,6 +806,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_N]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_E_STOP]
 	[NAME:Stop spawning - East]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -753,6 +818,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_E]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_S_STOP]
 	[NAME:Stop spawning - South]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -764,6 +830,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_S]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:MAGMAWELL_W_STOP]
 	[NAME:Stop spawning - West]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]
@@ -775,6 +842,7 @@ reaction_liquids
 	[CATEGORY_KEY:CUSTOM_W]
 	[SKILL:OPERATE_PUMP]
 
+	
 [REACTION:UNLOCK_MAGMA_WORKSHOPS]
 	[NAME:Unlock magma workshops]
 	[BUILDING:MAGMAWELL_DWARF:CUSTOM_NONE]

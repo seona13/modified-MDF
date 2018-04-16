@@ -42,6 +42,7 @@ reaction_tailor
 	[BUILDING:TAILOR:NONE]
 	[BUILDING:CLOTHCUTTER:NONE]
 
+	
 [REACTION:RECLAIMTHREAD_FIBER]
 	[NAME:Unravel cloth (plant fiber)]
 	[BUILDING:TAILOR:CUSTOM_A]
@@ -54,6 +55,7 @@ reaction_tailor
 		[PRODUCT_DIMENSION:15000]
 	[SKILL:WEAVING]
 
+	
 [REACTION:RECLAIMTHREAD_SILK]
 	[NAME:Unravel cloth (silk)]
 	[BUILDING:TAILOR:CUSTOM_B]
@@ -66,6 +68,7 @@ reaction_tailor
 		[PRODUCT_DIMENSION:15000]
 	[SKILL:WEAVING]
 
+	
 [REACTION:RECLAIMTHREAD_WOOL]
 	[NAME:Unravel cloth (yarn)]
 	[BUILDING:TAILOR:CUSTOM_C]
@@ -78,11 +81,13 @@ reaction_tailor
 		[PRODUCT_DIMENSION:15000]
 	[SKILL:WEAVING]
 
+	
 [REACTION:SKILL_CLOTHMAKING]
 	[NAME:=====SKILL CLOTHESMAKING======]
 	[BUILDING:TAILOR:NONE]
 	[BUILDING:CLOTHCUTTER:NONE]
 
+	
 [REACTION:CLOTH_QUIVER]
 	[NAME:Craft quiver (cloth+tallow)]
 	[BUILDING:TAILOR:CUSTOM_ALT_B]
@@ -96,6 +101,7 @@ reaction_tailor
 	[PRODUCT:100:1:QUIVER:NONE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CLOTHESMAKING]
 
+	
 [REACTION:CLOTH_QUIVER_WAX]
 	[NAME:Craft quiver (cloth+wax)]
 	[BUILDING:TAILOR:CUSTOM_ALT_B]
@@ -107,6 +113,7 @@ reaction_tailor
 	[PRODUCT:100:1:QUIVER:NONE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CLOTHESMAKING]
 
+	
 [REACTION:CLOTH_BACKPACK]
 	[NAME:Craft backpack (cloth+tallow)]
 	[BUILDING:TAILOR:CUSTOM_ALT_B]
@@ -120,6 +127,7 @@ reaction_tailor
 	[PRODUCT:100:1:BACKPACK:NONE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CLOTHESMAKING]
 
+	
 [REACTION:CLOTH_BACKPACK_WAX]
 	[NAME:Craft backpack (cloth+wax)]
 	[BUILDING:TAILOR:CUSTOM_ALT_B]
@@ -131,6 +139,7 @@ reaction_tailor
 	[PRODUCT:100:1:BACKPACK:NONE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CLOTHESMAKING]	
 
+	
 [REACTION:BED_CLOTH]
 	[NAME:Craft bedroll]
 	[BUILDING:TAILOR:CUSTOM_ALT_B]
@@ -140,6 +149,7 @@ reaction_tailor
 	[PRODUCT:100:1:BED:NONE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CLOTHESMAKING]
 
+	
 [REACTION:CLOTHING_SET]
 	[NAME:Make a set of clothing (fiber)]
 	[DESCRIPTION:Create a shirt, a pair of pants, and a pair of shoes.]
@@ -153,6 +163,7 @@ reaction_tailor
 	[PRODUCT:100:1:PANTS:ITEM_PANTS_PANTS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CLOTHESMAKING]
 
+	
 [REACTION:CLOTHING_SET_SILK]
 	[NAME:Make a set of clothing (silk)]
 	[DESCRIPTION:Create a shirt, a pair of pants, and a pair of shoes.]
@@ -166,6 +177,7 @@ reaction_tailor
 	[PRODUCT:100:1:PANTS:ITEM_PANTS_PANTS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CLOTHESMAKING]
 
+	
 [REACTION:CLOTHING_SET_WOOL]
 	[NAME:Make a set of clothing (yarn)]
 	[DESCRIPTION:Create a shirt, a pair of pants, and a pair of shoes.]
@@ -179,10 +191,12 @@ reaction_tailor
 	[PRODUCT:100:1:PANTS:ITEM_PANTS_PANTS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CLOTHESMAKING]
 
+	
 [REACTION:SKILL_LEATHERWORKING]
 	[NAME:=====SKILL LEATHERWORKING=====]
 	[BUILDING:TAILOR:NONE]
 
+	
 [REACTION:CHITIN_ARMOR_SET]
 	[NAME:Make a set of armor (chitin)]
 	[DESCRIPTION:Create an armor, a helm, greaves, high boots and gauntlets.]
@@ -197,6 +211,7 @@ reaction_tailor
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:LEATHERWORK]
 
+	
 [REACTION:CHITIN_ARMOR_SET_HEAVY]
 	[NAME:Make a set of armor (chitinplate)]
 	[DESCRIPTION:Create an armor, a helm, greaves, high boots and gauntlets.]
@@ -211,6 +226,7 @@ reaction_tailor
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:LEATHERWORK]
 
+	
 [REACTION:SHELL_ARMOR_SET]
 	[NAME:Make a set of armor (shell)]
 	[DESCRIPTION:Create an armor, a helm, greaves, high boots and gauntlets.]
@@ -225,6 +241,7 @@ reaction_tailor
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:LEATHERWORK]
 
+	
 [REACTION:SHELL_ARMOR_SET_HEAVY]
 	[NAME:Make a set of armor (shellplate)]
 	[DESCRIPTION:Create an armor, a helm, greaves, high boots and gauntlets.]
@@ -239,6 +256,7 @@ reaction_tailor
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:LEATHERWORK]
 
+	
 [REACTION:SCALE_ARMOR_SET]
 	[NAME:Make a set of armor (scale)]
 	[DESCRIPTION:Create an armor, a helm, greaves, high boots and gauntlets.]
@@ -253,6 +271,7 @@ reaction_tailor
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:LEATHERWORK]
 
+	
 [REACTION:SCALEPLATE_ARMOR_SET]
 	[NAME:Make a set of armor (scaleplate)]
 	[DESCRIPTION:Create an armor, a helm, greaves, high boots and gauntlets.]
@@ -267,6 +286,7 @@ reaction_tailor
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:LEATHERWORK]
 
+	
 [REACTION:LEATHER_ARMOR_SET]
 	[NAME:Make a set of armor (leather)]
 	[DESCRIPTION:Create an armor, a helm, greaves, high boots and gauntlets.]
@@ -282,6 +302,7 @@ reaction_tailor
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:LEATHERWORK]
 
+	
 [REACTION:LEATHER_ARMOR_SET_HARDENED]
 	[NAME:Make a set of armor (hardened leather)]
 	[DESCRIPTION:Create an armor, a helm, greaves, high boots and gauntlets.]

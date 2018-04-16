@@ -113,6 +113,7 @@ reaction_smith_guild
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 // makes 1 bar more, and 15% chance for one additional bar on top of that.
 [REACTION:STEEL_MAKING_CRUCIBLE]
 	[NAME:Make steel bars efficiently]
@@ -131,6 +132,7 @@ reaction_smith_guild
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 // makes 1 bar more, and 15% chance for one additional bar on top of that.
 [REACTION:BRONZE_MAKING_CRUCIBLE]
 	[NAME:Make bronze bars efficiently]
@@ -146,6 +148,7 @@ reaction_smith_guild
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 [REACTION:BAUXITE_ALU]
 	[NAME:Extract aluminum from bauxite]
 	[BUILDING:CRUCIBLE:CUSTOM_A]
@@ -163,6 +166,7 @@ reaction_smith_guild
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 [REACTION:COBALTITE_COBALT]
 	[NAME:Extract cobalt from cobaltite]
 	[BUILDING:CRUCIBLE:CUSTOM_C]
@@ -180,6 +184,7 @@ reaction_smith_guild
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 [REACTION:RAW_MITHRIL_MITHRIL]
 	[NAME:Extract mithril from raw mithril]
 	[BUILDING:CRUCIBLE:CUSTOM_E]
@@ -197,6 +202,7 @@ reaction_smith_guild
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 [REACTION:SILVER_MITHRIL]
 	[NAME:Extract mithril from silver]
 	[BUILDING:CRUCIBLE:CUSTOM_M]
@@ -214,6 +220,7 @@ reaction_smith_guild
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 [REACTION:WOLFRAMITE_TUNGSTEN]
 	[NAME:Extract tungsten from wolframite]
 	[BUILDING:CRUCIBLE:CUSTOM_W]
@@ -231,6 +238,7 @@ reaction_smith_guild
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 ###############################################################################
 ####################     WEAPONRY          ####################################
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_PICK]
@@ -246,6 +254,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_BATTLE_PICK]
 	[NAME:Improve battle pick]
 	[BUILDING:WEAPONRY:CUSTOM_B]
@@ -259,6 +268,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:IMPROVE_ITEM_WEAPON_AXE_BATTLE]
 	[NAME:Improve battle axe]
 	[BUILDING:WEAPONRY:CUSTOM_C]
@@ -272,6 +282,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_HAMMER_WAR]
 	[NAME:Improve war hammer]
 	[BUILDING:WEAPONRY:CUSTOM_D]
@@ -285,6 +296,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:IMPROVE_ITEM_WEAPON_SWORD_SHORT]
 	[NAME:Improve short sword]
 	[BUILDING:WEAPONRY:CUSTOM_E]
@@ -298,6 +310,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_SPEAR]
 	[NAME:Improve spear]
 	[BUILDING:WEAPONRY:CUSTOM_F]
@@ -311,6 +324,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_MACE]
 	[NAME:Improve mace]
 	[BUILDING:WEAPONRY:CUSTOM_G]
@@ -324,6 +338,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_DAGGER_LARGE]
 	[NAME:Improve large dagger]
 	[BUILDING:WEAPONRY:CUSTOM_H]
@@ -337,6 +352,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_PIKE]
 	[NAME:Improve pike]
 	[BUILDING:WEAPONRY:CUSTOM_I]
@@ -350,6 +366,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_HALBERD]
 	[NAME:Improve halberd]
 	[BUILDING:WEAPONRY:CUSTOM_J]
@@ -363,6 +380,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_SWORD_2H]
 	[NAME:Improve two-handed sword]
 	[BUILDING:WEAPONRY:CUSTOM_K]
@@ -376,6 +394,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_SWORD_LONG]
 	[NAME:Improve long sword]
 	[BUILDING:WEAPONRY:CUSTOM_L]
@@ -389,6 +408,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_MAUL]
 	[NAME:Improve maul]
 	[BUILDING:WEAPONRY:CUSTOM_M]
@@ -402,6 +422,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_AXE_GREAT]
 	[NAME:Improve great axe]
 	[BUILDING:WEAPONRY:CUSTOM_N]
@@ -415,6 +436,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_CROSSBOW]
 	[NAME:Improve crossbow]
 	[BUILDING:WEAPONRY:CUSTOM_O]
@@ -428,6 +450,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_WEAPON_JAVELIN_THROWER]
 	[NAME:Improve javelin thrower]
 	[BUILDING:WEAPONRY:CUSTOM_P]
@@ -441,6 +464,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_TRAPCOMP_GIANTAXEBLADE]
 	[NAME:Improve giant axe blade]
 	[BUILDING:WEAPONRY:CUSTOM_Q]
@@ -454,6 +478,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_TRAPCOMP_ENORMOUSCORKSCREW]
 	[NAME:Improve enormous corkscrew]
 	[BUILDING:WEAPONRY:CUSTOM_R]
@@ -467,6 +492,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_TRAPCOMP_SPIKEDBALL]
 	[NAME:Improve spiked ball]
 	[BUILDING:WEAPONRY:CUSTOM_S]
@@ -480,6 +506,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_TRAPCOMP_LARGESERRATEDDISC]
 	[NAME:Improve large serrated disc]
 	[BUILDING:WEAPONRY:CUSTOM_T]
@@ -493,6 +520,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_TRAPCOMP_MENACINGSPIKE]
 	[NAME:Improve menacing spike]
 	[BUILDING:WEAPONRY:CUSTOM_U]
@@ -506,6 +534,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_ITEM_TRAPCOMP_BARBED_WIRE_ROLL]
 	[NAME:Improve barbed wire]
 	[BUILDING:WEAPONRY:CUSTOM_V]
@@ -519,6 +548,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 ###############################################################################
 ####################     ARMORY            ####################################
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_BREASTPLATE]
@@ -534,6 +564,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_MAIL_SHIRT]
 	[NAME:Improve metal mail shirt]
 	[BUILDING:ARMORY:CUSTOM_B]
@@ -547,6 +578,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_PLATEARMOR]
 	[NAME:Improve metal plate armor]
 	[BUILDING:ARMORY:CUSTOM_C]
@@ -560,6 +592,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_HELM]
 	[NAME:Improve metal helm]
 	[BUILDING:ARMORY:CUSTOM_D]
@@ -573,6 +606,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_CAP]
 	[NAME:Improve metal cap]
 	[BUILDING:ARMORY:CUSTOM_E]
@@ -586,6 +620,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_GAUNTLETS]
 	[NAME:Improve metal gauntlet]
 	[BUILDING:ARMORY:CUSTOM_F]
@@ -599,6 +634,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_GAUNTLETS_PLATE]
 	[NAME:Improve metal plate gauntlet]
 	[BUILDING:ARMORY:CUSTOM_G]
@@ -612,6 +648,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_BOOTS]
 	[NAME:Improve metal high boots]
 	[BUILDING:ARMORY:CUSTOM_H]
@@ -625,6 +662,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_BOOTS_LOW]
 	[NAME:Improve metal low boots]
 	[BUILDING:ARMORY:CUSTOM_I]
@@ -638,6 +676,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_BOOTS_PLATE]
 	[NAME:Improve metal plate boots]
 	[BUILDING:ARMORY:CUSTOM_J]
@@ -651,6 +690,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_GREAVES]
 	[NAME:Improve metal greaves]
 	[BUILDING:ARMORY:CUSTOM_K]
@@ -664,6 +704,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_SHIELD]
 	[NAME:Improve metal shield]
 	[BUILDING:ARMORY:CUSTOM_L]
@@ -677,6 +718,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_BUCKLER]
 	[NAME:Improve metal buckler]
 	[BUILDING:ARMORY:CUSTOM_M]
@@ -690,6 +732,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_TOWER_SHIELD]
 	[NAME:Improve metal tower shield]
 	[BUILDING:ARMORY:CUSTOM_N]
@@ -703,6 +746,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 [REACTION:LUA_HOOK_IMPROVE_ITEM_EXAMPLE_KITE_SHIELD]
 	[NAME:Improve metal kite shield]
 	[BUILDING:ARMORY:CUSTOM_O]
@@ -716,6 +760,7 @@ reaction_smith_guild
 	[FUEL]
 		#[NOT_IMPROVED]
 
+		
 ###############################################################################
 #######   BLAST FURNACE   #####################################################
 [REACTION:BATCH_SMELT_HEMATITE]
@@ -731,6 +776,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_LIMONITE]
 	[NAME:Batch smelt limonite]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_B]
@@ -744,6 +790,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_GARNIERITE]
 	[NAME:Batch smelt garnierite]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_C]
@@ -757,6 +804,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_NATIVE_GOLD]
 	[NAME:Batch smelt native gold]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_D]
@@ -770,6 +818,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_NATIVE_SILVER]
 	[NAME:Batch smelt native silver]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_E]
@@ -783,6 +832,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_NATIVE_COPPER]
 	[NAME:Batch smelt native copper]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_F]
@@ -796,6 +846,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_MALACHITE]
 	[NAME:Batch smelt malachite]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_G]
@@ -809,6 +860,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_GALENA]
 	[NAME:Batch smelt galena]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_H]
@@ -824,6 +876,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_SPHALERITE]
 	[NAME:Batch smelt sphalerite]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_I]
@@ -837,6 +890,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_CASSITERITE]
 	[NAME:Batch smelt cassiterite]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_J]
@@ -850,6 +904,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_NATIVE_PLATINUM]
 	[NAME:Batch smelt native platinum]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_K]
@@ -863,6 +918,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_TETRAHEDRITE]
 	[NAME:Batch smelt tetrahedrite]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_L]
@@ -878,6 +934,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_HORN_SILVER]
 	[NAME:Batch smelt horn silver]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_M]
@@ -891,6 +948,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_BISMUTHINITE]
 	[NAME:Batch smelt bismuthinite]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_N]
@@ -904,6 +962,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_NATIVE_ALUMINUM]
 	[NAME:Batch smelt native aluminum]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_O]
@@ -917,6 +976,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_MAGNETITE]
 	[NAME:Batch smelt magnetite]
 	[BUILDING:GUILD_SMITH_W:CUSTOM_P]
@@ -930,6 +990,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_HEMATITE]
 	[NAME:Batch smelt pure hematite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_A]
@@ -942,6 +1003,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_LIMONITE]
 	[NAME:Batch smelt pure limonite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_B]
@@ -954,6 +1016,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_GARNIERITE]
 	[NAME:Batch smelt pure garnierite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_C]
@@ -966,6 +1029,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_NATIVE_GOLD]
 	[NAME:Batch smelt pure gold]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_D]
@@ -978,6 +1042,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_NATIVE_SILVER]
 	[NAME:Batch smelt pure silver]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_E]
@@ -990,6 +1055,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_NATIVE_COPPER]
 	[NAME:Batch smelt pure copper]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_F]
@@ -1002,6 +1068,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_MALACHITE]
 	[NAME:Batch smelt pure malachite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_G]
@@ -1014,6 +1081,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_GALENA]
 	[NAME:Batch smelt pure galena]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_H]
@@ -1028,6 +1096,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_SPHALERITE]
 	[NAME:Batch smelt pure sphalerite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_I]
@@ -1040,6 +1109,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_CASSITERITE]
 	[NAME:Batch smelt pure cassiterite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_J]
@@ -1052,6 +1122,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_NATIVE_PLATINUM]
 	[NAME:Batch smelt pure platinum]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_K]
@@ -1064,6 +1135,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_TETRAHEDRITE]
 	[NAME:Batch smelt pure tetrahedrite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_L]
@@ -1078,6 +1150,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_HORN_SILVER]
 	[NAME:Batch smelt pure horn silver]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_M]
@@ -1090,6 +1163,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_BISMUTHINITE]
 	[NAME:Batch smelt pure bismuthinite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_N]
@@ -1102,6 +1176,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_NATIVE_ALUMINUM]
 	[NAME:Batch smelt pure aluminum]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_O]
@@ -1114,6 +1189,7 @@ reaction_smith_guild
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BATCH_SMELT_PROCESSED_MAGNETITE]
 	[NAME:Batch smelt pure magnetite]
 	[BUILDING:BLAST_FURNACE:CUSTOM_SHIFT_P]

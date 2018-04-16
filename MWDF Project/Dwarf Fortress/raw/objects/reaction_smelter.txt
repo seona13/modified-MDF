@@ -51,6 +51,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:LIGNITE_TO_COKE]
 	[NAME:make coke(5) from lignite]
 	[BUILDING:SMELTER:CUSTOM_L]
@@ -59,6 +60,7 @@ reaction_smelter
 		[PRODUCT_DIMENSION:150]
 	[SKILL:SMELT]
 	[FUEL]
+	
 
 [REACTION:PEAT_TO_COKE]
 	[NAME:make coke(2-4) from peat]
@@ -73,6 +75,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:ANTHRACITE_TO_COKE]
 	[NAME:Make coke(10) from anthracite]
 	[BUILDING:SMELTER:CUSTOM_A]
@@ -82,6 +85,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:ADAMANTINE_WAFERS]
 	[NAME:make adamantine wafers]
 	[BUILDING:SMELTER:NONE]
@@ -91,6 +95,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:COLD_ANVIL_IRON]
 	[NAME:Make iron anvil]
 	[BUILDING:SMELTER:CUSTOM_A]
@@ -99,6 +104,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:COLD_ANVIL_STEEL]
 	[NAME:Make steel anvil]
 	[BUILDING:SMELTER:CUSTOM_SHIFT_A]
@@ -107,6 +113,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:MAKE_CRYSTAL_ROCK]
 	[NAME:Smelt sand and lead into rough rock crystals.]
 	[DESCRIPTION:Takes a bar of lead and a bag of sand to create three rough rock crystals.]
@@ -124,6 +131,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 ##### METALLURGIST REACTIONS ##################################################
 [REACTION:BRASS_MAKING]
 	[NAME:make brass bars (use ore)]
@@ -136,6 +144,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BRASS_MAKING2]
 	[NAME:make brass bars (use bars)]
 	[BUILDING:METALLURGIST:NONE]
@@ -147,6 +156,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BRONZE_MAKING]
 	[NAME:make bronze bars (use ore)]
 	[BUILDING:METALLURGIST:NONE]
@@ -158,6 +168,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BRONZE_MAKING2]
 	[NAME:make bronze bars (use bars)]
 	[BUILDING:METALLURGIST:NONE]
@@ -169,6 +180,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:ELECTRUM_MAKING]
 	[NAME:make electrum bars (use ore)]
 	[BUILDING:METALLURGIST:NONE]
@@ -180,6 +192,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:ELECTRUM_MAKING2]
 	[NAME:make electrum bars (use bars)]
 	[BUILDING:METALLURGIST:NONE]
@@ -191,6 +204,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BILLON_MAKING]
 	[NAME:make billon bars (use ore)]
 	[BUILDING:METALLURGIST:NONE]
@@ -202,6 +216,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BILLON_MAKING2]
 	[NAME:make billon bars (use bars)]
 	[BUILDING:METALLURGIST:NONE]
@@ -213,6 +228,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:PEWTER_FINE_MAKING]
 	[NAME:make fine pewter bars (use ore)]
 	[BUILDING:METALLURGIST:NONE]
@@ -224,6 +240,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:PEWTER_FINE_MAKING2]
 	[NAME:make fine pewter bars (use bars)]
 	[BUILDING:METALLURGIST:NONE]
@@ -235,6 +252,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:PEWTER_TRIFLE_MAKING]
 	[NAME:make trifle pewter bars (use ore)]
 	[BUILDING:METALLURGIST:NONE]
@@ -246,6 +264,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:PEWTER_TRIFLE_MAKING2]
 	[NAME:make trifle pewter bars (use bars)]
 	[BUILDING:METALLURGIST:NONE]
@@ -257,6 +276,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:PEWTER_LAY_MAKING]
 	[NAME:make lay pewter bars (use bars)]
 	[BUILDING:METALLURGIST:NONE]
@@ -269,6 +289,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:PIG_IRON_MAKING]
 	[NAME:make pig iron bars]
 	[BUILDING:METALLURGIST:NONE]
@@ -282,6 +303,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:STEEL_MAKING]
 	[NAME:make steel bars]
 	[BUILDING:METALLURGIST:NONE]
@@ -296,6 +318,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:NICKEL_SILVER_MAKING]
 	[NAME:make nickel silver bars]
 	[BUILDING:METALLURGIST:NONE]
@@ -308,6 +331,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BLACK_BRONZE_MAKING]
 	[NAME:make black bronze bars]
 	[BUILDING:METALLURGIST:NONE]
@@ -320,6 +344,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:STERLING_SILVER_MAKING]
 	[NAME:make sterling silver bars]
 	[BUILDING:METALLURGIST:NONE]
@@ -331,6 +356,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:ROSE_GOLD_MAKING]
 	[NAME:make rose gold bars]
 	[BUILDING:METALLURGIST:NONE]
@@ -342,11 +368,11 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 [REACTION:BISMUTH_BRONZE_MAKING]
 	[NAME:make bismuth bronze bars]
 	[BUILDING:METALLURGIST:NONE]
 	[BUILDING:MAGMA_METALLURGIST:NONE]
-
 	[REAGENT:A:150:BAR:NO_SUBTYPE:METAL:TIN]
 	[REAGENT:B:300:BAR:NO_SUBTYPE:METAL:COPPER]
 	[REAGENT:C:150:BAR:NO_SUBTYPE:METAL:BISMUTH]
@@ -355,6 +381,7 @@ reaction_smelter
 	[SKILL:SMELT]
 	[FUEL]
 
+	
 #A - a side fix to add titanium since we have reactions that use it in dwarves...
 [REACTION:EXTRCT_TITANIUM] 
 	[NAME:Extract titanium from rutile or ilmenite]
@@ -376,6 +403,7 @@ reaction_smelter
 		[PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:SMELT]
+	
 #### EOF - THIS LINE IS 80 CHARACTERS LONG #####50########60########70########80
 5
 4

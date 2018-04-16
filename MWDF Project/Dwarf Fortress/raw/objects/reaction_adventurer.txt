@@ -19,6 +19,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:! Crafting tools and crutches !]
 	[CATEGORY_DESCRIPTION:Make tools for crafting or crutches.]
 
+	
 [REACTION:MAKE_BONE_CRUTCH_ADV]
 	[NAME:carve bone crutch (Dagger + bone)]
 	[DESCRIPTION:(Dagger + bone) Carve a bone crutch for crutchwalking.]
@@ -30,6 +31,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_TOOLS]
 
+	
 [REACTION:MAKE_WOODEN_CRUTCH_ADV]
 	[NAME:carve wooden crutch (Dagger + stick)]
 	[DESCRIPTION:(Dagger + stick) Carve a wooden crutch for crutchwalking.]
@@ -41,6 +43,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:WOODCRAFT]
 	[CATEGORY:ADV_TOOLS]
 
+	
 [REACTION:CARVE_BONE_NEEDLE_ADV]
 	[NAME:carve bone needle (Dagger + bone)]
 	[DESCRIPTION:(Dagger + bone) Carve a bone needle for sewing/leathermaking]
@@ -52,6 +55,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_TOOLS]
 
+	
 [REACTION:MAKE_BONE_DAGGER_ADV]
 	[NAME:knap bone dagger (Bone)]
 	[DESCRIPTION:(Bone) Knap a bone dagger.]
@@ -62,6 +66,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_TOOLS]
 
+	
 [REACTION:MAKE_STONE_DAGGER_ADV]
 	[NAME:make stone dagger (Rock + rock)]
 	[DESCRIPTION:(Rock + rock) Knap a stone dagger using two rocks.]
@@ -72,6 +77,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:KNAPPING]
 	[CATEGORY:ADV_TOOLS]
 
+	
 [REACTION:MAKE_STONE_MALLET_BONE_ADV]
 	[NAME:make stone mallet (Rock + bone)]
 	[DESCRIPTION:(Rock + bone) Make a stone mallet from a rock and a bone.]
@@ -82,6 +88,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_TOOLS]
 
+	
 [REACTION:MAKE_STONE_MALLET_STICK_ADV]
 	[NAME:make stone mallet (Rock + stick)]
 	[DESCRIPTION:(Rock + stick) Make a stone mallet from a rock and a stick.]
@@ -92,6 +99,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_TOOLS]
 
+	
 [REACTION:MAKE_ROCK_NEEDLE_ADV]
 	[NAME:make stone needle (Dagger + rock)]
 	[DESCRIPTION:(Dagger + rock) Make a needle.]
@@ -103,6 +111,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_TOOLS]
 
+	
 [REACTION:RASP_STICK_ADV]
 	[NAME:rasp stick (Dagger + thick twig from trees)]
 	[DESCRIPTION:(Dagger + twig) Rasp a twig into a stick. Thick twigs can be collected from trees.]
@@ -123,10 +132,8 @@ YESWANDERER[OBJECT:REACTION]
 	[DESCRIPTION:USE_WEAPON:ITEM_WEAPON_DAGGER_LARGE]
 	[ADVENTURE_MODE_ENABLED]
 	[REAGENT:dagger:1:WEAPON:ITEM_WEAPON_DAGGER_LARGE:NONE:NONE][PRESERVE_REAGENT]
-
 	YES_MORE_LEATHERMOD!REAGENT:A:1:NONE:NONE:NONE:NONE]
 	YES_MORE_LEATHERMOD!USE_BODY_COMPONENT]
-
 	=> These raws are active, while the buttons says YES/ON
 	YES_MORE_LEATHERMOD[REAGENT:A:450:GLOB:NONE:NONE:NONE]
 	YES_MORE_LEATHERMOD[REACTION_CLASS:SKIN]
@@ -137,6 +144,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Bookmaking]
 	[CATEGORY_DESCRIPTION:Make quires, scrolls and books.]
 
+	
 [REACTION:MAKE_SCROLL_ADV]
 	[NAME:make scroll (Dagger + raw skin + stick)]
 	[DESCRIPTION:(Dagger + raw skin + stick) Make a quire.]
@@ -144,10 +152,8 @@ YESWANDERER[OBJECT:REACTION]
 	[ADVENTURE_MODE_ENABLED]
 	[REAGENT:dagger:1:WEAPON:ITEM_WEAPON_DAGGER_LARGE:NONE:NONE][PRESERVE_REAGENT]
 	[REAGENT:stick:1:TOOL:ITEM_TOOL_STICK:NONE:NONE]
-
 	YES_MORE_LEATHERMOD!REAGENT:A:1:NONE:NONE:NONE:NONE]
 	YES_MORE_LEATHERMOD!USE_BODY_COMPONENT]
-
 	=> These raws are active, while the buttons says YES/ON
 	YES_MORE_LEATHERMOD[REAGENT:A:450:GLOB:NONE:NONE:NONE]
 	YES_MORE_LEATHERMOD[REACTION_CLASS:SKIN]
@@ -157,6 +163,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BOOKBINDING]
 	[CATEGORY:ADV_BOOKMAKING]
 
+	
 [REACTION:BIND_BOOK_ADV]
 	[NAME:bind book (Written quire + leather)]
 	[DESCRIPTION:(Quire + leather) Bind a book. The used quire MUST not be blank to do this (something should be written on it).]
@@ -174,6 +181,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BOOKBINDING]
 	[CATEGORY:ADV_BOOKMAKING]
 
+	
 ========== Breakdown ==========
 
 [REACTION:BREAKDOWN_WEAPON_ADV]
@@ -188,6 +196,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Breakdown]
 	[CATEGORY_DESCRIPTION:Deconstruct armor and weapons into metal chunks.]
 
+	
 [REACTION:BREAKDOWN_BREASTPLATE_ADV]
 	[NAME:breakdown breastplate (Mallet + breastplate)]
 	[DESCRIPTION:(Mallet + breastplate) 80% and 60% chance to get metal chunks.]
@@ -199,6 +208,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_BREAKDOWN]
 
+	
 [REACTION:BREAKDOWN_CAP_ADV]
 	[NAME:breakdown cap (Mallet + cap)]
 	[DESCRIPTION:(Mallet + cap) 80% chance to get a metal chunk.]
@@ -209,6 +219,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_BREAKDOWN]
 
+	
 [REACTION:BREAKDOWN_GREAVES_ADV]
 	[NAME:breakdown greaves (Mallet + greaves)]
 	[DESCRIPTION:(Mallet + greaves) 80% and 60% chance to get metal chunks.]
@@ -220,6 +231,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_BREAKDOWN]
 
+	
 [REACTION:BREAKDOWN_HELM_ADV]
 	[NAME:breakdown helm (Mallet + helm)]
 	[DESCRIPTION:(Mallet + helm) 80% chance to get a metal chunk.]
@@ -230,6 +242,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_BREAKDOWN]
 
+	
 [REACTION:BREAKDOWN_LEGGINGS_ADV]
 	[NAME:breakdown leggings (Mallet + metal leggings)]
 	[DESCRIPTION:(Mallet + metal leggings) 80% and 60% chance to get metal chunks.]
@@ -241,6 +254,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_BREAKDOWN]
 
+	
 [REACTION:BREAKDOWN_MAIL_SHIRT_ADV]
 	[NAME:breakdown mail shirt (Mallet + mail shirt)]
 	[DESCRIPTION:(Mallet + mail shirt) 80% and 60% chance to get metal chunks.]
@@ -252,6 +266,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_BREAKDOWN]
 
+	
 ========== Bone ammo and weapons ==========
 
 [REACTION:CARVE_BONE_ARROWS_ADV]
@@ -268,6 +283,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Bone ammo and weapons]
 	[CATEGORY_DESCRIPTION:Carve bones into ammo and weapons.]
 
+	
 [REACTION:CARVE_BONE_BOLTS_ADV]
 	[NAME:carve bone bolts (Dagger + bone)]
 	[DESCRIPTION:(Dagger + bone) Carve 10 bone bolts.]
@@ -280,6 +296,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_WEAPONS]
 
+	
 [REACTION:CARVE_BONE_BOW_ADV]
 	[NAME:carve bone bow (Dagger + bone + leather)]
 	[DESCRIPTION:(Dagger + bone + leather) Make a bone bow.]
@@ -292,6 +309,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_WEAPONS]
 
+	
 [REACTION:MAKE_BONE_SPEAR_ADV (Dagger + bone + stick)]
 	[NAME:carve bone spear (dagger + bone + stick)]
 	[DESCRIPTION:(Dagger + bone + stick) Make a bone spear.]
@@ -305,6 +323,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_WEAPONS]
 
+	
 ========== Bone armor ==========
 
 [REACTION:CRAFT_BONE_BOOTS_ADV]
@@ -320,6 +339,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Bone armor]
 	[CATEGORY_DESCRIPTION:Carve bones into bone armor.]
 
+	
 [REACTION:CRAFT_BONE_BREASTPLATE_ADV]
 	[NAME:carve bone breastplate (Dagger + bone + leather)]
 	[DESCRIPTION:(Dagger + bone + leather) Make a bone breastplate.]
@@ -332,6 +352,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_ARMOR]
 
+	
 [REACTION:CRAFT_BONE_GREAVES_ADV]
 	[NAME:carve bone greaves (Dagger + bone + leather)]
 	[DESCRIPTION:(Dagger + bone + leather) Make bone greaves.]
@@ -344,6 +365,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_ARMOR]
 
+	
 [REACTION:CRAFT_BONE_HELM_ADV]
 	[NAME:carve bone helm (Dagger + bone)]
 	[DESCRIPTION:(Dagger + bone) Make a bone helm.]
@@ -355,6 +377,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_ARMOR]
 
+	
 ========== Bone trinkets ==========
 
 [REACTION:CARVE_BONE_AMULET_ADV]
@@ -372,6 +395,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Bone trinkets]
 	[CATEGORY_DESCRIPTION:Carve bones into trinkets.]
 
+	
 [REACTION:CARVE_BONE_BRACELET_ADV]
 	[NAME:carve bone bracelet (Dagger + bone)]
 	[DESCRIPTION:(Dagger + bone) Make a bracelet.]
@@ -383,6 +407,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_TRINKETS]
 
+	
 [REACTION:CARVE_BONE_EARRING_ADV]
 	[NAME:carve bone earring (Dagger + bone)]
 	[DESCRIPTION:(Dagger + bone) Make an earring.]
@@ -394,6 +419,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_TRINKETS]
 
+	
 [REACTION:CARVE_BONE_FIGURINE_ADV]
 	[NAME:carve bone figurine (Dagger + bone)]
 	[DESCRIPTION:(Dagger + bone) Make a figurine.]
@@ -405,6 +431,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_TRINKETS]
 
+	
 [REACTION:CARVE_BONE_RING_ADV]
 	[NAME:carve bone ring (Dagger + bone)]
 	[DESCRIPTION:(Dagger + bone) Make a ring.]
@@ -416,6 +443,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONECARVING_TRINKETS]
 
+	
 ========== Decoration ==========
 
 [REACTION:DECORATE_BONE_SPIKES]
@@ -429,6 +457,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Decorating]
 	[CATEGORY_DESCRIPTION:Decorate items with bone, horn, teeth or gems.]
 
+	
 [REACTION:DECORATE_BONE_RINGS]
 	[NAME:decorate item with bone (rings)]
 	[ADVENTURE_MODE_ENABLED]
@@ -438,6 +467,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_BONE_BANDS]
 	[NAME:decorate item with bone (bands)]
 	[ADVENTURE_MODE_ENABLED]
@@ -447,6 +477,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_HORN_SPIKES]
 	[NAME:decorate item with horn (spikes)]
 	[ADVENTURE_MODE_ENABLED]
@@ -456,6 +487,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_HORN_RINGS]
 	[NAME:decorate item with horn (rings)]
 	[ADVENTURE_MODE_ENABLED]
@@ -465,6 +497,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_HORN_BANDS]
 	[NAME:decorate item with horn (bands)]
 	[ADVENTURE_MODE_ENABLED]
@@ -474,6 +507,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_GEM_SPIKES]
 	[NAME:decorate item with large gem (spikes)]
 	[ADVENTURE_MODE_ENABLED]
@@ -483,6 +517,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:ENCRUSTGEM]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_GEM_RINGS]
 	[NAME:decorate item with large gem (rings)]
 	[ADVENTURE_MODE_ENABLED]
@@ -491,6 +526,7 @@ YESWANDERER[OBJECT:REACTION]
 	[IMPROVEMENT:100:target:RINGS_HANGING:GET_MATERIAL_FROM_REAGENT:gem:NONE]
 	[SKILL:ENCRUSTGEM]
 	[CATEGORY:ADV_DECOR]
+	
 	
 [REACTION:DECORATE_GEM_BANDS]
 	[NAME:decorate item with large gem (bands)]
@@ -501,6 +537,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:ENCRUSTGEM]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_SMALLGEM_SPIKES]
 	[NAME:decorate item with small gem (spikes)]
 	[ADVENTURE_MODE_ENABLED]
@@ -510,6 +547,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:ENCRUSTGEM]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_SMALLGEM_RINGS]
 	[NAME:decorate item with small gem (rings)]
 	[ADVENTURE_MODE_ENABLED]
@@ -518,6 +556,7 @@ YESWANDERER[OBJECT:REACTION]
 	[IMPROVEMENT:100:target:RINGS_HANGING:GET_MATERIAL_FROM_REAGENT:gem:NONE]
 	[SKILL:ENCRUSTGEM]
 	[CATEGORY:ADV_DECOR]
+	
 	
 [REACTION:DECORATE_SMALLGEM_BANDS]
 	[NAME:decorate item with small gem (bands)]
@@ -528,6 +567,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:ENCRUSTGEM]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_TOOTH_SPIKES]
 	[NAME:decorate item with teeth (spikes)]
 	[ADVENTURE_MODE_ENABLED]
@@ -537,6 +577,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_TOOTH_RINGS]
 	[NAME:decorate item with teeth (rings)]
 	[ADVENTURE_MODE_ENABLED]
@@ -546,6 +587,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_DECOR]
 
+	
 [REACTION:DECORATE_TOOTH_BANDS]
 	[NAME:decorate item with teeth (bands)]
 	[ADVENTURE_MODE_ENABLED]
@@ -555,6 +597,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_DECOR]
 
+	
 ========== Leatherworking ==========
 
 [REACTION:TAN_LEATHER_ADV]
@@ -564,7 +607,6 @@ YESWANDERER[OBJECT:REACTION]
 	=> These raws are inactive, while the button says YES/ON
 	YES_MORE_LEATHERMOD!REAGENT:A:1:NONE:NONE:NONE:NONE]
 	YES_MORE_LEATHERMOD!USE_BODY_COMPONENT]
-
 	=> These raws are active, while the buttons says YES/ON
 	YES_MORE_LEATHERMOD[REAGENT:A:450:GLOB:NONE:NONE:NONE]
 	YES_MORE_LEATHERMOD[REACTION_CLASS:SKIN]
@@ -576,6 +618,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Leatherworking]
 	[CATEGORY_DESCRIPTION:Make leather clothing and shields.]
 
+	
 [REACTION:SEW_LEATHER_SHIELD_BONE_ADV]
 	[NAME:Sew leather/bone shield (Needle + leather + bone)]
 	[DESCRIPTION:(Needle + leather + bone) Make a bone shield.]
@@ -587,6 +630,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:LEATHERWORK]
 	[CATEGORY:ADV_LEATHER]
 
+	
 [REACTION:SEW_LEATHER_SHIELD_WOOD_ADV]
 	[NAME:Sew leather/wooden shield (Needle + leather + stick)]
 	[DESCRIPTION:(Needle + leather + stick) Make a wooden shield.]
@@ -598,6 +642,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:LEATHERWORK]
 	[CATEGORY:ADV_LEATHER]
 
+	
 [REACTION:SEW_LEATHER_BACKPACK_ADV]
 	[NAME:sew leather backpack (Needle + 3 leather)]
 	[DESCRIPTION:(Needle + 3 leather) Make a backpack.]
@@ -610,6 +655,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:LEATHERWORK]
 	[CATEGORY:ADV_LEATHER]
 
+	
 [REACTION:SEW_LEATHER_CLOAK_ADV]
 	[NAME:sew leather cloak (Needle + leather)]
 	[DESCRIPTION:(Needle + leather) Make a cloak.]
@@ -620,6 +666,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:LEATHERWORK]
 	[CATEGORY:ADV_LEATHER]
 
+	
 [REACTION:SEW_LEATHER_ARMOR_ADV]
 	[NAME:sew leather armor (Needle + 2 leather)]
 	[DESCRIPTION:(Needle + 2 leather) Make leather armor.]
@@ -631,6 +678,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:LEATHERWORK]
 	[CATEGORY:ADV_LEATHER]
 
+	
 [REACTION:SEW_LEATHER_CAP_ADV]
 	[NAME:sew leather cap (Needle + leather)]
 	[DESCRIPTION:(Needle + leather) Make a cap.]
@@ -641,6 +689,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:LEATHERWORK]
 	[CATEGORY:ADV_LEATHER]
 
+	
 [REACTION:SEW_LEATHER_BOOTS_HIGH_ADV]
 	[NAME:sew leather high boots (Needle + 2 leather)]
 	[DESCRIPTION:(Needle + 2 leather) Make high boots.]
@@ -651,6 +700,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:LEATHERWORK]
 	[CATEGORY:ADV_LEATHER]
 
+	
 [REACTION:SEW_LEATHER_FLASK_ADV]
 	[NAME:sew leather waterskin (Needle + leather)]
 	[DESCRIPTION:(Needle + leather) Make a waterskin.]
@@ -661,6 +711,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:LEATHERWORK]
 	[CATEGORY:ADV_LEATHER]
 
+	
 ========== Smelting ==========
 
 [REACTION:BURN_STICKS_ADV]
@@ -674,6 +725,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Smelting]
 	[CATEGORY_DESCRIPTION:Burn sticks and make steel.]
 
+	
 [REACTION:MAKE_PIGIRON_CHUNKS_ADV]
 	[NAME:make pig iron chunks (Iron chunk + stick)]
 	[DESCRIPTION:(Iron chunk + stick) Makes a pig iron chunk.]
@@ -685,6 +737,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:SMELT]
 	[CATEGORY:ADV_SMELTING]
 
+	
 [REACTION:MAKE_STEEL_CHUNKS_ADV]
 	[NAME:make steel chunks (Iron + pig iron chunks + stick)]
 	[DESCRIPTION:(Iron chunk + pig iron chunk + stick) Makes 2 steel chunks.]
@@ -697,6 +750,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:SMELT]
 	[CATEGORY:ADV_SMELTING]
 
+	
 ========== Smithing ammo and weapons ==========
 
 [REACTION:FORGE_ARROWS_ADV]
@@ -712,6 +766,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Smithing ammo and weapons]
 	[CATEGORY_DESCRIPTION:Make metal ammo and weapons using forging pit and metal chunks.]
 
+	
 [REACTION:FORGE_BOLTS_ADV]
 	[NAME:forge bolts (Mallet + metal chunk)]
 	[DESCRIPTION:(Mallet + metal chunk) Forge 25 metal bolts.]
@@ -723,6 +778,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_BATTLE_AXE_ADV]
 	[NAME:forge battle axe (Mallet + 2 metal chunks)]
 	[DESCRIPTION:(Mallet + 2 metal chunks) Forge metal battle axe.]
@@ -735,6 +791,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_GREAT_AXE_ADV]
 	[NAME:forge great axe (Mallet + 3 metal chunks)]
 	[DESCRIPTION:(Mallet + 3 metal chunks) Forge metal great axe.]
@@ -748,6 +805,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_FLAIL_ADV]
 	[NAME:forge flail (Mallet + 2 metal chunks)]
 	[DESCRIPTION:(Mallet + 2 metal chunks) Forge metal flail.]
@@ -760,6 +818,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_HALBERD_ADV]
 	[NAME:forge halberd (Mallet + 3 metal chunks)]
 	[DESCRIPTION:(Mallet + 3 metal chunks) Forge metal halberd.]
@@ -773,6 +832,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_LONG_SWORD]
 	[NAME:forge long sword (Mallet + 2 metal chunks)]
 	[DESCRIPTION:(Mallet + 2 metal chunks) Forge metal long sword.]
@@ -785,6 +845,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_MACE_ADV]
 	[NAME:forge mace (Mallet + 2 metal chunks)]
 	[DESCRIPTION:(Mallet + 2 metal chunks) Forge metal mace.]
@@ -797,6 +858,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_PIKE_ADV]
 	[NAME:forge pike (Mallet + 3 metal chunks)]
 	[DESCRIPTION:(Mallet + 3 metal chunks) Forge metal pike.]
@@ -810,6 +872,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_SHORT_SWORD_ADV]
 	[NAME:forge short sword (Mallet + metal chunk)]
 	[DESCRIPTION:(Mallet + metal chunk) Forge metal shoft sword.]
@@ -821,6 +884,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_SPEAR_ADV]
 	[NAME:forge spear (Mallet + 2 metal chunks)]
 	[DESCRIPTION:(Mallet + 2 metal chunks) Forge metal spear.]
@@ -833,6 +897,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_TWOHANDED_SWORD_ADV]
 	[NAME:forge two-handed sword (Mallet + 3 metal chunks)]
 	[DESCRIPTION:(Mallet + 3 metal chunks) Forge metal two-handed sword.]
@@ -846,6 +911,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 [REACTION:FORGE_WAR_HAMMER_ADV]
 	[NAME:forge war hammer (Mallet + 2 metal chunks)]
 	[DESCRIPTION:(Mallet + 2 metal chunks) Forge metal warhammer.]
@@ -858,6 +924,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_WEAPON]
 	[CATEGORY:ADV_SMITHING_WEAPON]
 
+	
 ========== Smithing armor ==========
 
 [REACTION:FORGE_BOOTS_ADV (Mallet + 2 metal chunks)]
@@ -872,6 +939,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Smithing armor]
 	[CATEGORY_DESCRIPTION:Make metal armor using forging pit and metal chunks.]
 
+	
 [REACTION:FORGE_BREASTPLATE_ADV]
 	[NAME:forge breastplate (Mallet + 2 metal chunks + leather)]
 	[DESCRIPTION:(Mallet + 2 metal chunks + leather) Forge metal breastplate.]
@@ -885,6 +953,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_SMITHING_ARMOR]
 
+	
 [REACTION:FORGE_CHAINMAIL_ADV]
 	[NAME:forge chainmail (Mallet + 2 metal chunks)]
 	[DESCRIPTION:(Mallet + 2 metal chunks) Forge metal chainmail.]
@@ -896,6 +965,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_SMITHING_ARMOR]
 
+	
 [REACTION:FORGE_HELM_ADV]
 	[NAME:forge helm (Mallet + metal chunk)]
 	[DESCRIPTION:(Mallet + metal chunk) Forge metal helm.]
@@ -908,6 +978,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_SMITHING_ARMOR]
 
+	
 [REACTION:FORGE_GREAVES_ADV]
 	[NAME:forge greaves (Mallet + 2 metal chunks + leather)]
 	[DESCRIPTION:(Mallet + 2 metal chunks + leather) Forge metal greaves.]
@@ -921,6 +992,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:FORGE_ARMOR]
 	[CATEGORY:ADV_SMITHING_ARMOR]
 
+	
 ========== Stoneworking ==========
 
 [REACTION:MAKE_SHARP_ROCK]
@@ -935,6 +1007,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Stoneworking]
 	[CATEGORY_DESCRIPTION:Make stone ammo and trinkets.]
 
+	
 [REACTION:MAKE_ROCK_ARROWS_BONE_ADV]
 	[NAME:make stone arrows (Dagger + rock + bone)]
 	[DESCRIPTION:(Dagger + rock + bone) Make 15 stone arrows.]
@@ -947,6 +1020,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 [REACTION:MAKE_ROCK_ARROWS_STICK_ADV]
 	[NAME:make stone arrows (Dagger + rock + stick)]
 	[DESCRIPTION:(Dagger + rock + stick) Make 15 stone arrows.]
@@ -959,6 +1033,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 [REACTION:MAKE_ROCK_BOLTS_BONE_ADV]
 	[NAME:make stone bolts (Dagger + rock + bone)]
 	[DESCRIPTION:(Dagger + rock + bone) Make 15 stone bolts.]
@@ -971,6 +1046,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 [REACTION:MAKE_ROCK_BOLTS_STICK_ADV]
 	[NAME:make stone bolts (Dagger + rock + stick)]
 	[DESCRIPTION:(Dagger + rock + stick) Make 15 stone bolts.]
@@ -983,6 +1059,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 [REACTION:MAKE_ROCK_AMULET_ADV]
 	[NAME:carve stone amulet (Dagger + rock)]
 	[DESCRIPTION:(Dagger + rock) Make an amulet.]
@@ -994,6 +1071,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 [REACTION:MAKE_ROCK_BRACELET_ADV]
 	[NAME:carve stone bracelet (Dagger + rock)]
 	[DESCRIPTION:(Dagger + rock) Make a bracelet.]
@@ -1005,6 +1083,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 [REACTION:MAKE_ROCK_EARRING_ADV]
 	[NAME:carve stone earring (Dagger + rock)]
 	[DESCRIPTION:(Dagger + rock) Make an earring.]
@@ -1016,6 +1095,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 [REACTION:MAKE_ROCK_FIGURINE_ADV]
 	[NAME:carve stone figurine (Dagger + rock)]
 	[DESCRIPTION:(Dagger + rock) Make a figurine.]
@@ -1027,6 +1107,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 [REACTION:MAKE_ROCK_RING_ADV]
 	[NAME:carve stone ring (Dagger + rock)]
 	[DESCRIPTION:(Dagger + rock) Make a ring.]
@@ -1038,6 +1119,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:STONECRAFT]
 	[CATEGORY:ADV_STONECRAFT]
 
+	
 ========== Woodworking ==========
 
 [REACTION:MAKE_WOODEN_BOW_ADV]
@@ -1055,6 +1137,7 @@ YESWANDERER[OBJECT:REACTION]
 	[CATEGORY_NAME:Woodworking]
 	[CATEGORY_DESCRIPTION:Make wooden bows and trinkets.]
 
+	
 [REACTION:MAKE_WOODEN_AMULET_ADV]
 	[NAME:carve wooden amulet (Dagger + stick)]
 	[DESCRIPTION:(Dagger + stick) Make an amulet.]
@@ -1066,6 +1149,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:WOODCRAFT]
 	[CATEGORY:ADV_WOODCRAFT]
 
+	
 [REACTION:MAKE_WOODEN_BRACELET_ADV]
 	[NAME:carve wooden bracelet (Dagger + stick)]
 	[DESCRIPTION:(Dagger + stick) Make a bracelet.]
@@ -1077,6 +1161,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:WOODCRAFT]
 	[CATEGORY:ADV_WOODCRAFT]
 
+	
 [REACTION:MAKE_WOODEN_EARRING_ADV]
 	[NAME:carve wooden earring (Dagger + stick)]
 	[DESCRIPTION:(Dagger + stick) Make an earring.]
@@ -1088,6 +1173,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:WOODCRAFT]
 	[CATEGORY:ADV_WOODCRAFT]
 
+	
 [REACTION:MAKE_WOODEN_FIGURINE_ADV]
 	[NAME:carve wooden figurine (Dagger + stick)]
 	[DESCRIPTION:(Dagger + stick) Make a figurine.]
@@ -1099,6 +1185,7 @@ YESWANDERER[OBJECT:REACTION]
 	[SKILL:WOODCRAFT]
 	[CATEGORY:ADV_WOODCRAFT]
 
+	
 [REACTION:MAKE_WOODEN_RING_ADV]
 	[NAME:carve wooden ring (Dagger + stick)]
 	[DESCRIPTION:(Dagger + stick) Make a ring.]

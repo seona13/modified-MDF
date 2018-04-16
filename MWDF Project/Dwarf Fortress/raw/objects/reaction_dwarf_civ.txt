@@ -82,6 +82,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:KNOWLEDGE_STONE]
 	[SKILL:MISC_WEAPON] 
 
+	
 ###############################################################################
 ##### WOOD SPLITTING BLOCK    #################################################
 	#A- why do dwarves get this? and humans get the stone splitter. personally
@@ -97,6 +98,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:2:BLOCKS:NONE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[PRODUCT:50:1:BLOCKS:NONE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:WOODCUTTING]
+	
 
 ###############################################################################
 ##### FURNITURE WORKSHOP      #################################################
@@ -104,10 +106,11 @@ reaction_dwarf_civ
 [REACTION:SKILL_BONECRAFT_FURN]
 	[NAME:=====SKILL BONECARVING=====]
   	[BUILDING:FURNITURE_WORKSHOP:NONE]
+	
 
 [REACTION:SLEEP_SETB]
 	[NAME:Make bone bedroom set]
-[DESCRIPTION:creates a bed, a box, a cabinet and a door.]
+	[DESCRIPTION:creates a bed, a box, a cabinet and a door.]
 	[BUILDING:FURNITURE_WORKSHOP:CUSTOM_R]
 	[REAGENT:B:4:NONE:NONE:NONE:NONE]
 		[USE_BODY_COMPONENT]
@@ -119,6 +122,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:CABINET:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:SLEEP_SETB2]
 	[NAME:Make bone bedroom set(noble)]
 	[DESCRIPTION:creates a bed, a box, a cabinet, a armorstand, a weaponrack, and a door.]
@@ -135,6 +139,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:CABINET:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:DINING_SETB]
 	[NAME:Make bone diningroom set]
 	[DESCRIPTION:creates four tables and four chairs.]
@@ -147,6 +152,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:4:CHAIR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:TOMB_SETB]
 	[NAME:Make bone graveyard set]
 	[DESCRIPTION:creates four coffins and a door.]
@@ -159,6 +165,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:DOOR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:LIVING_SETB]
 	[NAME:Make bone office set]
 	[DESCRIPTION:creates a table, a chair, and a door.]
@@ -172,10 +179,12 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:DOOR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:SKILL_STONECRAFT_FURN]
 	[NAME:=====SKILL MASONRY=====]
   	[BUILDING:FURNITURE_WORKSHOP:NONE]
 
+	
 [REACTION:SLEEP_SET]
 	[NAME:Make stone bedroom set]
 	[DESCRIPTION:creates a bed, a box, a cabinet and a door.]
@@ -188,9 +197,10 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:CABINET:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:MASONRY]
 
+	
 [REACTION:SLEEP_SET2]
 	[NAME:Make stone bedroom set(noble)]
-	[DESCRIPTION:creates a bed, a box, a cabinet, a armorstand, a weaponrack, and a door.]
+	[DESCRIPTION:creates a bed, a box, a cabinet, an armorstand, a weaponrack, and a door.]
 	[BUILDING:FURNITURE_WORKSHOP:CUSTOM_SHIFT_B]
 	[REAGENT:A:9:BLOCKS:NO_SUBTYPE:INORGANIC:NONE]
 		[WORTHLESS_STONE_ONLY]
@@ -202,6 +212,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:CABINET:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:MASONRY]
 
+	
 [REACTION:DINING_SET]
 	[NAME:Make stone diningroom set]
 	[DESCRIPTION:creates four tables and four chairs.]
@@ -212,6 +223,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:4:CHAIR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:MASONRY]
 
+	
 [REACTION:TOMB_SET]
 	[NAME:Make stone graveyard set]
 	[DESCRIPTION:creates four coffins and a door.]
@@ -222,6 +234,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:DOOR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:MASONRY]
 
+	
 [REACTION:LIVING_SET]
 	[NAME:Make stone office set]
 	[DESCRIPTION:creates a table, a chair, and a door.]
@@ -233,6 +246,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:DOOR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:MASONRY]
 
+	
 [REACTION:STORAGE_SET]
 	[NAME:Make stone storage set]
 	[DESCRIPTION:creates three barrels and three bins.]
@@ -243,10 +257,12 @@ reaction_dwarf_civ
 	[PRODUCT:100:3:BIN:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:MASONRY]
 
+	
 [REACTION:SKILL_METALCRAFT_FURN]
 	[NAME:=====SKILL METALCRAFT=====]
   	[BUILDING:FURNITURE_WORKSHOP:NONE]
 
+	
 [REACTION:SLEEP_SETM]
 	[NAME:Make metal bedroom set]
 	[DESCRIPTION:creates a bed, a box, a cabinet and a door.]
@@ -258,6 +274,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:CABINET:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:SLEEP_SETM2]
 	[NAME:Make metal bedroom set(noble)]
 	[DESCRIPTION:creates a bed, a box, a cabinet, a armorstand, a weaponrack, and a door.]
@@ -271,6 +288,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:CABINET:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:DINING_SETM]
 	[NAME:Make metal diningroom set]
 	[DESCRIPTION:creates four tables and four chairs.]
@@ -280,6 +298,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:4:CHAIR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:TOMB_SETM]
 	[NAME:Make metal graveyard set]
 	[DESCRIPTION:creates four coffins and a door.]
@@ -289,6 +308,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:DOOR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:LIVING_SETM]
 	[NAME:Make metal office set]
 	[DESCRIPTION:creates a table, a chair, and a door.]
@@ -299,10 +319,12 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:DOOR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:SKILL_CARPENTRY_FURN]
 	[NAME:=====SKILL CARPENTRY=====]
   	[BUILDING:FURNITURE_WORKSHOP:NONE]
 
+	
 [REACTION:SLEEP_SETW]
 	[NAME:Make wooden bedroom set]
 	[DESCRIPTION:creates a bed, a box, a cabinet and a door.]
@@ -314,6 +336,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:CABINET:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CARPENTRY]
 
+	
 [REACTION:SLEEP_SETW2]
 	[NAME:Make wooden bedroom set(noble)]
 	[DESCRIPTION:creates a bed, a box, a cabinet, a armorstand, a weaponrack, and a door.]
@@ -327,6 +350,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:CABINET:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CARPENTRY]
 
+	
 [REACTION:DINING_SETW]
 	[NAME:Make wooden diningroom set]
 	[DESCRIPTION:creates four tables and four chairs.]
@@ -336,6 +360,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:4:CHAIR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CARPENTRY]
 
+	
 [REACTION:TOMB_SETW]
 	[NAME:Make wooden graveyard set]
 	[DESCRIPTION:creates four coffins and a door.]
@@ -345,6 +370,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:DOOR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CARPENTRY]
 
+	
 [REACTION:LIVING_SETW]
 	[NAME:Make wooden office set]
 	[DESCRIPTION:creates a table, a chair, and a door.]
@@ -355,6 +381,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:DOOR:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CARPENTRY]
 
+	
 [REACTION:STORAGE_SETW]
 	[NAME:Make wooden storage set]
 	[DESCRIPTION:creates three barrels and three bins.]
@@ -364,6 +391,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:3:BIN:NO_SUBTYPE:GET_MATERIAL_FROM_REAGENT:B:NONE]
 	[SKILL:CARPENTRY]
 
+	
 ###############################################################################
 ##### ORE PROCESSOR REACTIONS #################################################
 [REACTION:PROCESS_HEMATITE]
@@ -375,6 +403,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_LIMONITE]
 	[NAME:Process limonite]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_B]
@@ -384,6 +413,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_GARNIERITE]
 	[NAME:Process garnierite]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_C]
@@ -393,6 +423,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_NATIVE_GOLD]
 	[NAME:Process native gold]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_D]
@@ -402,6 +433,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_NATIVE_SILVER]
 	[NAME:Process native silver]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_E]
@@ -411,6 +443,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_NATIVE_COPPER]
 	[NAME:Process native copper]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_F]
@@ -420,6 +453,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_MALACHITE]
 	[NAME:Process malachite]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_G]
@@ -429,6 +463,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_GALENA]
 	[NAME:Process galena]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_H]
@@ -438,6 +473,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_SPHALERITE]
 	[NAME:Process sphalerite]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_I]
@@ -447,6 +483,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_CASSITERITE]
 	[NAME:Process cassiterite]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_J]
@@ -456,6 +493,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_NATIVE_PLATINUM]
 	[NAME:Process native platinum]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_K]
@@ -465,6 +503,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_TETRAHEDRITE]
 	[NAME:Process tetrahedrite]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_L]
@@ -474,6 +513,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_HORN_SILVER]
 	[NAME:Process horn silver]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_M]
@@ -483,6 +523,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_BISMUTHINITE]
 	[NAME:Process bismuthinite]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_N]
@@ -492,6 +533,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_MAGNETITE]
 	[NAME:Process magnetite]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_O]
@@ -501,6 +543,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 [REACTION:PROCESS_NATIVE_ALUMINUM]
 	[NAME:Process native aluminum]
 	[BUILDING:ORE_PROCESSOR:CUSTOM_P]
@@ -510,6 +553,7 @@ reaction_dwarf_civ
 	[PRODUCT:3:1:ROUGH:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:MECHANICS]
 
+	
 ###############################################################################
 #####   VOLCANIC FOUNDRY  #####################################################
 	#A- Really, its sooo much cost to get this one reaction...
@@ -534,17 +578,19 @@ reaction_dwarf_civ
 	[REAGENT:A:300:BAR:NO_SUBTYPE:INORGANIC:STEEL]
 	[REAGENT:B:2:TRAPPARTS:NO_SUBTYPE:INORGANIC:STEEL]
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_JAVELIN_THROWER:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_STEEL]
 	[NAME:Cast steel javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_A]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:STEEL]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
+	
 
 [REACTION:MAKE_JAVELINS_HAMMERHEAD_STEEL]
 	[NAME:Cast steel hammerhead javelins(10)]
@@ -552,8 +598,9 @@ reaction_dwarf_civ
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_SHIFT_A]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:STEEL]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_HAMMERHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
+	
 
 [REACTION:MAKE_JAVELINS_BROADHEAD_STEEL]
 	[NAME:Cast steel broadhead javelins(10)]
@@ -561,8 +608,9 @@ reaction_dwarf_civ
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_ALT_A]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:STEEL]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_BROADHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
+	
 
 [REACTION:MAKE_JAVELINS_IRON]
 	[NAME:Cast iron javelins(10)]
@@ -570,8 +618,9 @@ reaction_dwarf_civ
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_B]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:IRON]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
+	
 
 [REACTION:MAKE_JAVELINS_HAMMERHEAD_IRON]
 	[NAME:Cast iron hammerhead javelins(10)]
@@ -579,17 +628,19 @@ reaction_dwarf_civ
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_SHIFT_B]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:IRON]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_HAMMERHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_BROADHEAD_IRON]
 	[NAME:Cast iron broadhead javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_ALT_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_ALT_B]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:IRON]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_BROADHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
+	
 
 [REACTION:MAKE_JAVELINS_COPPER]
 	[NAME:Cast copper javelins(10)]
@@ -597,26 +648,29 @@ reaction_dwarf_civ
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_C]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:COPPER]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_HAMMERHEAD_COPPER]
 	[NAME:Cast copper hammerhead javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_SHIFT_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_SHIFT_C]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:COPPER]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_HAMMERHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_BROADHEAD_COPPER]
 	[NAME:Cast copper broadhead javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_ALT_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_ALT_C]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:COPPER]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_BROADHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
+	
 
 [REACTION:MAKE_JAVELINS_BRONZE]
 	[NAME:Cast bronze javelins(10)]
@@ -624,8 +678,9 @@ reaction_dwarf_civ
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_D]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:BRONZE]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
+	
 
 [REACTION:MAKE_JAVELINS_HAMMERHEAD_BRONZE]
 	[NAME:Cast bronze hammerhead javelins(10)]
@@ -633,72 +688,80 @@ reaction_dwarf_civ
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_SHIFT_D]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:BRONZE]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_HAMMERHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_BROADHEAD_BRONZE]
 	[NAME:Cast bronze broadhead javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_ALT_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_ALT_D]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:BRONZE]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_BROADHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_SILVER]
 	[NAME:Cast silver javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_E]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:SILVER]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_HAMMERHEAD_SILVER]
 	[NAME:Cast silver hammerhead javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_SHIFT_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_SHIFT_E]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:SILVER]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_HAMMERHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_BROADHEAD_SILVER]
 	[NAME:Cast silver broadhead javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_ALT_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_ALT_E]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:SILVER]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_BROADHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_PLATINUM]
 	[NAME:Cast platinum javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_F]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:PLATINUM]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_HAMMERHEAD_PLATINUM]
 	[NAME:Cast platinum hammerhead javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_SHIFT_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_SHIFT_F]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:PLATINUM]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_HAMMERHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 [REACTION:MAKE_JAVELINS_BROADHEAD_PLATINUM]
 	[NAME:Cast platinum broadhead javelins(10)]
 	[BUILDING:JAVELIN_SHOP:CUSTOM_ALT_A]
 	[BUILDING:MAGMA_JAVELIN_SHOP:CUSTOM_ALT_F]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:INORGANIC:PLATINUM]
 	[PRODUCT:100:10:AMMO:ITEM_AMMO_JAVELINS_BROADHEAD:GET_MATERIAL_FROM_REAGENT:A:NONE]
-	[FUEL]
 	[SKILL:SMELT]
+	[FUEL]
 
+	
 ###############################################################################
 #####  LIAISONS OFFICE           ##############################################
 [REACTION:FORCE_MIGRANTS_DWARF]
@@ -706,26 +769,31 @@ reaction_dwarf_civ
 	[BUILDING:LIAISONS_OFFICE:CUSTOM_A]
 	[REAGENT:A:1000:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:FORCE_CARAVAN_DWARF]
 	[NAME:Invite dwarf traders (2k gold)]
 	[BUILDING:LIAISONS_OFFICE:CUSTOM_SHIFT_D]
 	[REAGENT:A:2000:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:FORCE_CARAVAN_ELF]
 	[NAME:Invite elf traders (2k gold)]
 	[BUILDING:LIAISONS_OFFICE:CUSTOM_SHIFT_E]
 	[REAGENT:A:2000:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:FORCE_CARAVAN_HUMAN]
 	[NAME:Invite human traders (2k gold)]
 	[BUILDING:LIAISONS_OFFICE:CUSTOM_SHIFT_H]
 	[REAGENT:A:2000:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:FORCE_CARAVAN_GNOME]
 	[NAME:Invite gnome traders (2k gold)]
 	[BUILDING:LIAISONS_OFFICE:CUSTOM_SHIFT_G]
 	[REAGENT:A:2000:COIN:NONE:INORGANIC:GOLD]
 
+	
 ###############################################################################
 ##### SHRINE REACTIONS      ###################################################
 [REACTION:PRAY_BOOZE]
@@ -742,6 +810,7 @@ reaction_dwarf_civ
 	[PRODUCT:33:1:BOULDER:NONE:INORGANIC:PRAYER]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY_MUSHROOM]
 	[NAME:Pray for food]
 	[BUILDING:SHRINE:CUSTOM_F]
@@ -750,6 +819,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY_WATER]
 	[NAME:Pray for water]
 	[BUILDING:SHRINE:CUSTOM_W]
@@ -764,6 +834,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY]
 	[NAME:Pray for soft metal]
 	[BUILDING:SHRINE:CUSTOM_S]
@@ -775,6 +846,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY_METAL]
 	[NAME:Pray for hard metal]
 	[BUILDING:SHRINE:CUSTOM_H]
@@ -786,6 +858,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY_GEM]
 	[NAME:Pray for gems]
 	[BUILDING:SHRINE:CUSTOM_R]
@@ -797,6 +870,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY_SILK]
 	[NAME:Pray for silk]
 	[BUILDING:SHRINE:CUSTOM_K]
@@ -806,6 +880,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY_WOOL]
 	[NAME:Pray for wool]
 	[BUILDING:SHRINE:CUSTOM_O]
@@ -815,6 +890,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY_COTTON]
 	[NAME:Pray for cotton]
 	[BUILDING:SHRINE:CUSTOM_T]
@@ -824,6 +900,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 [REACTION:PRAY_GLASS]
 	[NAME:Pray for glass]
 	[BUILDING:SHRINE:CUSTOM_G]
@@ -832,6 +909,7 @@ reaction_dwarf_civ
 		[PRODUCT_DIMENSION:150]
 	[SKILL:PACIFY]
 
+	
 ###############################################################################
 ##### GUILDHALL REACTIONS    ##################################################
 [REACTION:JOIN_GUILD_ALCHEMIST]
@@ -840,72 +918,84 @@ reaction_dwarf_civ
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_BEAST_WARDEN]
 	[NAME:Join the beast wardens guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_B]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_CARPENTER]
 	[NAME:Join the carpenters guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_C]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_CRAFTDWARF]
 	[NAME:Join the craftdwarves guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_X]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_ENGINEER]
 	[NAME:Join the engineers guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_E]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_FARMER]
 	[NAME:Join the farmers guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_F]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_FISHERMAN]
 	[NAME:Join the fishermen guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_I]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_HEALER]
 	[NAME:Join the healers guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_H]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_JEWELER]
 	[NAME:Join the jewelers guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_J]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_MASON]
 	[NAME:Join the masons guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_M]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_MERCHANT]
 	[NAME:Join the merchants guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_Z]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_SMITH]
 	[NAME:Join the smiths guild for 2500 sovereigns]
 	[BUILDING:GUILDHALL:CUSTOM_S]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 ###############################################################################
 ##### GARRISON REACTIONS        ###############################################
 
@@ -915,24 +1005,28 @@ reaction_dwarf_civ
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_LEGIONNAIRE]
 	[NAME:Undergo legionnaire training for 2500 sovereigns]
 	[BUILDING:GARRISON:CUSTOM_L]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_MARKSMAN]
 	[NAME:Undergo marksman training for 2500 sovereigns]
 	[BUILDING:GARRISON:CUSTOM_M]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 [REACTION:JOIN_GUILD_WRESTLER]
 	[NAME:Undergo wrestler training for 2500 sovereigns]
 	[BUILDING:GARRISON:CUSTOM_W]
 	[DESCRIPTION:A dwarf that joins a guild learns related skills twice as fast. It costs 2500 gold coins.]
 	[REAGENT:A:2500:COIN:NONE:INORGANIC:GOLD]
 
+	
 ###############################################################################
 ##### RUNESMITH REACTIONS #####################################################
 [REACTION:SPATTER_ADD_AMMO_ADAMANTINE]
@@ -952,6 +1046,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_ADAMANTINE]
 	[NAME:Engrave adamantine runes (double damage)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_A]
@@ -968,6 +1063,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_ADAMANTINE]
 	[NAME:Engrave adamantine runes (double damage)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_A]
@@ -984,6 +1080,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_AMMO_BRONZE]
 	[NAME:Engrave bronze runes (crazed)] 
 	[BUILDING:RUNESMITH:CUSTOM_B]
@@ -1000,6 +1097,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_BRONZE]
 	[NAME:Engrave bronze runes (crazed)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_B]
@@ -1016,6 +1114,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_BRONZE]
 	[NAME:Engrave bronze runes (crazed)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_B]
@@ -1032,6 +1131,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_AMMO_COBALT]
 	[NAME:Engrave cobalt runes (bleeding)] 
 	[BUILDING:RUNESMITH:CUSTOM_O]
@@ -1048,6 +1148,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_COBALT]
 	[NAME:Engrave cobalt runes (bleeding)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_O]
@@ -1064,6 +1165,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_COBALT]
 	[NAME:Engrave cobalt runes (bleeding)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_O]
@@ -1080,6 +1182,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_AMMO_COPPER]
 	[NAME:Engrave copper runes (nausea)] 
 	[BUILDING:RUNESMITH:CUSTOM_E]
@@ -1096,6 +1199,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_COPPER]
 	[NAME:Engrave copper runes (nausea)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_E]
@@ -1112,6 +1216,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_COPPER]
 	[NAME:Engrave copper runes (nausea)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_E]
@@ -1128,6 +1233,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_AMMO_ORICHALCUM]
 	[NAME:Engrave orichalcum runes (insta-gib)] 
 	[BUILDING:RUNESMITH:CUSTOM_R]
@@ -1144,6 +1250,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_ORICHALCUM]
 	[NAME:Engrave orichalcum runes (insta-gib)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_R]
@@ -1160,6 +1267,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_ORICHALCUM]
 	[NAME:Engrave orichalcum runes (insta-gib)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_R]
@@ -1176,6 +1284,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_AMMO_IRON]
 	[NAME:Engrave iron runes (pain)] 
 	[BUILDING:RUNESMITH:CUSTOM_I]
@@ -1192,6 +1301,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_IRON]
 	[NAME:Engrave iron runes (pain)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_I]
@@ -1208,6 +1318,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_IRON]
 	[NAME:Engrave iron runes (pain)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_I]
@@ -1224,6 +1335,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_AMMO_GOLD]
 	[NAME:Engrave gold runes (weaken)] 
 	[BUILDING:RUNESMITH:CUSTOM_G]
@@ -1240,6 +1352,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_GOLD]
 	[NAME:Engrave gold runes (weaken)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_G]
@@ -1256,6 +1369,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_GOLD]
 	[NAME:Engrave gold runes (weaken)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_G]
@@ -1271,6 +1385,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:GOLD_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 [REACTION:SPATTER_ADD_AMMO_MITHRIL]
 	[NAME:Engrave mithril runes (sleep)] 
@@ -1287,6 +1402,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:MITHRIL_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 [REACTION:SPATTER_ADD_TRAP_MITHRIL]
 	[NAME:Engrave mithril runes (sleep)]
@@ -1303,6 +1419,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:MITHRIL_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 [REACTION:SPATTER_ADD_WEAPON_MITHRIL]
 	[NAME:Engrave mithril runes (sleep)]
@@ -1320,6 +1437,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_AMMO_SILVER]
 	[NAME:Engrave silver runes (anti-werebeast)] 
 	[BUILDING:RUNESMITH:CUSTOM_V]
@@ -1336,6 +1454,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_SILVER]
 	[NAME:Engrave silver runes (anti-werebeast)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_V]
@@ -1352,6 +1471,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_SILVER]
 	[NAME:Engrave silver runes (anti-werebeast)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_V]
@@ -1367,6 +1487,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:SILVER_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 [REACTION:SPATTER_ADD_AMMO_STEEL]
 	[NAME:Engrave steel runes (cough blood)] 
@@ -1384,6 +1505,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_STEEL]
 	[NAME:Engrave steel runes (cough blood)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_S]
@@ -1399,6 +1521,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:STEEL_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 [REACTION:SPATTER_ADD_WEAPON_STEEL]
 	[NAME:Engrave steel runes (cough blood)]
@@ -1416,6 +1539,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_AMMO_TITANIUM]
 	[NAME:Engrave titanium runes (paralyze)] 
 	[BUILDING:RUNESMITH:CUSTOM_T]
@@ -1431,6 +1555,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:TITANIUM_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 [REACTION:SPATTER_ADD_TRAP_TITANIUM]
 	[NAME:Engrave titanium runes (paralyze)]
@@ -1447,6 +1572,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:TITANIUM_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 [REACTION:SPATTER_ADD_WEAPON_TITANIUM]
 	[NAME:Engrave titanium runes (paralyze)]
@@ -1463,6 +1589,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:TITANIUM_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 [REACTION:SPATTER_ADD_AMMO_TUNGSTEN]
 	[NAME:Engrave tungsten runes (slow)] 
@@ -1480,6 +1607,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_TRAP_TUNGSTEN]
 	[NAME:Engrave tungsten runes (slow)]
 	[BUILDING:RUNESMITH:CUSTOM_SHIFT_W]
@@ -1496,6 +1624,7 @@ reaction_dwarf_civ
 	[SKILL:DETAILSTONE]
 	[FUEL]
 
+	
 [REACTION:SPATTER_ADD_WEAPON_TUNGSTEN]
 	[NAME:Engrave tungsten runes (slow)]
 	[BUILDING:RUNESMITH:CUSTOM_ALT_W]
@@ -1511,6 +1640,7 @@ reaction_dwarf_civ
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:TUNGSTEN_COATING]
 	[SKILL:DETAILSTONE]
 	[FUEL]
+	
 
 ###############################################################################
 ##### GOLEMFORGE REACTIONS ####################################################
@@ -1524,6 +1654,7 @@ reaction_dwarf_civ
 	[REAGENT:A:4500:BAR:NONE:INORGANIC:ADAMANTINE]
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
+	
 
 [REACTION:ALUMINUM_GOLEM]
 	[NAME:Forge aluminum golem]
@@ -1535,6 +1666,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:BISMUTH_GOLEM]
 	[NAME:Forge bismuth golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_C]
@@ -1545,6 +1677,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:BRASS_GOLEM]
 	[NAME:Forge brass golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_D]
@@ -1555,6 +1688,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:BLACK_BRONZE_GOLEM]
 	[NAME:Forge black bronze golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_E]
@@ -1565,6 +1699,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:BRONZE_GOLEM]
 	[NAME:Forge bronze golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_F]
@@ -1574,6 +1709,7 @@ reaction_dwarf_civ
 	[REAGENT:A:4500:BAR:NONE:INORGANIC:BRONZE]
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
+	
 
 [REACTION:COBALT_GOLEM]
 	[NAME:Forge cobalt golem]
@@ -1585,6 +1721,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:COPPER_GOLEM]
 	[NAME:Forge copper golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_H]
@@ -1595,6 +1732,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:GOLD_GOLEM]
 	[NAME:Forge gold golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_I]
@@ -1605,6 +1743,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:IRON_GOLEM]
 	[NAME:Forge iron golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_J]
@@ -1615,6 +1754,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:LEAD_GOLEM]
 	[NAME:Forge lead golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_K]
@@ -1625,6 +1765,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:MITHRIL_GOLEM]
 	[NAME:Forge mithril golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_L]
@@ -1635,6 +1776,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:NICKEL_GOLEM]
 	[NAME:Forge nickel golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_M]
@@ -1645,6 +1787,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:ORICHALCUM_GOLEM]
 	[NAME:Forge orichalcum golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_N]
@@ -1655,6 +1798,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:PLATINUM_GOLEM]
 	[NAME:Forge platinum golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_O]
@@ -1665,6 +1809,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:ROSE_GOLD_GOLEM]
 	[NAME:Forge rose gold golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_P]
@@ -1675,6 +1820,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:SILVER_GOLEM]
 	[NAME:Forge silver golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_Q]
@@ -1685,6 +1831,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:STEEL_GOLEM]
 	[NAME:Forge steel golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_R]
@@ -1695,6 +1842,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:TITANIUM_GOLEM]
 	[NAME:Forge titanium golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_S]
@@ -1705,6 +1853,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:TUNGSTEN_GOLEM]
 	[NAME:Forge tungsten golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_T]
@@ -1715,6 +1864,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:VOLCANIC_GOLEM]
 	[NAME:Forge volcanic golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_U]
@@ -1725,6 +1875,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 [REACTION:ZINC_GOLEM]
 	[NAME:Forge zinc golem]
 	[BUILDING:GOLEMFORGE:CUSTOM_V]
@@ -1735,6 +1886,7 @@ reaction_dwarf_civ
 	[REAGENT:B:1:GEM:NONE:NONE:NONE]
 	[SKILL:METALCRAFT]
 
+	
 ###############################################################################
 ##### PLAYROOM DWARVES ########################################################
 	# they use dfhacks add-syndrome to add a positive thought
@@ -1746,6 +1898,7 @@ reaction_dwarf_civ
 	[BUILDING:PLAYROOM_DWARVES:CUSTOM_A]
 	[REAGENT:A:1:TOY:ITEM_TOY_TTG:NONE:NONE]
 	[SKILL:PACIFY]
+	
 
 [REACTION:USE_PNP]
 	[NAME:Play pen'n'paper RPG]
@@ -1755,6 +1908,7 @@ reaction_dwarf_civ
 	[BUILDING:PLAYROOM_DWARVES:CUSTOM_B]
 	[REAGENT:A:1:TOY:ITEM_TOY_PNP:NONE:NONE]
 	[SKILL:PACIFY]
+	
 
 [REACTION:USE_CCG]
 	[NAME:Play collectible card game]
@@ -1764,6 +1918,7 @@ reaction_dwarf_civ
 	[BUILDING:PLAYROOM_DWARVES:CUSTOM_C]
 	[REAGENT:A:1:TOY:ITEM_TOY_CCG:NONE:NONE]
 	[SKILL:PACIFY]
+	
 
 ###############################################################################
 ##### CRYSTAL GARDEN ##########################################################
@@ -1777,6 +1932,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:5:SEEDS:NONE:PLANT_MAT:PLANT_AMETHYST:SEED]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GROW_AMETHYST_SEED_CRYSTALS_2]
 	[NAME:Make amethyst seed crystals (cut)]
 	[DESCRIPTION:Uses a cut amethyst to create 5 seed crystals]
@@ -1787,6 +1943,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:5:SEEDS:NONE:PLANT_MAT:PLANT_AMETHYST:SEED]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:MAKE_AMETHYST_FROM_PLANT]
 	[NAME:Cut grown amethysts]
 	[DESCRIPTION:Uses a grown amethyst to create a cut gem.]
@@ -1797,6 +1954,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:SMALLGEM:NONE:INORGANIC:AMETHYST]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GROW_AQUAMARINE_SEED_CRYSTALS]
 	[NAME:Make aquamarine seed crystals (rough)]
 	[DESCRIPTION:Uses a rough aquamarine to create 5 seed crystals]
@@ -1807,6 +1965,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:5:SEEDS:NONE:PLANT_MAT:PLANT_AQUAMARINE:SEED]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GROW_AQUAMARINE_SEED_CRYSTALS_2]
 	[NAME:Make aquamarine seed crystals (cut)]
 	[DESCRIPTION:Uses a cut aquamarine to create 5 seed crystals]
@@ -1817,6 +1976,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:5:SEEDS:NONE:PLANT_MAT:PLANT_AQUAMARINE:SEED]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:MAKE_AQUAMARINE_FROM_PLANT]
 	[NAME:Cut grown aquamarines]
 	[DESCRIPTION:Uses a grown aquamarine to create a cut gem.]
@@ -1827,6 +1987,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:SMALLGEM:NONE:INORGANIC:AQUAMARINE]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GROW_CRYSTAL_ROCK_SEED_CRYSTALS]
 	[NAME:Make rock-crystal seed crystals (rough)]
 	[DESCRIPTION:Uses a rough rock-crystal to create 5 seed crystals]
@@ -1837,6 +1998,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:5:SEEDS:NONE:PLANT_MAT:PLANT_ROCK_CRYSTAL:SEED]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GROW_CRYSTAL_ROCK_SEED_CRYSTALS_2]
 	[NAME:Make rock-crystal seed crystals (cut)]
 	[DESCRIPTION:Uses a cut rock-crystal to create 5 seed crystals]
@@ -1847,6 +2009,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:5:SEEDS:NONE:PLANT_MAT:PLANT_ROCK_CRYSTAL:SEED]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:MAKE_CRYSTAL_ROCK_FROM_PLANT]
 	[NAME:Cut grown rock-crystals]
 	[DESCRIPTION:Uses a grown rock-crystal to create a cut gem.]
@@ -1857,6 +2020,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:1:SMALLGEM:NONE:INORGANIC:CRYSTAL_ROCK]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GROW_TOURMALINE_SEED_CRYSTALS]
 	[NAME:Make red tourmaline seed crystals (rough)]
 	[DESCRIPTION:Uses a rough red tourmaline to create 5 seed crystals]
@@ -1867,6 +2031,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:5:SEEDS:NONE:PLANT_MAT:PLANT_RED TOURMALINE:SEED]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GROW_TOURMALINE_SEED_CRYSTALS_2]
 	[NAME:Make red tourmaline seed crystals (cut)]
 	[DESCRIPTION:Uses a cut red tourmaline to create 5 seed crystals]
@@ -1877,6 +2042,7 @@ reaction_dwarf_civ
 	[PRODUCT:100:5:SEEDS:NONE:PLANT_MAT:PLANT_RED TOURMALINE:SEED]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:MAKE_TOURMALINE_FROM_PLANT]
 	[NAME:Cut grown red tourmalines]
 	[DESCRIPTION:Uses a grown red tourmaline to create a cut gem.]

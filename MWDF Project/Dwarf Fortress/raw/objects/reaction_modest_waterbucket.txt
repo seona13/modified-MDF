@@ -13,6 +13,7 @@ YES_MODEST_REACTIONS[OBJECT:REACTION]
 		[CONTAINS:water]
 		[PRESERVE_REAGENT]
 
+		
 [REACTION:EMPTY_BUCKET_LYE] 
 	[NAME:empty lye bucket]
 	[DESCRIPTION:Takes a bucket full of lye and returns an empty bucket. Destroys the content of the bucket.]
@@ -24,6 +25,7 @@ YES_MODEST_REACTIONS[OBJECT:REACTION]
 		[CONTAINS:lye]
 		[PRESERVE_REAGENT]
 
+		
 [REACTION:EMPTY_BUCKET_ANY] 
 	[NAME:empty any bucket]
 	[DESCRIPTION:Takes any bucket full of liquid and returns an empty bucket. Destroys the content of the bucket.]
@@ -35,6 +37,7 @@ YES_MODEST_REACTIONS[OBJECT:REACTION]
 		[CONTAINS:liquid]
 		[PRESERVE_REAGENT]
 
+		
 [REACTION:EMPTY_BARREL] 
 	[NAME:empty water barrel/pot]
 	[DESCRIPTION:Takes a barrel or pot full of water and returns an empty barrel or pot. Destroys the content.]
@@ -46,6 +49,7 @@ YES_MODEST_REACTIONS[OBJECT:REACTION]
 		[CONTAINS:water]
 		[PRESERVE_REAGENT]
 
+		
 [REACTION:EMPTY_BARREL_DRINK] 
 	[NAME:empty drink barrel/pot]
 	[DESCRIPTION:Takes a barrel or pot full of drinks and returns an empty barrel or pot. Destroys the content.]
@@ -57,6 +61,7 @@ YES_MODEST_REACTIONS[OBJECT:REACTION]
 		[CONTAINS:drink]
 		[PRESERVE_REAGENT]
 
+		
 [REACTION:EMPTY_BARREL_ANY] 
 	[NAME:empty any barrel/pot]
 	[DESCRIPTION:Takes a barrel or pot full of any liquid and returns an empty barrel or pot. Destroys the content.]

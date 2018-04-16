@@ -39,6 +39,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:BROWN_BRICK]
 	[NAME:Burn 4 bricks - brown]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_I]
@@ -50,6 +51,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:LIGHT_BLUE_BRICK]
 	[NAME:Burn 4 bricks - light blue]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_U]
@@ -61,6 +63,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:LIGHT_CYAN_BRICK]
 	[NAME:Burn 4 bricks - light cyan]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_C]
@@ -72,6 +75,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:LIGHT_GREEN_BRICK]
 	[NAME:Burn 4 bricks - light green]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_G]
@@ -83,6 +87,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:LIGHT_GREY_BRICK]
 	[NAME:Burn 4 bricks - light grey]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_K]
@@ -94,6 +99,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:LIGHT_RED_BRICK]
 	[NAME:Burn 4 bricks - light red]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_R]
@@ -105,6 +111,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:LIGHT_VIOLET_BRICK]
 	[NAME:Burn 4 bricks - light violet]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_V]
@@ -116,6 +123,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:DARK_BLUE_BRICK]
 	[NAME:Burn 4 bricks - dark blue]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_L]
@@ -127,6 +135,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:DARK_CYAN_BRICK]
 	[NAME:Burn 4 bricks - dark cyan]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_P]
@@ -138,6 +147,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:DARK_GREEN_BRICK]
 	[NAME:Burn 4 bricks - dark green]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_N]
@@ -149,6 +159,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:DARK_GREY_BRICK]
 	[NAME:Burn 4 bricks - dark grey]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_E]
@@ -160,6 +171,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:DARK_RED_BRICK]
 	[NAME:Burn 4 bricks - dark red]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_D]
@@ -171,6 +183,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:DARK_VIOLET_BRICK]
 	[NAME:Burn 4 bricks - dark violet]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_O]
@@ -182,6 +195,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:WHITE_BRICK]
 	[NAME:Burn 4 bricks - white]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_W]
@@ -193,6 +207,7 @@ raction_brickoven
 	[SKILL:WOOD_BURNING]
 	[FUEL]
 
+	
 [REACTION:YELLOW_BRICK]
 	[NAME:Burn 4 bricks - yellow]
 	[BUILDING:BRICK_OVEN_MAGMA:CUSTOM_Y]

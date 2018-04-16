@@ -17,6 +17,7 @@ reaction_adv_carpenter
 	[CATEGORY_NAME:Carpentry]
 	[CATEGORY_DESCRIPTION:Make furniture at a carpenter's workshop using logs and a sharp tool.]
 
+	
 [REACTION:MAKE WOODEN TABLE]
 	[NAME:make wooden table]
 	[ADVENTURE_MODE_ENABLED]
@@ -30,6 +31,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN BED]
 	[NAME:make wooden bed]
 	[ADVENTURE_MODE_ENABLED]
@@ -43,6 +45,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN CHEST]
 	[NAME:make wooden chest]
 	[ADVENTURE_MODE_ENABLED]
@@ -56,6 +59,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN CABINET]
 	[NAME:make wooden cabinet]
 	[ADVENTURE_MODE_ENABLED]
@@ -69,6 +73,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN DOOR]
 	[NAME:make wooden door]
 	[ADVENTURE_MODE_ENABLED]
@@ -82,6 +87,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN BARREL]
 	[NAME:make wooden barrel]
 	[ADVENTURE_MODE_ENABLED]
@@ -95,6 +101,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN BUCKET]
 	[NAME:make wooden bucket]
 	[ADVENTURE_MODE_ENABLED]
@@ -108,6 +115,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN CASKET]
 	[NAME:make wooden casket]
 	[ADVENTURE_MODE_ENABLED]
@@ -121,6 +129,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN HATCH COVER]
 	[NAME:make wooden hatch cover]
 	[ADVENTURE_MODE_ENABLED]
@@ -134,6 +143,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN GRATE]
 	[NAME:make wooden grate]
 	[ADVENTURE_MODE_ENABLED]
@@ -147,6 +157,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN BIN]
 	[NAME:make wooden bin]
 	[ADVENTURE_MODE_ENABLED]
@@ -160,6 +171,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN STEPLADDER]
 	[NAME:make wooden stepladder]
 	[ADVENTURE_MODE_ENABLED]
@@ -173,6 +185,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN BOOKCASE]
 	[NAME:make wooden bookcase]
 	[ADVENTURE_MODE_ENABLED]
@@ -186,6 +199,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN SPLINT]
 	[NAME:make wooden splint]
 	[ADVENTURE_MODE_ENABLED]
@@ -199,6 +213,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN CRUTCH]
 	[NAME:make wooden crutch]
 	[ADVENTURE_MODE_ENABLED]
@@ -212,6 +227,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN SHIELD]
 	[NAME:make wooden shield]
 	[ADVENTURE_MODE_ENABLED]
@@ -225,6 +241,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN BUCKLER]
 	[NAME:make wooden buckler]
 	[ADVENTURE_MODE_ENABLED]
@@ -238,6 +255,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN TRAINING AXE]
 	[NAME:make wooden training axe]
 	[ADVENTURE_MODE_ENABLED]
@@ -251,6 +269,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN TRAINING SHORT SWORD]
 	[NAME:make wooden training short sword]
 	[ADVENTURE_MODE_ENABLED]
@@ -264,6 +283,7 @@ reaction_adv_carpenter
 	[SKILL:CARPENTRY]
 	[CATEGORY:ADV_CARPENTRY]
 
+	
 [REACTION:MAKE WOODEN TRAINING SPEAR]
 	[NAME:make wooden training spear]
 	[ADVENTURE_MODE_ENABLED]

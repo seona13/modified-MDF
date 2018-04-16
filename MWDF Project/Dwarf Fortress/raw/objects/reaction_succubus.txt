@@ -16,6 +16,7 @@ reaction_succubus
 	[REAGENT:A:1:TOY:ITEM_TOY_BLINDFOLD:NONE:NONE]
 	[SKILL:PACIFY]
 	
+	
 [REACTION:USE_HANDCUFFS]
 	[NAME:Put on handcuffs]
 	[DESCRIPTION:Requires a toy, a set of handcuffs. Gives positive thoughts to the worker.]
@@ -24,6 +25,7 @@ reaction_succubus
 	[BUILDING:PLAYROOM_SUCCUBUS:CUSTOM_B]
 	[REAGENT:A:1:TOY:ITEM_TOY_HANDCUFFS:NONE:NONE]
 	[SKILL:PACIFY]
+	
 	
 [REACTION:USE_FLOGGING_WHIP]
 	[NAME:Flog yourself]
@@ -53,6 +55,7 @@ reaction_succubus
 		[PRODUCT_DIMENSION:150]
 	[SKILL:SMELT]
 
+	
 [REACTION:METAL_BED]
 	[NAME:Forge metal bed]
 	[BUILDING:METALSMITH:CUSTOM_B]
@@ -66,6 +69,7 @@ reaction_succubus
 	[MAX_MULTIPLIER:1]
 	[SKILL:FORGE_FURNITURE]
 
+	
 [REACTION:SUCCUBUS_METAL_PLACEHOLDER]
 	[NAME:Fake metal access]
 	[PRODUCT:100:1:BAR:NONE:INORGANIC:AFELSTEEL]
@@ -74,6 +78,7 @@ reaction_succubus
 		[PRODUCT_DIMENSION:150]
     [SKILL:SMELT]
 
+	
 // Summoning circle
 // Tier 1
 [REACTION:SUMMONING_NAHASH]
@@ -93,6 +98,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 [REACTION:SUMMONING_ORTHUS]
 	[NAME:Summon an orthus]
 	[DESCRIPTION:Spawns an orthus in your fort.]
@@ -109,6 +115,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 [REACTION:SUMMONING_NIGHTMARE]
 	[NAME:Summon a nightmare]
 	[DESCRIPTION:Spawns a nightmare in your fort.]
@@ -127,6 +134,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 // Tier 2
 [REACTION:SUMMONING_ELEMENTAL_PAIN]
 	[NAME:Summon a pain elemental]
@@ -134,7 +142,7 @@ reaction_succubus
 	[DESCRIPTION: ]
 	[DESCRIPTION:Pain elementals are small fire spirits that violently explode upon meeting an enemy.]
 	[DESCRIPTION: ]
-	[DESCRIPTION:Be careful while handling them as they can lit items on fire.]
+	[DESCRIPTION:Be careful while handling them as they can light items on fire.]
 	[DESCRIPTION: ]
 	[DESCRIPTION:Skill - Animal trainer]
 	[BUILDING:SUMMONING_PORTAL:CUSTOM_E]
@@ -148,6 +156,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 [REACTION:SUMMONING_IMP_FIRE]
 	[NAME:Summon a fire imp]
 	[DESCRIPTION:Spawns a fire imp in your fort.]
@@ -162,6 +171,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 [REACTION:SUMMONING_FROG_DEMON]
 	[NAME:Summon a frog demon]
 	[DESCRIPTION:Spawns a frog demon in your fort.]
@@ -180,6 +190,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 [REACTION:SUMMONING_TENTACLE_MONSTER]
 	[NAME:Summon a tentacle monster]
 	[DESCRIPTION:Spawns a tentacle monster.]
@@ -204,6 +215,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 // Tier 3
 [REACTION:SUMMONING_BRUTE_DECAY]
 	[NAME:Summon a decay brute]
@@ -223,13 +235,14 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 [REACTION:SUMMONING_SPIRIT_OF_FIRE]
 	[NAME:Summon a spirit of fire]
 	[DESCRIPTION:Spawns a spirit of fire in your fort.]
 	[DESCRIPTION: ]
 	[DESCRIPTION:Spirits of fire can burn many invaders at once. They unfortunately have a low resistance to damage.]
 	[DESCRIPTION: ]
-	[DESCRIPTION:Be careful while handling them as they can lit items on fire.]
+	[DESCRIPTION:Be careful while handling them as they can light items on fire.]
 	[DESCRIPTION: ]
 	[DESCRIPTION:Skill - Animal trainer]
 	[BUILDING:SUMMONING_PORTAL:CUSTOM_S]
@@ -244,6 +257,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 [REACTION:SUMMONING_HFS]
 	[NAME:Summon a horrible fell spirit]
 	[DESCRIPTION:Spawns a random underworld entity in your fort.]
@@ -258,6 +272,7 @@ reaction_succubus
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:ANIMALTRAIN]
 
+	
 // Slade drill
 [REACTION:SLADE_BLOCK]
 	[NAME:Mine slade blocks]
@@ -270,6 +285,7 @@ reaction_succubus
 	[PRODUCT:100:2:BLOCKS:NONE:INORGANIC:SLADE]
 	[SKILL:MINING]
 
+	
 [REACTION:SLADE_BOULDER]
 	[NAME:Mine slade boulders]
 	[DESCRIPTION:A miner can conjure a rock from the underworld.]
@@ -282,6 +298,7 @@ reaction_succubus
 		[PRODUCT_DIMENSION:150]
 	[SKILL:MINING]
 
+	
 // Floating glass (mass production of windows)
 [REACTION:FLOAT_GREEN_WINDOW]
 	[NAME:Pour green glass windows(10)]
@@ -299,6 +316,7 @@ reaction_succubus
 	[FUEL]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:FLOAT_GREEN_BLOCKS]
 	[NAME:Make green glass blocks(10)]
 	[DESCRIPTION:Produces 10 blocks of green glass.]
@@ -315,6 +333,7 @@ reaction_succubus
 	[FUEL]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:FLOAT_CLEAR_WINDOW]
 	[NAME:Pour clear glass windows(10)]
 	[DESCRIPTION:Cut a sheet of 10 clear glass windows.]
@@ -332,6 +351,7 @@ reaction_succubus
 	[FUEL]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:FLOAT_CLEAR_BLOCKS]
 	[NAME:Make clear glass blocks(10)]
 	[DESCRIPTION:Produces 10 blocks of clear glass.]
@@ -349,6 +369,7 @@ reaction_succubus
 	[FUEL]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:FLOAT_CRYSTAL_WINDOW]
 	[NAME:Pour crystal glass windows(10)]
 	[DESCRIPTION:Cut a sheet of 10 crystal glass windows.]
@@ -361,6 +382,7 @@ reaction_succubus
 	[FUEL]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:FLOAT_CRYSTAL_BLOCKS]
 	[NAME:Make crystal glass blocks(10)]
 	[DESCRIPTION:Produces 10 blocks.]
@@ -373,6 +395,7 @@ reaction_succubus
 	[FUEL]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:FLOAT_CRYSTAL_WINDOW_LEAD]
 	[NAME:Pour crystal glass windows(10, uses lead)]
 	[DESCRIPTION:Cut a sheet of 10 crystal glass windows.]
@@ -392,6 +415,7 @@ reaction_succubus
 	[FUEL]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:FLOAT_CRYSTAL_BLOCKS_LEAD]
 	[NAME:Make crystal glass blocks(10, uses lead)]
 	[DESCRIPTION:Produces 10 blocks.]
@@ -411,10 +435,11 @@ reaction_succubus
 	[FUEL]
 	[SKILL:GLASSMAKER]
 
+	
 // Den of iniquity
 [REACTION:CORRUPT_PRISONERS_SUCCUBUS]
 	[NAME:Corrupt foreigners]
-	[DESCRIPTION:Turn nearby creatures within line of sight into demons. They will join your dungeon as citizen.]
+	[DESCRIPTION:Turn nearby creatures within line of sight into demons. They will join your dungeon as citizens.]
 	[DESCRIPTION: ]
 	[DESCRIPTION:Your new creatures will have specific traits according to their former race.]
 	[DESCRIPTION: ]
@@ -427,6 +452,7 @@ reaction_succubus
 	[MAX_MULTIPLIER:1]
 	[SKILL:NEGOTIATION]
 
+	
 // Teleport portals
 [REACTION:ORANGE_TELEPORT]
 	[NAME:Teleport worker to red portal]
@@ -439,6 +465,7 @@ reaction_succubus
 	[PRODUCT:0:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:DESIGNBUILDING]
 
+	
 [REACTION:BLUE_TELEPORT]
 	[NAME:Teleport worker to blue portal]
 	[BUILDING:TELEPORT_2:CUSTOM_A]
@@ -450,6 +477,7 @@ reaction_succubus
 	[PRODUCT:0:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:DESIGNBUILDING]
 
+	
 [REACTION:ORANGE_TELEPORT_SQUAD]
 	[NAME:Teleport nearby units to red portal]
 	[DESCRIPTION:Teleport the worker and all the friendly units in a 10 squares circle into a red portal.]
@@ -461,6 +489,7 @@ reaction_succubus
 	[PRODUCT:0:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:DESIGNBUILDING]
 
+	
 [REACTION:BLUE_TELEPORT_SQUAD]
 	[NAME:Teleport nearby units to blue portal]
 	[BUILDING:TELEPORT_2:CUSTOM_SHIFT_A]
@@ -472,6 +501,7 @@ reaction_succubus
 	[PRODUCT:0:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 	[SKILL:DESIGNBUILDING]
 
+	
 // Brew
 [REACTION:LUA_HOOK_USEMAGMA_BREW_MAGMA]
 	[NAME:Brew magma]
@@ -493,6 +523,7 @@ reaction_succubus
 		[PRODUCT_DIMENSION:150]
 	[SKILL:BREWING]
 
+	
 // Major powers
 [REACTION:LUA_HOOK_SUCCUBUS_UPGRADE_FIRE_SECRET]
 	[NAME:Learn the secret of hellfire]
@@ -502,6 +533,7 @@ reaction_succubus
 	[REAGENT:large gem:1:GEM:NONE:NONE:NONE]
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 
+	
 [REACTION:LUA_HOOK_SUCCUBUS_UPGRADE_LUST_SECRET]
 	[NAME:Learn the secret of lust]
 	[BUILDING:SUCCUBUS_POWER:CUSTOM_L]
@@ -510,6 +542,7 @@ reaction_succubus
 	[REAGENT:large gem:1:GEM:NONE:NONE:NONE]
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 
+	
 [REACTION:LUA_HOOK_SUCCUBUS_UPGRADE_PHASING]
 	[NAME:Learn phasing]
 	[BUILDING:SUCCUBUS_POWER:CUSTOM_P]
@@ -518,6 +551,7 @@ reaction_succubus
 		[GLASS_MATERIAL]
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SMOKE_PURPLE]
 
+	
 // Special forges extras
 // Gem
 [REACTION:GEM_ITEM_WEAPON_BOW]
@@ -530,6 +564,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_BOW:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GEM_ITEM_WEAPON_WHIP]
 	[NAME:Make gem whip]
 		[DESCRIPTION:Turns 3 cut gems into a weapon. Gem weapons are not stockpiled and not automatically equipped by your military. You have to assigne them personally.]
@@ -540,6 +575,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_WHIP:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GEM_ITEM_WEAPON_WHIP_BLADE]
 	[NAME:Make gem blade whip]
 		[DESCRIPTION:Turns 3 cut gems into a weapon. Gem weapons are not stockpiled and not automatically equipped by your military. You have to assigne them personally.]
@@ -550,6 +586,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_WHIP_BLADE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GEM_ITEM_WEAPON_PITCHFORK]
 	[NAME:Make gem pitchfork]
 		[DESCRIPTION:Turns 5 cut gems into a weapon. Gem weapons are not stockpiled and not automatically equipped by your military. You have to assigne them personally.]
@@ -560,6 +597,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_PITCHFORK:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CUTGEM]
 
+	
 [REACTION:GEM_ITEM_ARMOR_CORSET]
 	[NAME:Make gem corset]
 		[DESCRIPTION:Turns 3 cut gems into armor. Gem armors are not stockpiled and not automatically equipped by your military. You have to assigne them personally.]
@@ -570,6 +608,7 @@ reaction_succubus
 	[PRODUCT:100:1:ARMOR:ITEM_ARMOR_CORSET:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:CUTGEM]
 
+	
 // Bone
 [REACTION:BONE_ITEM_WEAPON_BOW]
 	[NAME:Make bone bow]
@@ -581,6 +620,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_BOW:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:BONE_ITEM_WEAPON_WHIP]
 	[NAME:Make bone whip]
 		[DESCRIPTION:Turns 3 bones into a weapon.]
@@ -591,6 +631,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_WHIP:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:BONE_ITEM_WEAPON_WHIP_BLADE]
 	[NAME:Make bone blade whip]
 		[DESCRIPTION:Turns 3 bones into a weapon.]
@@ -601,6 +642,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_WHIP_BLADE:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:BONE_ITEM_WEAPON_PITCHFORK]
 	[NAME:Make bone pitchfork]
 		[DESCRIPTION:Turns 5 bones into a weapon.]
@@ -611,6 +653,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_PITCHFORK:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:BONECARVE]
 
+	
 [REACTION:BONE_ITEM_ARMOR_CORSET]
 	[NAME:Make bone corset]
 		[DESCRIPTION:Turns 3 bones into armor.]
@@ -621,6 +664,7 @@ reaction_succubus
 	[PRODUCT:100:1:ARMOR:ITEM_ARMOR_CORSET:GET_MATERIAL_FROM_REAGENT:A:NONE]
 	[SKILL:BONECARVE]
 
+	
 // Tools
 [REACTION:MAKE_STONE_SLIP]
 	[NAME:Make stone slip]
@@ -652,6 +696,7 @@ reaction_succubus
 	
 	[SKILL:BOOKBINDING]
 
+	
 // Fire shaper, uses fire snake raws
 [REACTION:LUA_HOOK_USEMAGMA_FIRE_ITEM_ARMOR_CORSET]
 	[NAME:Make fire corset]
@@ -669,6 +714,7 @@ reaction_succubus
 	[PRODUCT:100:1:ARMOR:ITEM_ARMOR_CORSET:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 [REACTION:LUA_HOOK_USEMAGMA_FIRE_ITEM_PANTS_SKIRT]
 	[NAME:Make fire skirt]
 		[DESCRIPTION:Shape fire in the form of a piece of clothing.]
@@ -682,6 +728,7 @@ reaction_succubus
 	[PRODUCT:100:1:PANTS:ITEM_PANTS_SKIRT:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 [REACTION:LUA_HOOK_USEMAGMA_FIRE_ITEM_PANTS_THONG]
 	[NAME:Make fire thong]
 		[DESCRIPTION:Shape fire in the form of a piece of clothing.]
@@ -695,6 +742,7 @@ reaction_succubus
 	[PRODUCT:100:1:PANTS:ITEM_PANTS_THONG:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 [REACTION:LUA_HOOK_USEMAGMA_FIRE_ITEM_SHOES_STOCKING]
 	[NAME:Make fire stockings]
 		[DESCRIPTION:Shape fire in the form of a piece of clothing.]
@@ -708,6 +756,7 @@ reaction_succubus
 	[PRODUCT:100:1:SHOES:ITEM_SHOES_STOCKING:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 [REACTION:LUA_HOOK_USEMAGMA_FIRE_ITEM_WEAPON_WHIP]
 	[NAME:Make fire whip]
 		[DESCRIPTION:Draws nearby magma to create a fire weapon.]
@@ -726,6 +775,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_WHIP:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 [REACTION:LUA_HOOK_USEMAGMA_FIRE_ITEM_WEAPON_SWORD_LONG]
 	[NAME:Make fire long sword]
 		[DESCRIPTION:Draws nearby magma to create a fire weapon.]
@@ -741,6 +791,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_SWORD_LONG:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 [REACTION:LUA_HOOK_USEMAGMA_FIRE_ITEM_AMMO_ARROW]
 	[NAME:Make fire arrows]
 		[DESCRIPTION:Draws nearby magma to create 5 fire arrows.]
@@ -756,6 +807,7 @@ reaction_succubus
 	[PRODUCT:100:5:AMMO:ITEM_AMMO_ARROW:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 [REACTION:SPATTER_ADD_FIRE_WEAPON]
 	[NAME:Coat weapons with fire]
 		[DESCRIPTION:Cover a weapon with fire.]
@@ -771,6 +823,7 @@ reaction_succubus
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 [REACTION:SPATTER_ADD_FIRE_ITEM_AMMO_ARROWS]
 	[NAME:Coat arrows with fire]
 		[DESCRIPTION:Cover arrows with fire.]
@@ -783,6 +836,7 @@ reaction_succubus
 	[IMPROVEMENT:800:object:COVERED:INORGANIC:FIRE_LIQUID]
 	[SKILL:ALCHEMY]
 
+	
 // Glass Shaper
 // Obsidian
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_BOULDER]
@@ -804,6 +858,7 @@ reaction_succubus
 		[PRODUCT_DIMENSION:150]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_BLOCK]
 	[NAME:Produce obsidian blocks]
 		[DESCRIPTION:Draws both water and magma nearby to create 3 blocks of obsidian.]
@@ -818,6 +873,7 @@ reaction_succubus
 		[PRODUCT_DIMENSION:150]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_SHIELD_BUCKLER]
 	[NAME:Make obsidian buckler]
 		[DESCRIPTION:Draws both water and magma nearby to create a shield.]
@@ -830,6 +886,7 @@ reaction_succubus
 	[PRODUCT:100:1:SHIELD:ITEM_SHIELD_BUCKLER:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_AMMO_ARROWS]
 	[NAME:Make obsidian arrows]
 		[DESCRIPTION:Draws both water and magma nearby to create a bundle of 5 arrows.]
@@ -840,6 +897,7 @@ reaction_succubus
 	[PRODUCT:100:5:AMMO:ITEM_AMMO_ARROWS:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_BOW]
 	[NAME:Make obsidian bow]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -850,6 +908,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_BOW:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_WHIP]
 	[NAME:Make obsidian whip]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -860,6 +919,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_WHIP:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_WHIP_BLADE]
 	[NAME:Make obsidian blade whip]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -870,6 +930,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_WHIP_BLADE:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_PITCHFORK]
 	[NAME:Make obsidian pitchfork]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -880,6 +941,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_PITCHFORK:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_AXE_BATTLE]
 	[NAME:Make obsidian battle axe]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -890,6 +952,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_AXE_BATTLE:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_DAGGER_LARGE]
 	[NAME:Make obsidian dagger]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -900,6 +963,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_DAGGER_LARGE:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_AXE_GREAT]
 	[NAME:Make obsidian great axe]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -910,6 +974,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_AXE_GREAT:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_SWORD_LONG]
 	[NAME:Make obsidian long sword]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -920,6 +985,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_SWORD_LONG:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_MACE]
 	[NAME:Make obsidian mace]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -930,6 +996,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_MACE:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_PICK]
 	[NAME:Make obsidian pick]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -940,6 +1007,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_PICK:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_WEAPON_SWORD_2H]
 	[NAME:Make obsidian two-handed sword]
 		[DESCRIPTION:Draws both water and magma nearby to create a weapon.]
@@ -950,6 +1018,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_SWORD_2H:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_GLOVES_GAUNTLETS]
 	[NAME:Make obsidian gauntlets]
 		[DESCRIPTION:Draws both water and magma nearby to create an armor piece.]
@@ -962,6 +1031,7 @@ reaction_succubus
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_HELM_HELM]
 	[NAME:Make obsidian helm]
 		[DESCRIPTION:Draws both water and magma nearby to create an armor piece.]
@@ -974,6 +1044,7 @@ reaction_succubus
 	[PRODUCT:100:1:HELM:ITEM_HELM_HELM:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_SHOES_BOOTS]
 	[NAME:Make obsidian high boots]
 		[DESCRIPTION:Draws both water and magma nearby to create an armor piece.]
@@ -986,6 +1057,7 @@ reaction_succubus
 	[PRODUCT:100:2:SHOES:ITEM_SHOES_BOOTS:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USELIQUIDS_OBSIDIAN_ITEM_ARMOR_CORSET]
 	[NAME:Make obsidian corset]
 		[DESCRIPTION:Draws both water and magma nearby to create an armor piece.]
@@ -996,6 +1068,7 @@ reaction_succubus
 	[PRODUCT:100:1:ARMOR:ITEM_ARMOR_CORSET:INORGANIC:OBSIDIAN]
 	[SKILL:GLASSMAKER]
 
+	
 // Tempered
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_SHIELD_BUCKLER]
 	[NAME:Make tempered glass buckler]
@@ -1019,6 +1092,7 @@ reaction_succubus
 	[PRODUCT:100:1:SHIELD:ITEM_SHIELD_BUCKLER:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_AMMO_ARROWS]
 	[NAME:Make tempered glass arrows]
 		[DESCRIPTION:Draws water nearby to create a bundle of 5 arrows.]
@@ -1036,6 +1110,7 @@ reaction_succubus
 	[PRODUCT:100:5:AMMO:ITEM_AMMO_ARROWS:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_WEAPON_WHIP_BLADE]
 	[NAME:Make tempered glass blade whip]
 		[DESCRIPTION:Draws water nearby to create a weapon.]
@@ -1053,6 +1128,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_WHIP_BLADE:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_WEAPON_PITCHFORK]
 	[NAME:Make tempered glass pitchfork]
 		[DESCRIPTION:Draws water nearby to create a weapon.]
@@ -1070,6 +1146,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_PITCHFORK:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_WEAPON_AXE_BATTLE]
 	[NAME:Make tempered glass battle axe]
 		[DESCRIPTION:Draws water nearby to create a weapon.]
@@ -1087,6 +1164,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_AXE_BATTLE:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_WEAPON_DAGGER_LARGE]
 	[NAME:Make tempered glass dagger]
 		[DESCRIPTION:Draws water nearby to create a weapon.]
@@ -1104,6 +1182,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_DAGGER_LARGE:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_WEAPON_AXE_GREAT]
 	[NAME:Make tempered glass great axe]
 		[DESCRIPTION:Draws water nearby to create a weapon.]
@@ -1121,6 +1200,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_AXE_GREAT:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_WEAPON_SWORD_LONG]
 	[NAME:Make tempered glass long sword]
 		[DESCRIPTION:Draws water nearby to create a weapon.]
@@ -1138,6 +1218,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_SWORD_LONG:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_WEAPON_SWORD_2H]
 	[NAME:Make tempered glass two-handed sword]
 		[DESCRIPTION:Draws water nearby to create a weapon.]
@@ -1155,6 +1236,7 @@ reaction_succubus
 	[PRODUCT:100:1:WEAPON:ITEM_WEAPON_SWORD_2H:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_GLOVES_GAUNTLETS]
 	[NAME:Make tempered glass gauntlets]
 		[DESCRIPTION:Draws water nearby to create an armor piece.]
@@ -1174,6 +1256,7 @@ reaction_succubus
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_HELM_HELM]
 	[NAME:Make tempered glass helm]
 		[DESCRIPTION:Draws water nearby to create an armor piece.]
@@ -1193,6 +1276,7 @@ reaction_succubus
 	[PRODUCT:100:1:HELM:ITEM_HELM_HELM:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_SHOES_BOOTS]
 	[NAME:Make tempered glass high boots]
 		[DESCRIPTION:Draws water nearby to create an armor piece.]
@@ -1210,6 +1294,7 @@ reaction_succubus
 	[PRODUCT:100:2:SHOES:ITEM_SHOES_BOOTS:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LUA_HOOK_USEWATER_TEMPERED_ITEM_ARMOR_CORSET]
 	[NAME:Make tempered glass corset]
 		[DESCRIPTION:Draws water nearby to create an armor piece.]
@@ -1229,6 +1314,7 @@ reaction_succubus
 	[PRODUCT:100:1:ARMOR:ITEM_ARMOR_CORSET:INORGANIC:GLASS_TEMPERED]
 	[SKILL:GLASSMAKER]
 
+	
 // Layered
 [REACTION:LAYERED_ITEM_SHIELD_BUCKLER]
 	[NAME:Make layered glass buckler]
@@ -1258,6 +1344,7 @@ reaction_succubus
 	[PRODUCT:100:1:SHIELD:ITEM_SHIELD_BUCKLER:INORGANIC:GLASS_LAYERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LAYERED_ITEM_GLOVES_GAUNTLETS]
 	[NAME:Make layered glass gauntlets]
 		[DESCRIPTION:Create an armor piece using syrup plus 2 sets of sand and pearlash. Syrup is made by processing sweet pods into barrels.]
@@ -1283,6 +1370,7 @@ reaction_succubus
 	[PRODUCT:100:2:GLOVES:ITEM_GLOVES_GAUNTLETS:INORGANIC:GLASS_LAYERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LAYERED_ITEM_HELM_HELM]
 	[NAME:Make layered glass helm]
 		[DESCRIPTION:Create an armor piece using syrup plus 2 sets of sand and pearlash. Syrup is made by processing sweet pods into barrels.]
@@ -1308,6 +1396,7 @@ reaction_succubus
 	[PRODUCT:100:1:HELM:ITEM_HELM_HELM:INORGANIC:GLASS_LAYERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LAYERED_ITEM_SHOES_BOOTS]
 	[NAME:Make layered glass high boots]
 		[DESCRIPTION:Create an armor piece using syrup plus 2 sets of sand and pearlash. Syrup is made by processing sweet pods into barrels.]
@@ -1333,6 +1422,7 @@ reaction_succubus
 	[PRODUCT:100:2:SHOES:ITEM_SHOES_BOOTS:INORGANIC:GLASS_LAYERED]
 	[SKILL:GLASSMAKER]
 
+	
 [REACTION:LAYERED_ITEM_ARMOR_CORSET]
 	[NAME:Make layered glass corset]
 		[DESCRIPTION:Create an armor piece using syrup plus 2 sets of sand and pearlash. Syrup is made by processing sweet pods into barrels.]

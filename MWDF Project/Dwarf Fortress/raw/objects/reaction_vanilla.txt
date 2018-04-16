@@ -78,6 +78,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_DIMENSION:150]
 	[SKILL:SOAP_MAKING]
 
+	
 [REACTION:MAKE_SOAP_FROM_OIL]
 	[NAME:make soap from oil]
 	[BUILDING:SOAP_MAKER:CUSTOM_O]
@@ -98,6 +99,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_DIMENSION:150]
 	[SKILL:SOAP_MAKING]
 
+	
 #### SCREW PRESS REACTIONS ####################################################
 [REACTION:PRESS_OIL]
 	[NAME:press liquid from paste]
@@ -118,6 +120,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_PRESSED]
 	[SKILL:PRESSING]
 
+	
 [REACTION:PRESS_OIL_FRUIT]
 	[NAME:press liquid from fruit]
 	[BUILDING:SCREW_PRESS:CUSTOM_F]
@@ -138,6 +141,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_PRESSED]
 	[SKILL:PRESSING]
 
+	
 [REACTION:PRESS_HONEYCOMB]
 	[NAME:press honey from honeycomb]
 	[BUILDING:SCREW_PRESS:CUSTOM_H]
@@ -157,6 +161,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_PRESSED]
 	[SKILL:PRESSING]
 
+	
 [REACTION:PRESS_PLANT_PAPER]
 	[NAME:press plant slurry into paper sheet]
 	[BUILDING:SCREW_PRESS:CUSTOM_S]
@@ -168,6 +173,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_PRESSED]
 	[SKILL:PAPERMAKING]
 
+	
 ##### TANNER REACTIONS ########################################################
 [REACTION:TAN_A_HIDE]
 	[NAME:tan a hide]
@@ -183,6 +189,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:SKIN_TANNED:NONE:GET_MATERIAL_FROM_REAGENT:A:TAN_MAT]
 	[SKILL:TANNER]
 	[AUTOMATIC]
+	
 
 [REACTION:MAKE_PARCHMENT]
 	[NAME:make parchment]
@@ -204,6 +211,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:SHEET:NONE:GET_MATERIAL_FROM_REAGENT:A:PARCHMENT_MAT]
 	[SKILL:TANNER]
 
+	
 ##### TANNER REACTIONS ########################################################
 [REACTION:MAKE_WAX_CRAFTS]
 	[NAME:make wax crafts]
@@ -213,6 +221,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:CRAFTS:NONE:GET_MATERIAL_FROM_REAGENT:wax:NONE]
 	[SKILL:WAX_WORKING]
 
+	
 [REACTION:MAKE_SCROLL]
 	[NAME:make scroll]
 	[BUILDING:CRAFTSMAN:NONE]
@@ -223,6 +232,7 @@ of vanilla is attempted to be maintained here.
 	[IMPROVEMENT:100:scroll:SPECIFIC:ROLLERS:GET_MATERIAL_FROM_REAGENT:scroll rollers:NONE]
 	[SKILL:BOOKBINDING]
 
+	
 [REACTION:MAKE_QUIRE]
 	[NAME:make quire]
 	[BUILDING:CRAFTSMAN:NONE]
@@ -230,6 +240,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_QUIRE:GET_MATERIAL_FROM_REAGENT:sheet:NONE]
 	[SKILL:BOOKBINDING]
 
+	
 [REACTION:BIND_BOOK]
 	[NAME:bind book]
 	[BUILDING:CRAFTSMAN:NONE]
@@ -247,6 +258,7 @@ of vanilla is attempted to be maintained here.
 		note -- right now, the above will auto-pull any writing from the quire and place it in the pages improvement
 	[SKILL:BOOKBINDING]
 
+	
 ##### STILL REACTIONS #########################################################
 [REACTION:BREW_DRINK_FROM_PLANT]
 	[NAME:brew drink from plant]
@@ -265,6 +277,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:BREWING]
 
+	
 [REACTION:BREW_DRINK_FROM_PLANT_GROWTH]
 	[NAME:brew drink from fruit]
 	[BUILDING:STILL:CUSTOM_F]
@@ -282,6 +295,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:BREWING]
 
+	
 [REACTION:MAKE_MEAD]
 	[NAME:make mead]
 	[BUILDING:STILL:CUSTOM_M]
@@ -302,6 +316,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_DIMENSION:150]
 	[SKILL:BREWING]
 
+	
 ##### FARM WORKSHOP REACTIONS #################################################
 [REACTION:PROCESS_PLANT_TO_BAG]
 	[NAME:process plant to bag]
@@ -319,6 +334,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:PROCESSPLANTS]
 
+	
 [REACTION:MAKE_SHEET_FROM_PLANT]
 	[NAME:make sheet from plant]
 	[BUILDING:FARMER:NONE]
@@ -330,6 +346,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:PAPERMAKING]
 
+	
 ##### KILN REACTIONS ##########################################################
 [REACTION:MAKE_QUICKLIME]
 	[NAME:make quicklime]
@@ -346,6 +363,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 [REACTION:MAKE_PEARLASH]
 	[NAME:make pearlash]
 	[BUILDING:KILN:CUSTOM_P]
@@ -356,6 +374,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:SMELT]
 
+	
 [REACTION:MAKE_PLASTER_POWDER]
 	[NAME:make plaster powder]
 	[BUILDING:KILN:CUSTOM_SHIFT_P]
@@ -371,6 +390,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_TO_CONTAINER:B]
 	[FUEL]
 	[SKILL:SMELT]
+	
 
 	#A- even though I consolidated the other pottery reactions, I left these
 	# to be backwards compatible with the races that used them.
@@ -383,6 +403,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:POTTERY]
 
+	
 [REACTION:MAKE_CLAY_BRICKS]
 	[NAME:make clay bricks]
 	[BUILDING:KILN:CUSTOM_B]
@@ -392,6 +413,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:POTTERY]
 
+	
 [REACTION:MAKE_CLAY_STATUE]
 	[NAME:make clay statue]
 	[BUILDING:KILN:CUSTOM_S]
@@ -401,6 +423,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:POTTERY]
 
+	
 [REACTION:MAKE_LARGE_CLAY_POT]
 	[NAME:make large clay pot]
 	[BUILDING:KILN:CUSTOM_ALT_P]
@@ -410,6 +433,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:POTTERY]
 
+	
 [REACTION:MAKE_CLAY_CRAFTS]
 	[NAME:make clay crafts]
 	[BUILDING:KILN:CUSTOM_SHIFT_C]
@@ -418,7 +442,8 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:CRAFTS:NONE:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
-
+	
+	
 [REACTION:MAKE_CLAY_HIVE]
 	[NAME:make clay hive]
 	[BUILDING:KILN:CUSTOM_H]
@@ -428,6 +453,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:POTTERY]
 
+	
 	Format for IMPROVEMENT below is:
 	<chance>:<reagent target>:<type of improvement>:<mat tokens>
 	Supported types are COVERED, GLAZED, BANDS, RINGS_HANGING and SPIKES.
@@ -447,6 +473,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:GLAZING]
 
+	
 [REACTION:GLAZE_STATUE]
 	[NAME:glaze clay/stone statue]
 	[BUILDING:KILN:CUSTOM_SHIFT_G]
@@ -461,6 +488,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:GLAZING]
 
+	
 [REACTION:GLAZE_LARGE_POT]
 	[NAME:glaze large clay/stone pot]
 	[BUILDING:KILN:CUSTOM_ALT_G]
@@ -475,6 +503,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:GLAZING]
 
+	
 [REACTION:GLAZE_CRAFT]
 	[NAME:glaze clay/stone craft]
 	[BUILDING:KILN:CUSTOM_ALT_C]
@@ -489,6 +518,7 @@ of vanilla is attempted to be maintained here.
 	[FUEL]
 	[SKILL:GLAZING]
 
+	
 ##### ASHERY REACTIONS ########################################################
 [REACTION:MAKE_MILK_OF_LIME]
 	[NAME:make milk of lime]
@@ -507,6 +537,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_DIMENSION:150]
 	[SKILL:LYE_MAKING] close enough for now!
 
+	
 ##### KITCHEN REACTIONS #########################################################
 [REACTION:RENDER_FAT]
 	[NAME:render fat]
@@ -519,6 +550,7 @@ of vanilla is attempted to be maintained here.
 	[SKILL:COOK]
 	[AUTOMATIC]
 
+	
 ##### QUERN REACTIONS #########################################################
 [REACTION:MILL_SEEDS_NUTS_TO_PASTE]
 	[NAME:mill seeds/nuts to paste]
@@ -530,6 +562,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_PASTE]
 	[SKILL:MILLING]
 
+	
 [REACTION:MAKE_SLURRY_FROM_PLANT]
 	[NAME:mash plant into slurry]
 	[BUILDING:QUERN:NONE]
@@ -541,6 +574,7 @@ of vanilla is attempted to be maintained here.
 	[PRODUCT:100:1:SEEDS:NONE:GET_MATERIAL_FROM_REAGENT:plant:SEED_MAT]
 	[SKILL:PAPERMAKING]
 
+	
 ##### ADVENTURE MODE REACTIONS ################################################
 	#A- Adventure mode reactions need to be moved to another file
 [REACTION:CARVE_BONE_FIGURINE]
@@ -560,6 +594,7 @@ of vanilla is attempted to be maintained here.
 	[CATEGORY_NAME:Carve bone]
 	[CATEGORY_DESCRIPTION:Make crafts from bone using a sharp weapon or tool.]
 
+	
 [REACTION:CARVE_BONE_RING]
 	[NAME:carve bone ring]
 	[ADVENTURE_MODE_ENABLED]
@@ -575,6 +610,7 @@ of vanilla is attempted to be maintained here.
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONE_CARVING]
 
+	
 [REACTION:CARVE_BONE_EARRING]
 	[NAME:carve bone earring]
 	[ADVENTURE_MODE_ENABLED]
@@ -590,6 +626,7 @@ of vanilla is attempted to be maintained here.
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONE_CARVING]
 
+	
 [REACTION:CARVE_BONE_SCEPTER]
 	[NAME:carve bone scepter]
 	[ADVENTURE_MODE_ENABLED]
@@ -605,6 +642,7 @@ of vanilla is attempted to be maintained here.
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONE_CARVING]
 
+	
 [REACTION:CARVE_BONE_AMULET]
 	[NAME:carve bone amulet]
 	[ADVENTURE_MODE_ENABLED]
@@ -620,6 +658,7 @@ of vanilla is attempted to be maintained here.
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONE_CARVING]
 
+	
 [REACTION:CARVE_BONE_BRACELET]
 	[NAME:carve bone bracelet]
 	[ADVENTURE_MODE_ENABLED]
@@ -635,6 +674,7 @@ of vanilla is attempted to be maintained here.
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONE_CARVING]
 
+	
 [REACTION:CARVE_BONE_CROWN]
 	[NAME:carve bone crown]
 	[ADVENTURE_MODE_ENABLED]
@@ -650,6 +690,7 @@ of vanilla is attempted to be maintained here.
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONE_CARVING]
 
+	
 [REACTION:CARVE_BONE_GEM]
 	[NAME:carve bone cabochon]
 	[ADVENTURE_MODE_ENABLED]
@@ -665,6 +706,7 @@ of vanilla is attempted to be maintained here.
 	[SKILL:BONECARVE]
 	[CATEGORY:ADV_BONE_CARVING]
 
+	
 [REACTION:CARVE_WOODEN_HELVE]
 	[NAME:carve wooden helve from branch]
 	[ADVENTURE_MODE_ENABLED]
@@ -677,6 +719,7 @@ of vanilla is attempted to be maintained here.
 		[PRODUCT_TOKEN:helve]
 	[SKILL:CARPENTRY]
 
+	
 [REACTION:ASSEMBLE STONE AXE]
 	[NAME:assemble stone axe]
 	[ADVENTURE_MODE_ENABLED]
