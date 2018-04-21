@@ -1,7 +1,7 @@
 entity_evil_titans
 
 	Toggles the civ active or inactive:
-	!NO_CIV_ACTIVE_TITANS!OBJECT:ENTITY]
+	YES_CIV_ACTIVE_TITANS[OBJECT:ENTITY]
 
 	[ENTITY:TITANS]
 

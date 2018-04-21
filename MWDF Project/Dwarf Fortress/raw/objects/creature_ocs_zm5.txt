@@ -2,7 +2,7 @@ creature_ocs_zm5
 
 Every "original creation" creatures, with the exception of the 7 Deadly Sins megabeasts.
 
-YES_ZM5_BEASTS[OBJECT:CREATURE]
+!NO_ZM5_BEASTS!OBJECT:CREATURE]
 
 [CREATURE:ZM5_OCCULA]
 	[DESCRIPTION:A tiny critter found slinking in the underground caverns. They consist of a small slime-like body with an eyeball and four tentacles, each hiding a proboscis used for feeding and sucking nutrients from larger creatures.]

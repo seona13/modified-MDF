@@ -482,7 +482,6 @@ a major titanium ore but can't refine through smelting (see e.g. Kroll process)
 [SOLID_DENSITY:4720]  Previous value was much too low.
 [IS_STONE]
 [MELTING_POINT:12457]
-[REACTION_CLASS:TITANIUM_ORE]
 
 another titanium ore, same comment applies
 [INORGANIC:RUTILE]
@@ -493,7 +492,6 @@ another titanium ore, same comment applies
 [IS_STONE]
 [MELTING_POINT:13285]
 [SOLID_DENSITY:4250]
-[REACTION_CLASS:TITANIUM_ORE]
 
 [INORGANIC:MAGNETITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -799,10 +797,3 @@ although alunite makes potassium alum and ammonium alum might be the one for tan
 [ITEMS_HARD]
 [IS_STONE]
 [UNDIGGABLE]
-
-#### EOF - THIS LINE IS 80 CHARACTERS LONG #####50########60########70########80
-5
-4
-3
-2
-1

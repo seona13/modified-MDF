@@ -1,7 +1,7 @@
 entity_evil_nightcreatures
 
 	Toggles the civ active or inactive:
-	!NO_CIV_ACTIVE_NIGHTCREATURE!OBJECT:ENTITY]
+	YES_CIV_ACTIVE_NIGHTCREATURE[OBJECT:ENTITY]
 
 	[ENTITY:NIGHTCREATURE]
 

@@ -2,7 +2,7 @@ creature_mythological_zm5
 
 All creatures from various mythology or folklore sources, not based off of any game.
 
-YES_ZM5_BEASTS[OBJECT:CREATURE]
+!NO_ZM5_BEASTS!OBJECT:CREATURE]
 
 [CREATURE:ZM5_DROWNER]
         [NATURAL_SKILL:DISCIPLINE:7] 

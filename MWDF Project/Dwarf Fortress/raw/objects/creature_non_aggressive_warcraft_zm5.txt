@@ -2,7 +2,7 @@ creature_non_aggressive_warcraft_zm5
 
 All the wild Warcraft creatures which lack large predator - they wont neccessarily be non-hostile when encountered in adv mode, but you wont find named historical versions of these by default.
 
-YES_ZM5_BEASTS[OBJECT:CREATURE]
+!NO_ZM5_BEASTS!OBJECT:CREATURE]
 
 [CREATURE:ZM5_WC_MAMMOTH]
 	[DESCRIPTION:A huge relative of the elephants, it is covered in large amounts of warm, wooly fur. It is most commonly found in the tundras and taigas.]

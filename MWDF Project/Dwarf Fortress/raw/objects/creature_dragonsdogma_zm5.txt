@@ -2,7 +2,7 @@ creature_dragonsdogma_zm5
 
 Every creature from Dragon's Dogma here - both megabeasts and regular large predators.
 
-YES_ZM5_DRAGONSDOGMA[OBJECT:CREATURE]
+!NO_ZM5_DRAGONSDOGMA!OBJECT:CREATURE]
 
 [CREATURE:ZM5_DD_GARM]
 	[DESCRIPTION:A massive, carnivorous beast resembling a horrific, decaying wolf. It's commonly found prowling evil forests in search of prey, and is also commonly attracted by the stench of rotting bodies. It can breathe a gray gas that causes blindness.]

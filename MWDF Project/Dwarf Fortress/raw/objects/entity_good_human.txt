@@ -1104,7 +1104,7 @@ YES_KAZOO_SILK[PERMITTED_BUILDING:SILK_REEL]
 
 ###############################################################################
 ##### CAMPFIRES !!FUN!! #######################################################
-YES_CAMPFIRE[PERMITTED_BUILDING:CAMPFIRE]
+YES_CAMPFIRE!PERMITTED_BUILDING:CAMPFIRE]
 	[PERMITTED_REACTION:START_FIRE_SMALL]
 	[PERMITTED_REACTION:START_FIRE_LARGE]
 

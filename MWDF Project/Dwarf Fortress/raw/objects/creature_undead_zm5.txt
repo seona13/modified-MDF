@@ -2,7 +2,7 @@ creature_undead_zm5
 
 Various undead creatures from Warcraft - also contains the playable Geists and Wights.
 
-YES_ZM5_BEASTS[OBJECT:CREATURE]
+!NO_ZM5_BEASTS!OBJECT:CREATURE]
 
 [CREATURE:ZM5_WC_ABOMINATION]
 	[DESCRIPTION:A horrifying undead monstrosity made up from multiple corpses by a skilled necromancer. Driven mad by the loss of it's master, it uses it's 3 disproportionate arms to deliver mighty blows, and its slaughterhouse odor can be detected from far away. Beware its plague ichor!]
