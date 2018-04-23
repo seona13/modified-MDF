@@ -5,178 +5,175 @@ item_tool_pottery
 ##################################################################################################################################
 /// fake clay items for the new clay and pottery system
 
-
 [ITEM_TOOL:ITEM_TOOL_JUG_FAKE]
-[NAME:jug:jugs]
+	[NAME:jug:jugs]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:173]
-[UNIMPROVABLE][SIZE:300]
-[MATERIAL_SIZE:1]
+	[TILE:173]
+	[SIZE:300]
+	[MATERIAL_SIZE:1]
+	[UNIMPROVABLE]
 
+	
 [ITEM_TOOL:ITEM_TOOL_LARGE_POT_FAKE]
-[NAME:pot:pots]
+	[NAME:pot:pots]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:238]
-[UNIMPROVABLE][SIZE:5000]
-[MATERIAL_SIZE:1] 
+	[TILE:238]
+	[SIZE:5000]
+	[MATERIAL_SIZE:1]	[UNIMPROVABLE]
 
 
 [ITEM_TOOL:ITEM_TOOL_CRAFTS_FAKE]
-[NAME:crafts:crafts]
+	[NAME:crafts:crafts]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:143]
-[UNIMPROVABLE][SIZE:200]
-[MATERIAL_SIZE:1]
+	[TILE:143]
+	[SIZE:200]
+	[MATERIAL_SIZE:1]	[UNIMPROVABLE]
 
  
 [ITEM_TOOL:ITEM_TOOL_HIVE_FAKE]
-[NAME:hive:hives]
+	[NAME:hive:hives]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:22]
-[UNIMPROVABLE][SIZE:2000]
-[MATERIAL_SIZE:1]
+	[TILE:22]
+	[SIZE:2000]
+	[MATERIAL_SIZE:1]	[UNIMPROVABLE]
 
  
 [ITEM_TOOL:ITEM_TOOL_BRICK_FAKE]
-[NAME:brick:bricks]
+	[NAME:brick:bricks]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:254]
-[UNIMPROVABLE][SIZE:300]
+	[TILE:254]
+	[SIZE:300]
+	[UNIMPROVABLE]
 
 
 [ITEM_TOOL:ITEM_TOOL_ANIMAL_TRAP_FAKE]
-[NAME:animal trap:animal traps]
+	[NAME:animal trap:animal traps]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:127]
-
+	[TILE:127]
  
 [ITEM_TOOL:ITEM_TOOL_ARMORSTAND_FAKE]
-[NAME:armorstand:armorstands]
+	[NAME:armorstand:armorstands]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:14]
-
+	[TILE:14]
  
 [ITEM_TOOL:ITEM_TOOL_BED_FAKE]
-[NAME:bed:beds]
+	[NAME:bed:beds]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:233]
+	[TILE:233]
 
+	
 [ITEM_TOOL:ITEM_TOOL_BIN_FAKE]
-[NAME:bin:bins]
+	[NAME:bin:bins]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:88] 
-
+	[TILE:88]
 
 [ITEM_TOOL:ITEM_TOOL_BUCKET_FAKE]
-[NAME:bucket:buckets]
+	[NAME:bucket:buckets]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:150]
+	[TILE:150]
 
+	
 [ITEM_TOOL:ITEM_TOOL_CABINET_FAKE]
-[NAME:cabinet:cabinets]
+	[NAME:cabinet:cabinets]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:227]
+	[TILE:227]
 
+	
 [ITEM_TOOL:ITEM_TOOL_CAGE_FAKE]
-[NAME:cage:cages]
+	[NAME:cage:cages]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:19]
-
+	[TILE:19]
  
 [ITEM_TOOL:ITEM_TOOL_CHEST_FAKE]
-[NAME:coffer:coffers]
+	[NAME:coffer:coffers]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:146]
+	[TILE:146]
 
+	
 [ITEM_TOOL:ITEM_TOOL_COFFIN_FAKE]
-[NAME:coffin:coffins]
+	[NAME:coffin:coffins]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:48]
-
+	[TILE:48]
  
 [ITEM_TOOL:ITEM_TOOL_DOOR_FAKE]
-[NAME:door:doors]
+	[NAME:door:doors]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:197]
-
+	[TILE:197]
  
 [ITEM_TOOL:ITEM_TOOL_VIAL_FAKE]
-[NAME:vial:vials]
+	[NAME:vial:vials]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:173]
-
+	[TILE:173]
  
 [ITEM_TOOL:ITEM_TOOL_FLOODGATE_FAKE]
-[NAME:floodgate:floodgates]
+	[NAME:floodgate:floodgates]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:88]
-
+	[TILE:88]
  
 [ITEM_TOOL:ITEM_TOOL_GRATE_FAKE]
-[NAME:grate:grates]
+	[NAME:grate:grates]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:35]
-
+	[TILE:35]
  
 [ITEM_TOOL:ITEM_TOOL_HATCH_COVER_FAKE]
-[NAME:hatch cover:hatch covers]
+	[NAME:hatch cover:hatch covers]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:155]
-
+	[TILE:155]
  
 [ITEM_TOOL:ITEM_TOOL_MECHANISMS_FAKE]
-[NAME:mechanisms:mechanisms]
+	[NAME:mechanisms:mechanisms]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:128]
-
+	[TILE:128]
  
 [ITEM_TOOL:ITEM_TOOL_MILLSTONE_FAKE]
-[NAME:millstone:millstones]
+	[NAME:millstone:millstones]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:09]
+	[TILE:09]
 
+	
 [ITEM_TOOL:ITEM_TOOL_QUERN_FAKE]
-[NAME:quern:querns]
+	[NAME:quern:querns]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:09]
+	[TILE:09]
 
+	
 [ITEM_TOOL:ITEM_TOOL_SLAB_FAKE]
-[NAME:slab:slabs]
+	[NAME:slab:slabs]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:239]
-
+	[TILE:239]
  
 [ITEM_TOOL:ITEM_TOOL_SPLINT_FAKE]
-[NAME:splint:splints]
+	[NAME:splint:splints]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:159]
+	[TILE:159]
 
+	
 [ITEM_TOOL:ITEM_TOOL_STATUE_FAKE]
-[NAME:statue:statues]
+	[NAME:statue:statues]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:234]
+	[TILE:234]
 
+	
 [ITEM_TOOL:ITEM_TOOL_TABLE_FAKE]
-[NAME:table:tables]
+	[NAME:table:tables]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:209] 
-
+	[TILE:209]
 
 [ITEM_TOOL:ITEM_TOOL_CHAIR_FAKE]
-[NAME:throne:thrones]
+	[NAME:throne:thrones]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:210]
-
+	[TILE:210]
  
 [ITEM_TOOL:ITEM_TOOL_TUBE_SECTION_FAKE]
-[NAME:tube section:tube sections]
+	[NAME:tube section:tube sections]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:124]
+	[TILE:124]
 
+	
 [ITEM_TOOL:ITEM_TOOL_WEAPONRACK_FAKE]
-[NAME:weaponrack:weaponracks]
+	[NAME:weaponrack:weaponracks]
 	[DESCRIPTION:An unfinished clay item. It is made of soft clay and can not be used until fired in a kiln. This will turn it into an earthen/stoneware/porcelain item, ready to be used.]
-[TILE:251]
+	[TILE:251]
 
 #### EOF - THIS LINE IS 80 CHARACTERS LONG #####50########60########70########80
 5

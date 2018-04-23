@@ -3,7 +3,9 @@ plant_phm
 [OBJECT:PLANT]
 
 [PLANT:PH_TISSUE_PHM]
-	[NAME:plump helmet man tissue][NAME_PLURAL:plump helmet man tissue][ADJ:plump helmet man tissue]
+	[NAME:plump helmet man tissue]
+	[NAME_PLURAL:plump helmet man tissue]
+	[ADJ:plump helmet man tissue]
 	[USE_MATERIAL_TEMPLATE:MUSHROOM:MUSHROOM_TEMPLATE]
 		[MATERIAL_VALUE:2]
 		[BUTCHER_SPECIAL:PLANT:NONE]
@@ -30,7 +32,8 @@ plant_phm
 		[EDIBLE_RAW]
 		[EDIBLE_COOKED]
 		[PREFIX:NONE]
-	[PICKED_TILE:224][PICKED_COLOR:5:0:0]
+	[PICKED_TILE:224]
+	[PICKED_COLOR:5:0:0]
 	!NO_SLOWER_FARMING[GROWDUR:300] !NO_SLOWER_FARMING!GROWDUR:600]
 		[VALUE:2]
 

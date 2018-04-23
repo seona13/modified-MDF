@@ -16,6 +16,7 @@ item_succubus
 	[ATTACK:BLUNT:250:4000:hit:hits:handle:1000]
 		[ATTACK_PREPARE_AND_RECOVER:3:3]
 
+		
 [ITEM_WEAPON:ITEM_WEAPON_PITCHFORK]
 	[NAME:pitchfork:pitchforks]
 	[SIZE:400]
@@ -30,6 +31,7 @@ item_succubus
 	[ATTACK:BLUNT:10000:6000:bash:bashes:shaft:1250]
 		[ATTACK_PREPARE_AND_RECOVER:3:3]
 
+		
 // Clothing
 [ITEM_ARMOR:ITEM_ARMOR_CORSET] // Also act as (bad) body armor
 	[NAME:corset:corsets]
@@ -47,6 +49,7 @@ item_succubus
 	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 	[METAL_ARMOR_LEVELS]
 
+	
 [ITEM_SHOES:ITEM_SHOES_STOCKING]
 	[NAME:stocking:stockings]
 	[UPSTEP:3]
@@ -59,6 +62,7 @@ item_succubus
 	[LEATHER]
 	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
+	
 // Armor
 [ITEM_ARMOR:ITEM_ARMOR_BODYSUIT] // Leather version of mail shirts
 	[NAME:upper bodysuit:upper bodysuit]
@@ -73,6 +77,7 @@ item_succubus
 	[LEATHER]
 	[STRUCTURAL_ELASTICITY_CHAIN_ALL]
 
+	
 [ITEM_PANTS:ITEM_PANTS_BODYSUIT] // Leather version of mail greaves
 	[NAME:lower bodysuit:lower bodysuits]
 	[ARMORLEVEL:2]
@@ -85,6 +90,7 @@ item_succubus
 	[LEATHER]
 	[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
+	
 // Tool
 [ITEM_TOOL:ITEM_TOOL_TABLET]
 	[NAME:tablet:tablet]
@@ -96,6 +102,7 @@ item_succubus
 	[SIZE:130]
 	[MATERIAL_SIZE:1]
 
+	
 [ITEM_TOOL:ITEM_TOOL_SLIP]
 	[NAME:slip:slips]
 	[DESCRIPTION:A writing material made of long, narrows strips of a solid material, bound together by thread. Each strip contains a single column of text. The slip can be folded or rolled on itself for storage.]

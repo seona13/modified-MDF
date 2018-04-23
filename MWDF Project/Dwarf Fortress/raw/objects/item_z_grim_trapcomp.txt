@@ -12,6 +12,7 @@ item_trapcomp
 	[ATTACK:EDGE:800:30000:hack:hacks:NO_SUB:6400]
 		[ATTACK_PREPARE_AND_RECOVER:8:12]
 		
+		
 [ITEM_TRAPCOMP:ITEM_TRAPCOMP_AXE_FALLING]
 	[NAME:falling axe:falling axes]
 	[ADJECTIVE:giant]
@@ -21,6 +22,7 @@ item_trapcomp
 	[METAL]
 	[ATTACK:EDGE:200:30000:hack:hacks:NO_SUB:7000]35
 		[ATTACK_PREPARE_AND_RECOVER:8:12]
+		
 		
 [ITEM_TRAPCOMP:ITEM_TRAPCOMP_TRIP_HAMMER]
 	[NAME:trip hammer:trip hammers]	Giant watermill driven hammer. Used for crushing grain, ore and for fining and forging metal.
@@ -32,6 +34,7 @@ item_trapcomp
 	[ATTACK:BLUNT:80:0:hack:hacks:NO_SUB:4960]62
 		[ATTACK_PREPARE_AND_RECOVER:12:24]
 
+		
 [ITEM_TRAPCOMP:ITEM_TRAPCOMP_BROADSPIKE]
 	[NAME:broadpoint spike:broadpoint spikes]
 	[ADJECTIVE:menacing]
@@ -45,6 +48,7 @@ item_trapcomp
 	[ATTACK:BLUNT:40:0:strike:strikes:butt:1800]45
 		[ATTACK_PREPARE_AND_RECOVER:5:3]
 
+		
 [ITEM_TRAPCOMP:ITEM_TRAPCOMP_FORK]
 	[NAME:fork:forks]
 	[ADJECTIVE:giant]
@@ -58,6 +62,7 @@ item_trapcomp
 	[ATTACK:BLUNT:40:0:strike:strikes:butt:1800]45
 		[ATTACK_PREPARE_AND_RECOVER:5:3]
 
+		
 [ITEM_TRAPCOMP:ITEM_TRAPCOMP_TRIDENT]
 	[NAME:trident:tridents]
 	[ADJECTIVE:giant]

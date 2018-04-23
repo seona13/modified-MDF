@@ -57,6 +57,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:TARGET_RANGE:FAR:5]
 				[CDI:WAIT_PERIOD:100]
 
+				
 [INTERACTION:BASALT FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Basalt]
@@ -99,6 +100,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:TARGET_RANGE:FAR:5]
 				[CDI:WAIT_PERIOD:100]
 
+				
 [INTERACTION:CHALK FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Chalk]
@@ -141,6 +143,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:50]
 
+				
 [INTERACTION:CHERT FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Chert]
@@ -183,6 +186,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:CLAYSTONE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Claystone]
@@ -225,6 +229,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:CONGLOMERATE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Conglomerate]
@@ -267,6 +272,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:DACITE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Dacite]
@@ -309,6 +315,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:TARGET_RANGE:FAR:5]
 				[CDI:WAIT_PERIOD:100]
 
+				
 [INTERACTION:DIORITE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Diorite]
@@ -351,6 +358,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:50]
 
+				
 [INTERACTION:DOLOMITE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Dolomite]
@@ -393,6 +401,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:50]
 
+				
 [INTERACTION:GABBRO FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Gabbro]
@@ -435,6 +444,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:50]
 
+				
 [INTERACTION:GNEISS FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Gneiss]
@@ -477,6 +487,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:GRANITE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Granite]
@@ -519,6 +530,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:50]
 
+				
 [INTERACTION:LIMESTONE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Limestone]
@@ -561,6 +573,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:50]
 
+				
 [INTERACTION:MARBLE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Marble]
@@ -603,6 +616,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:50]
 
+				
 [INTERACTION:MUDSTONE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Mudstone]
@@ -645,6 +659,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:PHYLLITE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Phyllite]
@@ -687,6 +702,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:QUARTZITE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Quartzite]
@@ -729,6 +745,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:RHYOLITE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Rhyolite]
@@ -771,6 +788,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:TARGET_RANGE:FAR:5]
 				[CDI:WAIT_PERIOD:100]
 
+				
 [INTERACTION:ROCK_SALT FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Rock Salt]
@@ -821,6 +839,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:SANDSTONE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Sandstone]
@@ -863,6 +882,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:SCHIST FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Schist]
@@ -905,6 +925,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:SHALE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Shale]
@@ -947,6 +968,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:SILTSTONE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Siltstone]
@@ -989,6 +1011,7 @@ Flux stones are in the MINERALS and METALS Spheres.
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:33]
 
+				
 [INTERACTION:SLATE FAVOR]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of peace with Living Slate]

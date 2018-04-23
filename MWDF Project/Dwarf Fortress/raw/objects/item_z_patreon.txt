@@ -20,28 +20,25 @@ YES_PATREON_REWARDS[OBJECT:ITEM]
 	[ATTACK:BLUNT:55:0:strike:strikes:butt:2200]
 		[ATTACK_PREPARE_AND_RECOVER:3:4]
 		
-
 		
-Churchwarden pipe
-
 [ITEM_TOOL:ITEM_TOOL_PIPE]
-[NAME:churchwarden pipe:churchwarden pipes]
+	[NAME:churchwarden pipe:churchwarden pipes]
 	[DESCRIPTION:A pipe for smoking pipeweed made from sweet galena or deep galena plants.]
-[VALUE:5]
-[METAL_MAT]
-[WOOD_MAT]
-[TILE:'/']
-[SIZE:40]
-[MATERIAL_SIZE:3]
+	[VALUE:5]
+	[METAL_MAT]
+	[WOOD_MAT]
+	[TILE:'/']
+	[SIZE:40]
+	[MATERIAL_SIZE:3]
 
 [ITEM_TOOL:ITEM_TOOL_ANTI]
-[NAME:antikythera mechanism:antikythera mechanisms]
+	[NAME:antikythera mechanism:antikythera mechanisms]
 	[DESCRIPTION:An intricate bronze calendar used in the orrery workshop.]
-[VALUE:500]
-[METAL_MAT]
-[TILE:128]
-[SIZE:40]
-[MATERIAL_SIZE:12]
+	[VALUE:500]
+	[METAL_MAT]
+	[TILE:128]
+	[SIZE:40]
+	[MATERIAL_SIZE:12]
 
 #### EOF - THIS LINE IS 80 CHARACTERS LONG #####50########60########70########80
 5

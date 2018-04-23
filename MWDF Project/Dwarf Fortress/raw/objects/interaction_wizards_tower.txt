@@ -2,7 +2,6 @@ interaction_wizards_tower
 
 !NO_CREATURE_MEN!OBJECT:INTERACTION]
 
-
 [INTERACTION:ANIMALS_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of the wilds]
@@ -372,7 +371,6 @@ interaction_wizards_tower
 				[CDI:VERB:glow with a red light:glows with a red light:NA]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:180]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Web]
 				[CDI:USAGE_HINT:ATTACK]
@@ -383,6 +381,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:300]
 
+				
 [INTERACTION:DISCIPLINE_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of mental discipline]
@@ -445,6 +444,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:3000]
 
+				
 [INTERACTION:DISEASE_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of disease and plague]
@@ -688,6 +688,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:90]
 
+				
 [INTERACTION:EARTH_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of the earth]
@@ -919,6 +920,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:90]
 
+				
 [INTERACTION:FIRE_SECRET_LEARNABLE]
 	[I_SOURCE:CREATURE_ACTION] by boltgun // allows learning in dwarf mode
 	[I_SOURCE:SECRET]
@@ -985,6 +987,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:C:2]
 				[CDI:WAIT_PERIOD:30]
 
+				
 [INTERACTION:FOOD_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of conjuring food]
@@ -1215,6 +1218,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:90]
 
+				
 [INTERACTION:HEALING_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of healing]
@@ -1262,6 +1266,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:180]
 
+				
 [INTERACTION:LIES_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of sorcery]
@@ -1440,7 +1445,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:are surrounded by a crackling ward:is surrounded by a crackling ward]
 				[CDI:WAIT_PERIOD:300]
 				[CDI:MAX_TARGET_NUMBER:A:1]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Stupify]
 				[CDI:INTERACTION:STUPIDITY_CURSE]
@@ -1482,6 +1486,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:200]
 
+				
 [INTERACTION:LIGHT_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of the light]
@@ -1535,6 +1540,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:1065]
 
+				
 [INTERACTION:MERCY_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of mercy and prophecy]
@@ -1614,6 +1620,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:80]
 
+				
 [INTERACTION:NATURE_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of nature]
@@ -1751,6 +1758,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:360]
 
+				
 [INTERACTION:SALT_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of salt]
@@ -1806,6 +1814,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:90]
 
+				
 [INTERACTION:SUICIDE_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of living death]
@@ -1844,7 +1853,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:shudder and begin to move:shudders and begins to move]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:360]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Bloodletting]
 				[CDI:INTERACTION:BLOODLETTING_CURSE]
@@ -1855,7 +1863,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:break out in cuts and gashes:breaks out in cuts and gashes]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:2000]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Cast prismatic hex]
 				[CDI:INTERACTION:PRISMATIC_CURSE]
@@ -1875,7 +1882,6 @@ interaction_wizards_tower
 				[CDI:TARGET_RANGE:A:7]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:360]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Disorient]
 				[CDI:INTERACTION:HALLUCINATE_CURSE]
@@ -1886,7 +1892,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:feel disoriented:looks disoriented]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:2000]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Dissolve Eyes]
 				[CDI:INTERACTION:DISSOLVE_EYES_CURSE]
@@ -1907,7 +1912,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:feel your skin slither:looks dazed]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:1800]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Enfeeble]
 				[CDI:INTERACTION:ENFEEBLING_CURSE]
@@ -1935,7 +1939,6 @@ interaction_wizards_tower
 				[CDI:VERB:vanish from sight:vanishes from sight:NA]
 				[CDI:TARGET:A:SELF_ONLY]
 				[CDI:WAIT_PERIOD:800]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Obliviate]
 				[CDI:INTERACTION:DARK_BANISHMENT]
@@ -1946,8 +1949,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:feel your thoughts bleeding away:looks faint]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:20000]
-
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Stupify]
 				[CDI:INTERACTION:STUPIDITY_CURSE]
@@ -1958,7 +1959,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:feel your mind slowing:looks dumbfounded]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:200]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Sunder flesh]
 				[CDI:INTERACTION:BLEEDING_CURSE]
@@ -2010,6 +2010,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:200]
 
+				
 [INTERACTION:TRICKERY_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of trickery]
@@ -2120,7 +2121,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:feel clumsy:staggers]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:2000]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Haste]
 				[CDI:USAGE_HINT:ATTACK]
@@ -2130,7 +2130,6 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:are moving faster:is moving faster]
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:600]
-
 			[CE_CAN_DO_INTERACTION:START:0]
 				[CDI:ADV_NAME:Inflate body]
 				[CDI:USAGE_HINT:ATTACK]
@@ -2202,6 +2201,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:1500]
 
+				
 [INTERACTION:WATER_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of water]
@@ -2279,6 +2279,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:90]
 
+				
 [INTERACTION:WIND_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of the wind]
@@ -2352,6 +2353,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:C:1]
 				[CDI:WAIT_PERIOD:130]
 
+				
 [INTERACTION:WAR_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of berserking]
@@ -2386,6 +2388,7 @@ interaction_wizards_tower
 				[CDI:TARGET_VERB:fill with bloodlust:looks enraged]
 				[CDI:WAIT_PERIOD:400]
 
+				
 [INTERACTION:WISDOM_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secrets of wisdom]
@@ -2435,6 +2438,7 @@ interaction_wizards_tower
 				[CDI:MAX_TARGET_NUMBER:A:1]
 				[CDI:WAIT_PERIOD:18000]
 
+				
 [INTERACTION:YOUTH_SECRET]
 	[I_SOURCE:SECRET]
 		[IS_NAME:the secret of eternal youth]
@@ -2492,6 +2496,7 @@ interaction_wizards_tower
 		[SYN_CLASS:BLINDNESS]
 			[CE_IMPAIR_FUNCTION:SEV:100:PROB:100:BP:BY_CATEGORY:EYE:ALL:START:0:END:1300]
 
+			
 [INTERACTION:RESURRECT_SPELL]
 	[I_TARGET:A:CORPSE]
 		[IT_LOCATION:CONTEXT_ITEM]
@@ -2508,6 +2513,7 @@ interaction_wizards_tower
 		[IE_ARENA_NAME:Resurrected]
 			[CE_PHYS_ATT_CHANGE:RECUPERATION:5000:0:START:0:END:50]
 
+			
 [INTERACTION:UNDEAD_BANISHMENT]
 	[I_SOURCE:CREATURE_ACTION]
 	[I_TARGET:A:CREATURE]
@@ -2526,7 +2532,6 @@ interaction_wizards_tower
 			[CE_REMOVE_TAG:BLOODSUCKER:NO_AGING:STERILE:NOT_LIVING:NOEXERT:NOPAIN:NOBREATHE:NOSTUN:NONAUSEA:NO_DIZZINESS:NO_FEVERS:PARALYZEIMMUNE:NO_EAT:NO_DRINK:NO_SLEEP:NO_PHYS_ATT_GAIN:NO_PHYS_ATT_RUST:START:0]
 
 
-
 [INTERACTION:SANCTIFY_SPELL]
 	[I_SOURCE:CREATURE_ACTION]
 	[I_TARGET:A:CREATURE]
@@ -2541,7 +2546,7 @@ interaction_wizards_tower
 		[SYNDROME]
 		[SYN_CLASS:BANISHMENT]
 			[CE_ADD_TAG:CAN_LEARN:START:0]
-[CE_REMOVE_TAG:NO_AGING:NOT_LIVING:OPPOSED_TO_LIFE:EXTRAVISION:NOEXERT:NOPAIN:NOBREATHE:NOSTUN:NONAUSEA:NO_DIZZINESS:NO_FEVERS:NOEMOTION:PARALYZEIMMUNE:NOFEAR:NO_EAT:NO_DRINK:NO_SLEEP:NO_PHYS_ATT_GAIN:NO_PHYS_ATT_RUST:NOTHOUGHT:NO_THOUGHT_CENTER_FOR_MOVEMENT:NO_CONNECTIONS_FOR_MOVEMENT:START:0]
+			[CE_REMOVE_TAG:NO_AGING:NOT_LIVING:OPPOSED_TO_LIFE:EXTRAVISION:NOEXERT:NOPAIN:NOBREATHE:NOSTUN:NONAUSEA:NO_DIZZINESS:NO_FEVERS:NOEMOTION:PARALYZEIMMUNE:NOFEAR:NO_EAT:NO_DRINK:NO_SLEEP:NO_PHYS_ATT_GAIN:NO_PHYS_ATT_RUST:NOTHOUGHT:NO_THOUGHT_CENTER_FOR_MOVEMENT:NO_CONNECTIONS_FOR_MOVEMENT:START:0]
 
 #### EOF - THIS LINE IS 80 CHARACTERS LONG #####50########60########70########80
 5
